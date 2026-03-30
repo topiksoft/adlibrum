@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang='hu'>
+<head>
+	<title>Szobortánc | Ad Librum Kiadó</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="shortcut icon" type="image/x-icon" href="../assets/favicon.ico">
+
+	<link href="../assets/bootstrap.min.css" rel="stylesheet">
+	<style>
+			img.cover {padding: 5px;}
+			body { font-family: 'Inter', sans-serif; background-color: #f8f9fa; color: #333; }
+			.book-cover { box-shadow: 0 10px 30px rgba(0,0,0,0.15); border-radius: 8px; transition: transform 0.3s ease; }
+			.book-cover:hover { transform: scale(1.02); }
+			.price-tag { font-size: 1.5rem; font-weight: 700; color: #d63384; }
+			.old-price { text-decoration: line-through; color: #6c757d; font-size: 1rem; }
+			.sidebar-card { border: none; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+			.review-quote { border-left: 5px solid #0d6efd; padding-left: 20px; font-style: italic; }
+			.breadcrumb { background: transparent; padding: 0; }
+			footer { background: #212529; color: white; padding: 40px 0; margin-top: 60px; }
+
+			
+	</style>
+	<!--	Umami követőkód webstatisztikához -->
+	<script defer src="https://cloud.umami.is/script.js" data-website-id="496e74ae-6240-428f-892b-d299eb32dd32"></script>
+</head>
+
+<body class="container-md">
+
+<nav class="navbar navbar-expand-md bg-success navbar-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <a class="navbar-brand" href="../index.html">
+      <img src="../assets/logo-adlibrum.webp" alt="Logo" height="50" class="d-inline-block align-text-top"></a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Kezdőlap</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../katalogus/index.html">Könyveink</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://facebook.com/adlibrum" target='blank'>Facebook</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://konyvesbolt.online/" target='blank'>Könyvesbolt</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://sztorimondo.hu/" target='blank'>Új szerzőknek</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../rolunk.html">Rólunk</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- my: margin top and bottom -->
+<!-- py: padding top and bottom -->
+<div class="row my-5">
+
+<div class="row g-5">
+
+  <!-- Left Side: Book Cover -->
+  <div class="col-md-4 text-center">
+    <a href='http://www.konyvesbolt.online/Barczikay-Lilla-Szobortanc'><img src="https://adlibrum.hu/docs/webcovers/Barczikay-Lilla_Szobortanc--medium.webp" class="img-fluid book-cover mb-4" alt="Szobortánc"></a>
+
+    <div class="">
+        <div class="card sidebar-card p-4 bg-white">
+            <div class="mb-3 text-center text-lg-start">
+                <span class="old-price">2990 Ft</span><br>
+                <span class="price-tag">1990 Ft</span>
+                <span class="badge bg-success ms-2">-33%</span>
+            </div>
+            <div class="d-grid gap-2 justify-content-center">
+                <a href="http://www.konyvesbolt.online/Barczikay-Lilla-Szobortanc" 
+                  class="btn btn-success btn-lg fw-bold">
+                Megvásárolható a kiadói webboltban</a>
+            </div>
+<!--
+            <hr>
+-->
+            <div class="d-flex flex-wrap justify-content-center gap-2 mt-2">
+              <small class='text-muted text-center'>Vagy az ismert forgalmazóknál:</small><a href='https://www.libri.hu/konyv/barczikay_lilla.szobortanc.html'>
+    <img src='../assets/logos/libri.png' 
+    style='max-height: 60px; max-width: 60px'></a><a href='https://bookline.hu/product/home.action?_v=Barczikay_Lilla_Szobortanc&id=299608&type=22'>
+    <img src='../assets/logos/bookline.png' 
+    style='max-height: 60px; max-width: 60px'></a><a href='https://www.lira.hu/hu/konyv/szepirodalom/sci-fi-fantasy-krimi/szobortanc'>
+    <img src='../assets/logos/lira.png' 
+    style='max-height: 60px; max-width: 60px'></a><a href='https://www.book24.hu/konyv/szobortanc'>
+    <img src='../assets/logos/book24.png' 
+    style='max-height: 60px; max-width: 60px'></a>
+            </div>
+            <div class="d-flex flex-wrap justify-content-center gap-2 mt-2">
+              <small class='text-muted text-center'>E-könyvben is:</small><a href='https://play.google.com/store/books/details/Barczikay_Lilla_Szobort%C3%A1nc?id=8U07DwAAQBAJ'>
+    <img src='../assets/logos/googleplay.png' 
+    style='max-height: 60px; max-width: 60px'></a><a href='https://www.ekonyv.hu/hu/konyv-reszletei/szobortanc?eid=50270'>
+    <img src='../assets/logos/ekonyv.webp' 
+    style='max-height: 60px; max-width: 60px'></a><a href='https://dibook.hu/konyv/szobortanc'>
+    <img src='../assets/logos/dibook.webp' 
+    style='max-height: 60px; max-width: 60px'></a>
+            </div>
+        </div>
+    </div>
+  
+
+
+  </div>
+
+  <!-- Right Side: Content -->
+  <div class="col-md-8">
+      <h1 class="fw-bold mb-1">Szobortánc</h1>
+      <p class="text-muted fs-5 mb-4">Barczikay Lilla</p>
+    <p><small class="text-muted">
+      Ad Librum Kiadó, 2017. 160 oldal. 145x205 mm ISBN 978-615-5758-01-0.
+      Megjelenési dátum: 2017. 11. 09.
+      </small></p>
+      <div class="row mb-4">
+        <div class="col">
+            <p class="lead">Egy elfeledett idegen, aki nem lehet dühös, mert megremegnek a város szobrai, és kitör a káosz. Romantikus fantasy.</p>
+            <p>Egy elfeledett idegen lépked végig a macskaköveken. Nem hagyja, hogy láncra vert érzései eluralkodjanak felette. De amikor szembe kell néznie családja gyűlöletével, húga balesetével, a város suttogásával, egyre nehezebb nyugodtnak maradnia. Márpedig nem lehet dühös, nem
+félhet, mert akkor kitör a káosz. Elég egyetlen bizonytalan pillanat, hogy megremegjenek a város szobrai. Fellélegzik a kőszarvas, pislogni kezd az acélbika. Alig várják, hogy tombolhassanak.</p>
+<p>Egy láthatatlan árny suhan a sötétben. Nem tartozik sehova, nincsenek emlékei, nincsenek tervei. Otthona az éjszaka, ami elrejti őt a kíváncsi szemek elől. Fogai feltépik a bőrt, körme véres csíkokat hagy áldozata testén. Érezni akar. Az izgalmat üldözi, ami véget vet a szívében kongó ürességnek.</p>
+<p>Egyikük sem ismeri a másikat. Fogalmuk sincs róla, hogy sorsuk egybeforrt, és a válaszokat nem önmagukban, hanem egymásban kell keresni.</p>
+<h2><a href="https://moly.hu/konyvek/barczikay-lilla-szobortanc">Moly.hu</a></h2>
+<p>A könyv adatlapja a Moly.hu-n.</p>
+<h2><a href="http://www.adlibrum.hu/szobortanc-konyvbemutato/">Dedikálás és könyvbemutató</a></h2>
+<p>Szeretettel hívunk meg mindenkit Barczikay Lilla új könyvének dedikálással egybekötött könyvbemutatójára</p>
+<p>Időpont: 2017. december 9.</p>
+<p>Helyszín: Jelen Bisztró (Budapest, Blaha Lujza tér 1, 1085)</p>
+<h2><a href="http://konyv.guru/fontos-hangsulyozni-hogy-mindennek-ket-oldala-van/">“Fontos hangsúlyozni, hogy mindennek két oldala van”</a></h2>
+<p><a href="https://i1.wp.com/konyv.guru/wp-content/uploads/2017/11/Barczikay-Lilla-2.jpg?w=640"></a>
+“Nagyon nehéz egy kéziratot véglegesnek kikiáltani, mindig van még valami, amit át kell írni vagy ellenőrizni kell” – mesél küzdelmeiről Barczikay Lilla, akinek harmadik kötete, a Szobortánc a napokban jött ki a nyomdából. Az Ad Librum kiadónál megjelent fantasy-történet szerzője az interjúban mesél arról, hogyan járta körül a regényében az őrület fogalmát, miként segít az írói honlapja az olvasókkal való kapcsolattartásban, hogyan tud évente egy regényt írni és miért csak negyedik szólásra kapja fel a fejét munka közben.</p>
+<h2><a href="http://konyv.guru/izelito-szobortanc/">Olvasson bele!</a></h2>
+<p><a href="https://i0.wp.com/konyv.guru/wp-content/uploads/2017/11/Barczikay-Lilla_Szobortanc-cover.jpg?resize=800%2C445"></a>
+Nemrég jelent meg Barczikay Lilla harmadik könyve a Szobortánc. Most a 14. fejezetet hoztuk ízelítőül.</p>
+<h2><a href="http://www.ahmagazin.com/kultura/a-gyermeklelku-vilagalkoto-interju-barczikay-lillaval/">A gyermeklelkű világalkotó- Interjú Barczikay Lillával</a></h2>
+<p>Fiatalként az ember még szabadabban meri követni az álmait. Nem érdekli feltétlenül, hogy mit gondolnak róla mások, hogy esetlegesen milyen nehézségekbe ütközhet, csak megy előre a célja felé. Aztán jön a felnőttkor, mikor sokunk elveszti a lelkesedését, alábbhagy a küzdeni akarás, kicsúsznak kezeink közül korábbi ábrándjaink. Talán a 18 éves kor az első olyan sorsfordító pillanat, mikor megragadhatjuk álmainkat és melléjük még a gyermeki lelkesedés is társul.</p>
+<p>Heti interjúalanyunk a még mindig elképesztően fiatal írónő Barczikay Lilla pontosan ezt tette. 18 éves kora óta megjelent két regénye, nemsokára pedig érkezik a harmadik is! Inspirációforrásairól, példaképeiről és jövőbeni terveiről faggattuk, amikről lelkesen mesélt is nekünk!</p>
+<h2><a href="http://www.ahmagazin.com/konyvek/barczikay-lilla-szobortanc/">A regény, hiába csak 160 oldalas, egy percre sem válik unalmassá</a></h2>
+<p>Már korábban volt szerencsénk az írónővel interjút készíteni, ezért is örültünk nagyon, mikor végre kézhez kaphattuk legújabb könyvét, a Szobortáncot az Ad Librum Kiadó jóvoltából.</p>
+<p>A fülszöveg meglehetősen rejtélyes, nem sokat árul el a történetről, bár kellően figyelemfelkeltő és jól megírt ahhoz, hogy az érdeklődésünket felkeltse.</p>
+<h2><a href="https://dorkaanyaolvas.blogspot.hu/2017/12/barczikay-lilla-szobortanc.html">Olyan csavar van benne, amire nem is számítottam</a></h2>
+<p><a href="https://i.pinimg.com/564x/f1/1c/26/f11c26247021daeac5ec8c3aba1792d1.jpg"></a>
+A történet elég nyomasztó, amit Lilla fantasztikusan ábrázol. Ezért is imádom egyébként az írónőt, mert remekül át tudja adni az érzéseket a könyveimben. Két szemszögben olvasható a történet, ami a végére összefonódik, viszont ezzel véget is ér, ami elég idegesítő, hiszen pont akkor kezd a történet beindulni. Elég lassan bontakozik ki a cselekmény, és emiatt az információáramlás sem történik meg úgy, ahogy a kérdések a fejemben megfogalmazódtak. Viszont épp ez a lassúság ad az egésznek egy feszültséget, és nyomasztó hangulatot, hiszen végig érezni, hogy van valami a levegőben, amiről ha kiderül az igazság, nagyot fog robbanni.
+A karakterek is nagyon mélyek lettek, és látszik, hogy mennyit fejlődött maga Lilla is ez alatt a 3 év alatt, mióta megjelent az első könyve.</p>
+<h2><a href="https://konyvextrak.blogspot.hu/2017/12/barczikay-lilla-szobortanc.html">A Szobortánc, bár magán viseli az írója kedvenc témájának jellemzőit, mégis képes újat hozni</a></h2>
+<p><a href="https://4.bp.blogspot.com/-JxAKn-MYwKE/WkiVn8L04oI/AAAAAAAAELE/bef1EzDkxxQxaCUUSbJszgjPlGBaZel5gCLcBGAs/s1600/Barczikay%2BLilla%2B-%2BSzobort%25C3%25A1nc.jpg"></a>
+A cselekmény egy kicsit lassabban csordolgált, mint vártam, és nem sokkal jutottunk közelebb a megoldásokhoz, de ez most valahogy nem zavart. Ez a regény a maga 160 oldalával elég könnyen emészthető, körülbelül egy este alatt ki is olvastam. Ami már idegesítőbb volt számomra az a vége. Mire végre megkapjuk a fülszöveg utolsó mondatában belengetett összefonódást, már vége is a regénynek. Ez azért nem kis csalódást okozott nekem. Bár ha hamar kijön a folytatás, akkor ezt sem bánom.</p>
+<p>Szóval ha kedvetek támadna kilépni a megszokott keretek közül, amik a műfajt behatárolják, akkor mindenképpen adjatok esélyt ennek a gyöngyszemnek!</p>
+<h2><a href="https://laplaputan.blogspot.hu/2018/01/ertekeles-barczikay-lilla-szobortanc.html">Ó, te jó ég… Egyszerűen nem jutok szóhoz!</a></h2>
+<p>Annyi minden történt ebben a 160 oldalban, hogy azt megfogalmazni is lehetetlen. Annyi kérdést hagy megválaszolatlanul, annyi lehetséges végkimenetelt bocsájt előre az írónő, hogy az már hihetetlennek minősül - felháborító, s lenyűgöző egyben. Olyan sok gondolat kavarog a fejemben, a temérdek érzelemmel együttesen, hogy nem hagy nyugodni a tény, hogy mégis mi jöhet ezek után? És a legfontosabb: miért?</p>
+<h2><a href="http://myrelationshipwithbooks.blogspot.hu/2018/01/barczikay-lilla-szobortanc.html">Annyira, de annyira olvastam volna még tovább</a></h2>
+<p><a href="https://1.bp.blogspot.com/-LqgIOmeoV1I/WnCQQu4kAgI/AAAAAAAACos/cMFSv48NVS4EQTJVNkW9tg-XF7iub-t2QCLcBGAs/s320/N%25C3%25A9vtelen00.png"></a>
+Azt eddig is tudtam, hogy fiatal kora ellenére mennyire tehetséges Barczikay Lilla, de csak most a Szobortánc kapcsán döbbentem rá arra, hogy nemcsak több száz oldalon keresztül tud maradandót alkotni, hanem akár 160 oldalon át is. Hihetetlen, hogy mennyire rövid ez a kötet, mégis annyi minden történik benne, tömör, nincsenek benne holtvágányok és a kellő helyeken kezd izgalmas, furcsa vagy éppen szokatlan lenni. Annyi biztos, hogy nem egy szokványos könyvet foghatunk a kezünkbe.</p>
+        <div class="d-grid gap-2">
+            <a href='https://books.google.hu/books?id=8U07DwAAQBAJ&printsec=frontcover&dq=szobort%C3%A1nc&hl=hu&sa=X&ved=0ahUKEwidp4KQo_PaAhXOKiwKHXfEDwkQ6AEIJjAA#v=onepage&q=szobort%C3%A1nc&f=false' class='btn btn-outline-secondary btn-sm'>Olvasson bele! (Google Books)</a>
+            <a href='https://moly.hu/konyvek/barczikay-lilla-szobortanc' class='btn btn-outline-primary btn-sm'>Vélemények (Moly.hu)</a>
+        </div>
+        </div>
+     </div>
+     <!-- Book Details 
+    <div class="">
+      <table class="table table-borderless table-md mt-3">
+          <tr><th width="150">Kiadó:</th><td>Ad Librum Kiadó, 2017.</td></tr>
+          <tr><th>Terjedelem:</th><td>160 oldal</td></tr>
+          <tr><th>Méret:</th><td>145x205 mm</td></tr>
+          <tr><th>ISBN:</th><td>978-615-5758-01-0</td></tr>
+          <tr><th>Az 1997. évi CXL. törvény 72/C. § 2 szerinti megjelenési dátum:</th><td>Megjelenési dátum: 2017. 11. 09.</td></tr>
+      </table>
+    </div>
+    -->
+  </div>
+                    
+</div>
+
+
+</div><!--row-->
+
+<footer class="mt-2 p-1 text-bg-secondary">
+    <div class="container text-center">
+        <p class="">&copy; 2008-2026 Ad Librum Kft.</p>
+        <p class="small text-muted">A sütiket megettük, egyet sem telepítünk a gépedre. És nem is követünk (tőlünk már az is szép, ha megtaláljuk a kocsikulcsot).</p>
+        
+    </div>
+</footer>
+
+
+
+
+<script src="../assets/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

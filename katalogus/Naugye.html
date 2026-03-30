@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang='hu'>
+<head>
+	<title>Naugye | Ad Librum Kiadó</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="shortcut icon" type="image/x-icon" href="../assets/favicon.ico">
+
+	<link href="../assets/bootstrap.min.css" rel="stylesheet">
+	<style>
+			img.cover {padding: 5px;}
+			body { font-family: 'Inter', sans-serif; background-color: #f8f9fa; color: #333; }
+			.book-cover { box-shadow: 0 10px 30px rgba(0,0,0,0.15); border-radius: 8px; transition: transform 0.3s ease; }
+			.book-cover:hover { transform: scale(1.02); }
+			.price-tag { font-size: 1.5rem; font-weight: 700; color: #d63384; }
+			.old-price { text-decoration: line-through; color: #6c757d; font-size: 1rem; }
+			.sidebar-card { border: none; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+			.review-quote { border-left: 5px solid #0d6efd; padding-left: 20px; font-style: italic; }
+			.breadcrumb { background: transparent; padding: 0; }
+			footer { background: #212529; color: white; padding: 40px 0; margin-top: 60px; }
+
+			
+	</style>
+	<!--	Umami követőkód webstatisztikához -->
+	<script defer src="https://cloud.umami.is/script.js" data-website-id="496e74ae-6240-428f-892b-d299eb32dd32"></script>
+</head>
+
+<body class="container-md">
+
+<nav class="navbar navbar-expand-md bg-success navbar-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <a class="navbar-brand" href="../index.html">
+      <img src="../assets/logo-adlibrum.webp" alt="Logo" height="50" class="d-inline-block align-text-top"></a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Kezdőlap</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../katalogus/index.html">Könyveink</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://facebook.com/adlibrum" target='blank'>Facebook</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://konyvesbolt.online/" target='blank'>Könyvesbolt</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://sztorimondo.hu/" target='blank'>Új szerzőknek</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../rolunk.html">Rólunk</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- my: margin top and bottom -->
+<!-- py: padding top and bottom -->
+<div class="row my-5">
+
+<div class="row g-5">
+
+  <!-- Left Side: Book Cover -->
+  <div class="col-md-4 text-center">
+    <a href='https://www.konyvesbolt.online/Nagy-Eszter-Naugye'><img src="https://adlibrum.hu/docs/webcovers/Nagy-Eszter_Naugye--medium.webp" class="img-fluid book-cover mb-4" alt="Naugye"></a>
+
+    <div class="">
+        <div class="card sidebar-card p-4 bg-white">
+            <div class="mb-3 text-center text-lg-start">
+                <span class="old-price">2490 Ft</span><br>
+                <span class="price-tag">1690 Ft</span>
+                <span class="badge bg-success ms-2">-32%</span>
+            </div>
+            <div class="d-grid gap-2 justify-content-center">
+                <a href="https://www.konyvesbolt.online/Nagy-Eszter-Naugye" 
+                  class="btn btn-success btn-lg fw-bold">
+                Megvásárolható a kiadói webboltban</a>
+            </div>
+<!--
+            <hr>
+-->
+            <div class="d-flex flex-wrap justify-content-center gap-2 mt-2">
+              <small class='text-muted text-center'>Vagy az ismert forgalmazóknál:</small><a href='https://www.libri.hu/konyv/naugye--1.html'>
+    <img src='../assets/logos/libri.png' 
+    style='max-height: 60px; max-width: 60px'></a><a href='https://bookline.hu/szerzo/nagy-eszter/12884430?page=1'>
+    <img src='../assets/logos/bookline.png' 
+    style='max-height: 60px; max-width: 60px'></a><a href='https://www.lira.hu/hu/konyv/szepirodalom/felnottirodalom/regenyek/naugye'>
+    <img src='../assets/logos/lira.png' 
+    style='max-height: 60px; max-width: 60px'></a><a href='https://www.book24.hu/konyv/naugye'>
+    <img src='../assets/logos/book24.png' 
+    style='max-height: 60px; max-width: 60px'></a>
+            </div>
+            <div class="d-flex flex-wrap justify-content-center gap-2 mt-2">
+              <small class='text-muted text-center'>E-könyvben is:</small><a href='https://play.google.com/store/books/details/Nagy_Eszter_Naugye?id=CTAoEAAAQBAJ'>
+    <img src='../assets/logos/googleplay.png' 
+    style='max-height: 60px; max-width: 60px'></a><a href='https://www.ekonyv.hu/hu/konyv-reszletei/naugye?eid=70032'>
+    <img src='../assets/logos/ekonyv.webp' 
+    style='max-height: 60px; max-width: 60px'></a><a href='https://dibook.hu/konyv/naugye'>
+    <img src='../assets/logos/dibook.webp' 
+    style='max-height: 60px; max-width: 60px'></a>
+            </div>
+        </div>
+    </div>
+  
+
+
+  </div>
+
+  <!-- Right Side: Content -->
+  <div class="col-md-8">
+      <h1 class="fw-bold mb-1">Naugye</h1>
+      <p class="text-muted fs-5 mb-4">Nagy Eszter</p>
+    <p><small class="text-muted">
+      Könyv Guru, 2021. 120 oldal. 120x200 mm ISBN 978-615-6153-53-1.
+      Megjelenési dátum: 2021. 04. 26.
+      </small></p>
+      <div class="row mb-4">
+        <div class="col">
+            <p class="lead">Egy negyvenes nő megpróbáltatásai, avagy a magyar Bridget Jones naplója. Nagy Eszternek a szerelem, család, munka témaköreit körüljáró, naplószerűen papírra vetett sorait sajátos stílus, szarkasztikus humor jellemzi.</p>
+            <p>Ha egy mondatban szeretnénk összefoglalni Nagy Eszter könyvének lényegét, ez lehetne az: Egy negyvenes nő megpróbáltatásai, avagy a magyar Bridget Jones naplója. 
+A szerelem, család, munka témaköreit körüljáró, naplószerűen papírra vetett sorokat sajátos stílus, szarkasztikus humor jellemzi. A szerzőnő problémáiban, kihívásaiban, vívódásaiban könnyen magunkra ismerhetünk. Ettől lesz igazán emberi, ettől érezzük olyan könnyen szívünkhöz közelállónak, ismerősnek az élet hullámhegyeiről és -völgyeiről egyaránt nyíltan beszámoló terápiás önvallomást.</p>
+<h2><a href="https://konyv.guru/attol-valodi-hogy-nem-is-igen-csiszolgatok-rajta-utolag/">"Nem is igen csiszolgatok rajta utólag" - a Könyv Guru interjúja Nagy Eszterrel</a></h2>
+<p><a href="https://i2.wp.com/konyv.guru/wp-content/uploads/2021/06/Nagy-Eszter.png?resize=800%2C445&amp;ssl=1"></a>
+“Merni kell tükörbe nézni akkor is, amikor éppen a poklot járod, mert te mindig ott leszel magaddal, ha tetszik, ha nem” – foglalja össze új kötete üzenetét Nagy Eszter.</p>
+<h2><a href="https://konyv.guru/nagy-eszter-naugye/">Hír a megjelenésről</a></h2>
+<p><a href="https://i1.wp.com/konyv.guru/wp-content/uploads/2021/04/Nagy_Eszter-Naugye_cover_ebook@0.33x.jpg?resize=800%2C445&amp;ssl=1"></a>
+Ha egy mondatban szeretnénk összefoglalni Nagy Eszter könyvének lényegét, ez lehetne az: Egy negyvenes nő megpróbáltatásai, avagy a magyar Bridget Jones naplója.</p>
+<h2><a href="https://woohoo.hu/wp-content/uploads/2021/08/Nagy-Eszter-2-1578x2048.jpg">Interjú Nagy Eszterrel a woohoo.hu magazinban</a></h2>
+<p><a href="https://woohoo.hu/wp-content/uploads/2021/08/Nagy-Eszter-2-1578x2048.jpg"></a>
+Április végén jelent meg Nagy Eszter első (de nem utolsó) könyve, mely tulajdonképpen az elmúlt 5 évben írt naplóbejegyzéseiből áll össze, tehát a regény tényleg kizárólag valós eseményeken alapul. Éppen ezért olyan könnyű és jó azonosulni vele.</p>
+<h2><a href="https://kavehazmagazin.hu/humorosan-felfogni-eletunk-megprobaltatasait/?fbclid=IwAR23dBKEGeV12HoQh0XpCwZgpso6eWvG5dPrUM0GFeGO-BSzIBIlt8NPHpY#prettyPhoto">Hogyan lehet humorosan felfogni életünk megpróbáltatásait?</a></h2>
+<p><a href="https://kavehazmagazin.hu/wp-content/uploads/2021/07/Nagy-Eszter-humor-konyv-naugye-679x543.jpg"></a>
+Nagy Eszter elmúlt éveinek megpróbáltatásait írta le „Naugye” című naplóregényében.</p>
+<p>Csupa olyan élethelyzet és kérdés, ami saját életünkből is ismerős lehet, hiszen a könyv szól magánéleti nehézségeiről, három gyermeke nevelésének kihívásairól, álláskeresése hosszú és bizonytalan időszakáról is. Ennek ellenére a nevetés nem marad el, hiszen minderről a szerző rendkívül szórakoztatóan, szarkasztikus humorral ír.</p>
+<h2><a href="https://www.youtube.com/watch?v=kObLaDCNNeo">Nagy Eszter a HírTV-ben</a></h2>
+<p><a href="https://kavehazmagazin.hu/wp-content/uploads/2021/07/Nagy-Eszter-humor-konyv-naugye-679x543.jpg"></a>
+A HírTv Paletta című műsorában Nagy Eszter elmondta, hogy az írás nem könyvnek, hanem önterápiának indult.</p>
+<h2><a href="https://pestitv.pestisracok.hu/2021/07/16/nagy-eszter-a-magyar-bridget-jones/?fbclid=IwAR0knKi7Y1pZsrMKnayi4C7yTQhk1H38HClB4FWWiQdMwlwhpoXFcCfPyTo">Nagy Eszter a Gerilla bár című műsorban a Pesti Tv-ben</a></h2>
+<p><a href="https://kavehazmagazin.hu/wp-content/uploads/2021/07/Nagy-Eszter-humor-konyv-naugye-679x543.jpg"></a>
+A Pesti Tv a magyar Bridget Jones névvel illette a szerzőt. A Gerilla bár című műsorban Nagy Eszter többek közt arról is beszélt, hogy könyve segíthet olvasóinak abban, hogy a megpróbáltatásoknak vannak humoros részei, vegyük észre ezeket. Ez a beszélgetés itt nézhető meg.</p>
+        <div class="d-grid gap-2">
+            <a href='https://books.google.hu/books?id=CTAoEAAAQBAJ&printsec=frontcover&dq=naugye&hl=hu&sa=X&ved=2ahUKEwjNn8SxgIrwAhXVK3cKHa8OBIQQ6AEwAHoECAUQAg#v=onepage&q=naugye&f=false' class='btn btn-outline-secondary btn-sm'>Olvasson bele! (Google Books)</a>
+            <a href='https://moly.hu/konyvek/nagy-eszter-naugye' class='btn btn-outline-primary btn-sm'>Vélemények (Moly.hu)</a>
+        </div>
+        </div>
+     </div>
+     <!-- Book Details 
+    <div class="">
+      <table class="table table-borderless table-md mt-3">
+          <tr><th width="150">Kiadó:</th><td>Könyv Guru, 2021.</td></tr>
+          <tr><th>Terjedelem:</th><td>120 oldal</td></tr>
+          <tr><th>Méret:</th><td>120x200 mm</td></tr>
+          <tr><th>ISBN:</th><td>978-615-6153-53-1</td></tr>
+          <tr><th>Az 1997. évi CXL. törvény 72/C. § 2 szerinti megjelenési dátum:</th><td>Megjelenési dátum: 2021. 04. 26.</td></tr>
+      </table>
+    </div>
+    -->
+  </div>
+                    
+</div>
+
+
+</div><!--row-->
+
+<footer class="mt-2 p-1 text-bg-secondary">
+    <div class="container text-center">
+        <p class="">&copy; 2008-2026 Ad Librum Kft.</p>
+        <p class="small text-muted">A sütiket megettük, egyet sem telepítünk a gépedre. És nem is követünk (tőlünk már az is szép, ha megtaláljuk a kocsikulcsot).</p>
+        
+    </div>
+</footer>
+
+
+
+
+<script src="../assets/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
