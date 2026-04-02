@@ -1,0 +1,84 @@
+2019-05-06 22:12:12: Backup: init
+2019-05-06 22:12:12: adding new snapshot: 1557177105
+2019-05-06 22:12:12: table: wp_commentmeta segment: 1/1
+2019-05-06 22:12:12: table: wp_comments segment: 1/1
+2019-05-06 22:12:13: table: wp_links segment: 1/1
+2019-05-06 22:12:13: table: wp_options segment: 1/1
+2019-05-06 22:12:13: table: wp_postmeta segment: 1/10
+2019-05-06 22:12:13: table: wp_postmeta segment: 2/10
+2019-05-06 22:12:13: table: wp_postmeta segment: 3/10
+2019-05-06 22:12:14: table: wp_postmeta segment: 4/10
+2019-05-06 22:12:14: table: wp_postmeta segment: 5/10
+2019-05-06 22:12:14: table: wp_postmeta segment: 6/10
+2019-05-06 22:12:14: table: wp_postmeta segment: 7/10
+2019-05-06 22:12:15: table: wp_postmeta segment: 8/10
+2019-05-06 22:12:15: table: wp_postmeta segment: 9/10
+2019-05-06 22:12:15: table: wp_postmeta segment: 10/10
+2019-05-06 22:12:15: table: wp_posts segment: 1/3
+2019-05-06 22:12:16: table: wp_posts segment: 2/3
+2019-05-06 22:12:16: table: wp_posts segment: 3/3
+2019-05-06 22:12:17: table: wp_term_relationships segment: 1/6
+2019-05-06 22:12:17: table: wp_term_relationships segment: 2/6
+2019-05-06 22:12:17: table: wp_term_relationships segment: 3/6
+2019-05-06 22:12:18: table: wp_term_relationships segment: 4/6
+2019-05-06 22:12:18: table: wp_term_relationships segment: 5/6
+2019-05-06 22:12:18: table: wp_term_relationships segment: 6/6
+2019-05-06 22:12:18: table: wp_term_taxonomy segment: 1/2
+2019-05-06 22:12:19: table: wp_term_taxonomy segment: 2/2
+2019-05-06 22:12:19: table: wp_termmeta segment: 1/1
+2019-05-06 22:12:20: table: wp_terms segment: 1/2
+2019-05-06 22:12:20: table: wp_terms segment: 2/2
+2019-05-06 22:12:20: table: wp_usermeta segment: 1/1
+2019-05-06 22:12:20: table: wp_users segment: 1/1
+2019-05-06 22:12:21: table: wp_2_commentmeta segment: 1/1
+2019-05-06 22:12:21: table: wp_2_comments segment: 1/1
+2019-05-06 22:12:21: table: wp_2_links segment: 1/1
+2019-05-06 22:12:21: table: wp_2_options segment: 1/1
+2019-05-06 22:12:22: table: wp_2_postmeta segment: 1/1
+2019-05-06 22:12:22: table: wp_2_posts segment: 1/1
+2019-05-06 22:12:22: table: wp_2_term_relationships segment: 1/1
+2019-05-06 22:12:23: table: wp_2_term_taxonomy segment: 1/1
+2019-05-06 22:12:23: table: wp_2_termmeta segment: 1/1
+2019-05-06 22:12:23: table: wp_2_terms segment: 1/1
+2019-05-06 22:12:23: table: wp_blog_versions segment: 1/1
+2019-05-06 22:12:24: table: wp_blogs segment: 1/1
+2019-05-06 22:12:24: table: wp_mailerlite_forms segment: 1/1
+2019-05-06 22:12:24: table: wp_maxbuttons_collections segment: 1/1
+2019-05-06 22:12:25: table: wp_maxbuttons_collections_trans segment: 1/1
+2019-05-06 22:12:25: table: wp_maxbuttonsv3 segment: 1/1
+2019-05-06 22:12:25: table: wp_metaseo_images segment: 1/1
+2019-05-06 22:12:26: table: wp_pmxe_exports segment: 1/1
+2019-05-06 22:12:26: table: wp_pmxe_google_cats segment: 1/6
+2019-05-06 22:12:26: table: wp_pmxe_google_cats segment: 2/6
+2019-05-06 22:12:26: table: wp_pmxe_google_cats segment: 3/6
+2019-05-06 22:12:27: table: wp_pmxe_google_cats segment: 4/6
+2019-05-06 22:12:27: table: wp_pmxe_google_cats segment: 5/6
+2019-05-06 22:12:27: table: wp_pmxe_google_cats segment: 6/6
+2019-05-06 22:12:27: table: wp_pmxe_posts segment: 1/2
+2019-05-06 22:12:28: table: wp_pmxe_posts segment: 2/2
+2019-05-06 22:12:28: table: wp_pmxe_templates segment: 1/1
+2019-05-06 22:12:28: table: wp_registration_log segment: 1/1
+2019-05-06 22:12:28: table: wp_signups segment: 1/1
+2019-05-06 22:12:29: table: wp_site segment: 1/1
+2019-05-06 22:12:29: table: wp_sitemeta segment: 1/1
+2019-05-06 22:12:29: table: wp_wpms_links segment: 1/3
+2019-05-06 22:12:29: table: wp_wpms_links segment: 2/3
+2019-05-06 22:12:30: table: wp_wpms_links segment: 3/3
+2019-05-06 22:12:30: backupZipFolder[]
+2019-05-06 22:12:30: rename: backupZipFile[/home/ki310348/adlibrum.hu/wp-content/uploads/snapshots/_backup/1557177105/snapshot-backup.zip] backupZipFileFinal[/home/ki310348/adlibrum.hu/wp-content/uploads/snapshots/snapshot-1557177105-190506-211145-6ddc3c6c.zip]
+2019-05-06 22:12:30: finish: snapshot-1557177105-190506-211145-6ddc3c6c.zip
+2019-05-06 22:15:57: Sending Archive: snapshot-1557177105-190506-211145-6ddc3c6c.zip 2,13 MB
+2019-05-06 22:15:57: Destination: ftp: Sertorius
+2019-05-06 22:21:20: Sending Archive: snapshot-1557177105-190506-211145-6ddc3c6c.zip 2,13 MB
+2019-05-06 22:21:20: Destination: ftp: Sertorius
+2019-05-06 22:25:06: Sending Archive: snapshot-1557177105-190506-211145-6ddc3c6c.zip 2,13 MB
+2019-05-06 22:25:06: Destination: ftp: Sertorius
+2019-05-06 22:25:06: Using FTP connection
+2019-05-06 22:25:06: Connecting to host: 93.104.209.180 Port: 21 Timeout: 90
+2019-05-06 22:25:06: Passive mode off.
+2019-05-06 22:25:06: Timeout set to 90
+2019-05-06 22:25:06: Login success.
+2019-05-06 22:25:06: Home/Root: /home/ftpuser
+2019-05-06 22:25:06: Changing Directory: /home/ftpuser
+2019-05-06 22:25:06: Current Directory: /home/ftpuser
+2019-05-06 22:25:06: ftp_put success:snapshot-1557177105-190506-211145-6ddc3c6c.zip

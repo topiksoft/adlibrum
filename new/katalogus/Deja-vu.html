@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang='hu'>
+<head>
+	<title>Déjà vu | Ad Librum Kiadó</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="shortcut icon" type="image/x-icon" href="../assets/favicon.ico">
+
+	<link href="../assets/bootstrap.min.css" rel="stylesheet">
+	<style>
+			img.cover {padding: 5px;}
+			body { font-family: 'Inter', sans-serif; background-color: #f8f9fa; color: #333; }
+			.book-cover { box-shadow: 0 10px 30px rgba(0,0,0,0.15); border-radius: 8px; transition: transform 0.3s ease; }
+			.book-cover:hover { transform: scale(1.02); }
+			.price-tag { font-size: 1.5rem; font-weight: 700; color: #d63384; }
+			.old-price { text-decoration: line-through; color: #6c757d; font-size: 1rem; }
+			.sidebar-card { border: none; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+			.review-quote { border-left: 5px solid #0d6efd; padding-left: 20px; font-style: italic; }
+			.breadcrumb { background: transparent; padding: 0; }
+			footer { background: #212529; color: white; padding: 40px 0; margin-top: 60px; }
+
+			
+	</style>
+	<!--	Umami követőkód webstatisztikához -->
+	<script defer src="https://cloud.umami.is/script.js" data-website-id="496e74ae-6240-428f-892b-d299eb32dd32"></script>
+</head>
+
+<body class="container-md">
+
+<nav class="navbar navbar-expand-md bg-success navbar-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <a class="navbar-brand" href="../index.html">
+      <img src="../assets/logo-adlibrum.webp" alt="Logo" height="50" class="d-inline-block align-text-top"></a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Kezdőlap</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../katalogus/index.html">Könyveink</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://facebook.com/adlibrum" target='blank'>Facebook</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://konyvesbolt.online/" target='blank'>Könyvesbolt</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://sztorimondo.hu/" target='blank'>Új szerzőknek</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../rolunk.html">Rólunk</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- my: margin top and bottom -->
+<!-- py: padding top and bottom -->
+<div class="row my-5">
+
+<div class="row g-5">
+
+  <!-- Left Side: Book Cover -->
+  <div class="col-md-4 text-center">
+    <a href='https://www.konyvesbolt.online/Deja-vu'><img src="https://adlibrum.hu/docs/webcovers/Mittak-Anita_Deja-vu--medium.webp" class="img-fluid book-cover mb-4" alt="Déjà vu"></a>
+
+    <div class="">
+        <div class="card sidebar-card p-4 bg-white">
+            <div class="mb-3 text-center text-lg-start">
+                <span class="old-price">4990 Ft</span><br>
+                <span class="price-tag">3490 Ft</span>
+                <span class="badge bg-success ms-2">-30%</span>
+            </div>
+            <div class="d-grid gap-2 justify-content-center">
+                <a href="https://www.konyvesbolt.online/Deja-vu" 
+                  class="btn btn-success btn-lg fw-bold">
+                Megvásárolható a kiadói webboltban</a>
+            </div>
+<!--
+            <hr>
+-->
+            <div class="d-flex flex-wrap justify-content-center gap-2 mt-2">
+              <small class='text-muted text-center'>Vagy az ismert forgalmazóknál:</small><a href='https://www.libri.hu/konyv/deja-vu--1.html'>
+    <img src='../assets/logos/libri.png' 
+    style='max-height: 60px; max-width: 60px'></a><a href='https://bookline.hu/product/home.action?_v=Mittak_Anita_Deja_vu&type=22&id=345331'>
+    <img src='../assets/logos/bookline.png' 
+    style='max-height: 60px; max-width: 60px'></a><a href='https://www.lira.hu/hu/konyv/szepirodalom/sci-fi-fantasy-krimi/deja-vu-1'>
+    <img src='../assets/logos/lira.png' 
+    style='max-height: 60px; max-width: 60px'></a><a href='https://book24.hu/konyv/romantikus/romantikus-regeny/deja-vu/'>
+    <img src='../assets/logos/book24.png' 
+    style='max-height: 60px; max-width: 60px'></a>
+            </div>
+            <div class="d-flex flex-wrap justify-content-center gap-2 mt-2">
+              <small class='text-muted text-center'>E-könyvben is:</small><a href='https://play.google.com/store/books/details?id=U_PuEAAAQBAJ'>
+    <img src='../assets/logos/googleplay.png' 
+    style='max-height: 60px; max-width: 60px'></a><a href='https://www.ekonyv.hu/ekonyvek/szorakoztato-irodalom/romantikus/mittak_anita-deja_vu-2'>
+    <img src='../assets/logos/ekonyv.webp' 
+    style='max-height: 60px; max-width: 60px'></a><a href='https://dibook.hu/konyv/deja-vu'>
+    <img src='../assets/logos/dibook.webp' 
+    style='max-height: 60px; max-width: 60px'></a>
+            </div>
+        </div>
+    </div>
+  
+
+
+  </div>
+
+  <!-- Right Side: Content -->
+  <div class="col-md-8">
+      <h1 class="fw-bold mb-1">Déjà vu</h1>
+      <p class="text-muted fs-5 mb-4">Mitták Anita</p>
+    <p><small class="text-muted">
+      Könyv Guru, 2024. 320 oldal. 130x200 mm ISBN 978-615-6440-82-2.
+      Megjelenési dátum: 2024. 01. 30.
+      </small></p>
+      <div class="row mb-4">
+        <div class="col">
+            <p class="lead">Megismerkedsz a lánnyal, akiről évek óta álmodtál. Talán újra?</p>
+            <p>Matthew a sors kegyeként megismeri azt a lányt, akiről évek óta álmodik.  Egy szupermarketben figyel fel rá, ahol beszélgetésbe elegyednek. Grace egy bolti beszélgetéssel is olyan rendkívüli hatást gyakorol rá, hogy követni kezdi, mindent meg akar tudni róla. Egy tervet eszel ki, hogyan kerülhetne közelebb hozzá, amelyhez barátja és üzlettársa, Jim Dougles segítségét kéri. Mindaddig minden jól megy, amíg fény nem derül a „cselszövésre”. Bár a későbbi szerelmesek története furcsán indul, és útjuk a boldogságig megpróbáltatások során át vezet, kapcsolatuk végül kiállja az idő próbáját.
+Amikor úgy tűnik, már nem érheti meglepetés a párost, Matt furcsán érzi magát, mintha nem lenne önmaga. És nem csak ő, Grace sem…</p>
+<h2>„Kifejezetten kellemes élmény volt »férfi aggyal« gondolkodni” Interjú Mitták Anitával.</h2>
+<p>Az emberek azért olvasnak, hogy kicsit eltávolodjanak a valóságtól, ezért is helyezte első regénye cselekményét Seattle-be Mitták Anita. A Déjà vu szerző elárulja, miért nem használ írói álnevet, mi az oka, hogy ilyen jól ismeri az autómárkákat, és mi az a hiba, amit másodjára már nem követne el regényírás közben. A <a href="https://konyv.guru/kifejezetten-kellemes-elmeny-volt-ferfi-aggyal-gondolkodni/">Könyv Guru interjúja</a></p>
+        <div class="d-grid gap-2">
+            <a href='http://books.google.com/books/about?id=U_PuEAAAQBAJ' class='btn btn-outline-secondary btn-sm'>Olvasson bele! (Google Books)</a>
+            <a href='https://moly.hu/konyvek/mittak-anita-deja-vu' class='btn btn-outline-primary btn-sm'>Vélemények (Moly.hu)</a>
+        </div>
+        </div>
+     </div>
+     <!-- Book Details 
+    <div class="">
+      <table class="table table-borderless table-md mt-3">
+          <tr><th width="150">Kiadó:</th><td>Könyv Guru, 2024.</td></tr>
+          <tr><th>Terjedelem:</th><td>320 oldal</td></tr>
+          <tr><th>Méret:</th><td>130x200 mm</td></tr>
+          <tr><th>ISBN:</th><td>978-615-6440-82-2</td></tr>
+          <tr><th>Az 1997. évi CXL. törvény 72/C. § 2 szerinti megjelenési dátum:</th><td>Megjelenési dátum: 2024. 01. 30.</td></tr>
+      </table>
+    </div>
+    -->
+  </div>
+                    
+</div>
+
+
+</div><!--row-->
+
+<footer class="mt-2 p-1 text-bg-secondary">
+    <div class="container text-center">
+        <p class="">&copy; 2008-2026 Ad Librum Kft.</p>
+        <p class="small text-muted">A sütiket megettük, egyet sem telepítünk a gépedre. És nem is követünk (tőlünk már az is szép, ha megtaláljuk a kocsikulcsot).</p>
+        
+    </div>
+</footer>
+
+
+
+
+<script src="../assets/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

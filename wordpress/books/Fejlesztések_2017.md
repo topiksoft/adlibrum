@@ -1,0 +1,34 @@
+- MySQL-re átállás (?)
+	- SQL dump sqlite-ból
+	- feltöltés MySQL-be (sertorius.hu)
+	- dbopen.php módosítása
+	- mentések megoldása
+	- szkript egy tesztadatbázisba mentéshez
+- xcrud használata (ha MySQL adatbázis)
+- külön táblák az opcióknak (pl. pubyear, sponsor, publisher) + űrlapok a kezelésükre
+- új kategóriák
+	- űrlap a könyvkategóriákhoz
+	- átkategorizálás
+- könyvlista
+	- rövidebb nyitóoldal
+	- moduláris listázás
+	- keresés a többihez
+- kiadási folyamat (a status változók helyett):
+	- űrlap és tábla a lehetséges feladatokhoz + egyéb az alkalmiakhoz
+	- feladatlista
+		- áthúzva az elvégzettek
+		- mindegyikhez html megjegyzésrovat, ami az egyéb feladatot is kezeli, és kommunikációra, archíválásra is jó (külső fájlok, pl. borító, linkként)
+- leltár: kódtisztítás, egyszerűsítés, javítás
+- fogyási jelentés
+	- szerzőnként listázva a könyvei
+	- jelszavas belépés
+	- bármikor megnézhető webes felületen
+- adlibrum.hu könyvlista
+	- kereső
+	- csak egyszer minden könyv
+	- kiemelt link a boltba VAGY kapcsolt anyagok lista folyamatos fenntartása a books.db-ben
+	- statikus html lapok generálása és automatikus feltöltése
+intranet
+	- könyvadatbázis kezelése innen
+	- leltár kezelése innen
+	- feladatkezelő (Asana helyett)

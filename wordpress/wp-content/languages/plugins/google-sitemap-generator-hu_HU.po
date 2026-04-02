@@ -1,0 +1,776 @@
+# Translation of Plugins - XML Sitemap Generator for Google - Stable (latest release) in Hungarian
+# This file is distributed under the same license as the Plugins - XML Sitemap Generator for Google - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-01-14 09:48:38+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.11\n"
+"Language: hu\n"
+"Project-Id-Version: Plugins - XML Sitemap Generator for Google - Stable (latest release)\n"
+
+#: class-googlesitemapgeneratorui.php:1115
+msgid "“Search engines have not been notified yet. Publish or update a post to update your sitemap modification dates and notify IndexNow-compatible search engines.”"
+msgstr "„A keresőmotorok még nem kaptak értesítést. Tegye közzé vagy frissítse a bejegyzést az oldaltérkép módosítási dátumainak frissítéséhez és az IndexNow-kompatibilis keresőmotorok értesítéséhez.”"
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:1296
+msgid "No registration required, however, you can join the <a href='%s' target='_blank'>Microsoft Bing Webmaster Tools</a> for more crawling details."
+msgstr "Regisztráció nem szükséges, azonban csatlakozhat a <a href='%s' target='_blank'>Microsoft Bing Webmester Eszközökhöz</a>, ha szeretne többet megtudni a robotokról."
+
+#: class-googlesitemapgeneratorui.php:1283
+msgid "Use IndexNow Protocol to notify Microsoft Bing, Seznam.cz, Naver, and Yandex search engines about updates to your site"
+msgstr "Az IndexNow protokoll használatával értesítheti a Microsoft Bing, Seznam.cz, Naver és Yandex keresőmotorokat a webhelye frissítéseiről"
+
+#: class-googlesitemapgeneratorui.php:1260
+msgid "Search Engine Updates:"
+msgstr "Keresőmotor-frissítések:"
+
+#: class-googlesitemapgeneratorui.php:1084
+msgid "IndexNow Protocol"
+msgstr "IndexNow protokoll"
+
+#. translators: %s: search term
+#: sitemap-core.php:2770
+msgid "Thank you for using Google XML Sitemaps! <a href='%s' target='_blank'>Please help us improve by taking this short survey!</a>"
+msgstr "Köszönjük, hogy használja a Google XML Sitemaps-t! <a href='%s' target='_blank'>Kérjük, segítsen nekünk a fejlődésben egy a rövid felmérés kitöltésével!</a>"
+
+#: class-googlesitemapgeneratorui.php:1869
+msgid "Help improve the software by sharing anonymous usage data with the developers."
+msgstr "Segítsen a szoftver fejlesztésében azáltal, hogy anonim használati adatokat oszt meg a fejlesztőkkel."
+
+#: class-googlesitemapgeneratorui.php:1762
+#: class-googlesitemapgeneratorui.php:1834
+msgid "Product Categories"
+msgstr "Termékategóriák"
+
+#: class-googlesitemapgeneratorui.php:1647
+msgid "Links per page"
+msgstr "Linkek oldalanként"
+
+#: class-googlesitemapgeneratorui.php:1515
+msgid "Include product tags"
+msgstr "Termékcímkék felvétele"
+
+#: class-googlesitemapgeneratorui.php:1509
+msgid "Include product categories"
+msgstr "Termékkategóriák felvétele"
+
+#: class-googlesitemapgeneratorui.php:1343
+msgid "Use this if you want to change the sitemap file name"
+msgstr "Akkor használja ezt, ha módosítani szeretné a webhelytérképfájl nevét"
+
+#: class-googlesitemapgeneratorui.php:1342
+msgid "Override the file name of the sitemap:"
+msgstr "A webhelytérkép fájlnevének felülírása:"
+
+#: class-googlesitemapgeneratorui.php:1316
+msgid "e.g. '4M', '16M'"
+msgstr "pl. \"4M\", \"16M\""
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:1276
+msgid "No registration required, but you can join the <a href='%s' target='_blank'>Google Search Console</a> to check crawling statistics."
+msgstr "Nincs szükség regisztrációra, de csatlakozhat a <a href='%s' target='_blank'>Google Search Console-hoz</a>, hogy ellenőrizze a keresőrobotok statisztikáit."
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:1233
+msgid "If you like the plugin, please <a target=\"_blank\" href=\"%s\">rate it 5 stars</a>! :)"
+msgstr "Ha tetszik a bővítmény, kérjük, <a target=\"_blank\" href=\"%s\">értékelje 5 csillaggal</a>! :)"
+
+#: class-googlesitemapgeneratorui.php:1081
+msgid "Microsoft Bing Blog"
+msgstr "Microsoft Bing Blog"
+
+#: class-googlesitemapgeneratorui.php:1080
+msgid "Bing Webmaster Tools"
+msgstr "Bing webmestereszközök"
+
+#: class-googlesitemapgeneratorui.php:1079
+msgid "Google Search Blog"
+msgstr "Google Search Blog"
+
+#: class-googlesitemapgeneratorui.php:1078
+msgid "Google Search Console"
+msgstr "Google keresőkonzol"
+
+#: class-googlesitemapgeneratorui.php:1069
+msgid "Visit Support Forum"
+msgstr "Látogasson el a támogatói fórumra"
+
+#: class-googlesitemapgeneratorui.php:1068
+msgid "Follow the Forum"
+msgstr "Kövesse a fórumot"
+
+#: class-googlesitemapgeneratorui.php:1067
+msgid "View Frequently Asked Questions"
+msgstr "Gyakran Ismétlődő Kérdések (GYIK) megtekintése"
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:1045
+msgid "Your <a href='%s'>Reading Settings</a> signal to search engines not to index your website. While your sitemap will still be generated, the \"Search engine visibility\" setting should de-selected for optimal indexation."
+msgstr "Az Ön <a href='%s'>olvasási beállításai</a> azt jelzik a keresőmotoroknak, hogy ne indexálják a webhelyét. Bár az oldaltérkép továbbra legeneráltatik, az optimális indexáláshoz vissza kellene vonni a „Láthatóság a keresőmotorok által” bejelölését."
+
+#: class-googlesitemapgeneratorui.php:772
+msgid "Don't show this me anymore"
+msgstr "Ne jelenjék meg többé"
+
+#: class-googlesitemapgeneratorui.php:737
+msgid "Thanks for using this plugin! You've installed this plugin over a month ago. If it works and you are satisfied with the results, isn't it worth at least a few dollar? <a href=\"https://8rkh4sskhh.execute-api.us-east-1.amazonaws.com/gsg/v1/sitemap-donate-note\">Donations</a> help me to continue support and development of this <i>free</i> software! <a href=\"https://8rkh4sskhh.execute-api.us-east-1.amazonaws.com/gsg/v1/sitemap-donate-note\">Sure, no problem!</a>"
+msgstr "Köszönjük, hogy már több mint egy hónapja használja a bővítményt! Ha működik, és elégedett az eredményekkel, esetleg adakozhatna néhány dollárt. <a href=\"https://8rkh4sskhh.execute-api.us-east-1.amazonaws.com/gsg/v1/sitemap-donate-note\">Az adományok</a> segítenek abban, hogy továbbra is támogathassam és fejleszthessem ezt az <i>ingyenes</i> szoftvert! <a href=\"https://8rkh4sskhh.execute-api.us-east-1.amazonaws.com/gsg/v1/sitemap-donate-note\">Persze, simán!</a>"
+
+#: class-googlesitemapgeneratorui.php:658
+msgid "Thanks for for supporting the project. We will reach out by email shortly."
+msgstr "Köszönjük, hogy támogatja a projektet. Hamarosan jelentkezünk e-mailben."
+
+#: class-googlesitemapgeneratorloader.php:1161
+msgid ""
+"<div>\n"
+"\t\t\t\t\t\t\t<form method=\"post\" id=\"disable-plugins-form\">\n"
+"\t\t\t\t\t\t\t<input type=\"hidden\" id=\"disable_plugin\" name=\"disable_plugin\" value=\"false\" />\n"
+"\t\t\t\t\t\t\t<input type=\"hidden\" id=\"plugin_list\" name=\"plugin_list\" value=\""
+msgstr ""
+"<div>\n"
+"\t\t\t\t\t\t\t<form method=\"post\" id=\"disable-plugins-form\">\n"
+"\t\t\t\t\t\t\t<input type=\"hidden\" id=\"disable_plugin\" name=\"disable_plugin\" value=\"false\" />\n"
+"\t\t\t\t\t\t\t<input type=\"hidden\" id=\"plugin_list\" name=\"plugin_list\" value=\""
+
+#: class-googlesitemapgeneratorloader.php:1146
+msgid ""
+"<h4>One or more plugins conflict with proper indexation of your website. Use the deactivate button below to disable the extra sitemaps:</h4>\n"
+"\t\t\t\t\t\t\t"
+msgstr ""
+"<h4>Egy vagy több bővítmény akadályozza a webhely megfelelő indexálását. Használja az alábbi deaktiváló gombot az extra oldaltérképek letiltásához:</h4>\n"
+"\t\t\t\t\t\t\t"
+
+#: class-googlesitemapgeneratorloader.php:645
+msgid ""
+"<h4>Auto-updates aren not enabled for Sitemap Generator. Would you like to enable auto-updates to always have the best indexation features?\n"
+"\t\t\t\t\t</h4>\n"
+"\t\t\t\t\t<form method=\"post\" id=\"enable-updates-form\">\n"
+"\t\t\t\t\t<input type=\"hidden\" id=\"enable_updates\" name=\"enable_updates\" value=\"false\" />"
+msgstr ""
+"<h4>Az automatikus frissítések nincsenek engedélyezve a Sitemap Generator oldaltérképgenerátornál. Szeretné engedélyezni az automatikus frissítéseket, hogy mindig a legjobb indexálási funkciókkal rendelkezzen?\n"
+"\t\t\t\t\t</h4>\n"
+"\t\t\t\t\t<form method=\"post\" id=\"enable-updates-form\">\n"
+"\t\t\t\t\t<input type=\"hidden\" id=\"enable_updates\" name=\"enable_updates\" value=\"false\" />"
+
+#: class-googlesitemapgeneratorloader.php:581
+msgid ""
+"<div class=\"cookie-info-banner-wrapper\" id=\"cookie-info-banner-wrapper\">\n"
+"\t\t\t\t\t\t<div class=\"modal-container\">\n"
+"\t\t\t\t\t\t<h3>Help Us Improve!</h3>\n"
+"\t\t\t\t\t\t\t<button class=\"close_popup\" id=\"close_popup\">\n"
+"\t\t\t\t\t\t\t<img height=\"25\" width=\"20\" class=\"close_cookie_information\" src=\""
+msgstr ""
+"<div class=\"cookie-info-banner-wrapper\" id=\"cookie-info-banner-wrapper\">\n"
+"\t\t\t\t\t\t<div class=\"modal-container\">\n"
+"\t\t\t\t\t\t<h3>Segítsen a bővítmény jobbá tételében!</h3>\n"
+"\t\t\t\t\t\t\t<button class=\"close_popup\" id=\"close_popup\">\n"
+"\t\t\t\t\t\t\t&lt;img height=\"25\" width=\"20\" class=\"close_cookie_information\" src=\""
+
+#: class-googlesitemapgeneratorloader.php:558
+msgid ""
+"<div class=\"modal-wrapper\" id=\"modal-wrapper\">\n"
+"\t\t\t\t\t\t<div class=\"modal-container\">\n"
+"\t\t\t\t\t\t<h3>Help Us Improve!</h3>\n"
+"\t\t\t\t\t\t<p>Would you help us improve Google XML Sitemaps by sharing anonymous usage data?</p>\n"
+"\t\t\t\t\t\t<p>Understanding feature usage and use cases better means we can provide you with the best indexation and indexing performance.</p>\n"
+"\t\t\t\t\t\t<p><a href=\"https://auctollo.com/policies/privacy/\" target=\"_blank\">We respect your privacy!</a></p>\n"
+"\t\t\t\t\t\t<p>&nbsp;</p>\n"
+"\t\t\t\t\t\t<form method=\"POST\">\n"
+"\t\t\t\t\t\t\t<input type=\"submit\" name=\"user_consent_yes\" class=\"allow_consent\" value=\"I want the best!\" />\n"
+"\t\t\t\t\t\t\t<input type=\"submit\" name=\"user_consent_no\" class \"decline_consent\" value=\"I don't know what I want\" />"
+msgstr ""
+"<div class=\"modal-wrapper\" id=\"modal-wrapper\">\n"
+"\t\t\t\t\t\t<div class=\"modal-container\">\n"
+"\t\t\t\t\t\t<h3>Segítsen a bővítmény javításában!</h3>\n"
+"\t\t\t\t\t\t<p>Tudna-e nekünk segíteni a Google XML Sitemaps javításában az anonim használati adatai megosztásával?</p>\n"
+"\t\t\t\t\t\t<p>A funkcióhasználat és a felhasználási esetek jobb megértése révén a legjobb indexelési és indexelési teljesítményt tudjuk biztosítani Önnek.</p>\n"
+"\t\t\t\t\t\t<p><a href=\"https://auctollo.com/policies/privacy/\" target=\"_blank\">Tiszteletben tartjuk a magánéletét!</a></p>\n"
+"\t\t\t\t\t\t<p> </p>\n"
+"\t\t\t\t\t\t<form method=\"POST\">\n"
+"\t\t\t\t\t\t\t<input type=\"submit\" name=\"user_consent_yes\" class=\"allow_consent\" value=\"A legjobbat akadom\" />\n"
+"\t\t\t\t\t\t\t<input type=\"submit\" name=\"user_consent_no\" class \"decline_consent\" value=\"Nem tudom, mit akarok…\" />"
+
+#: class-googlesitemapgeneratorloader.php:536
+msgid ""
+"<h4>Do you want the best SEO indexation technology for your website? Join the Google XML Sitemaps Beta Program now!</h4>\n"
+"\t\t\t\t\t\t<input type=\"hidden\" id=\"action\" name=\"action\" value=\"my_action\" >\n"
+"\t\t\t\t\t\t<div class=\"justify-content\">\n"
+"\t\t\t\t\t\t<a href=\""
+msgstr ""
+"<h4>A legjobb SEO-indexálási technológiát szeretné a weboldalához? Csatlakozzék most a Google XML Sitemaps béta programhoz!</h4>\n"
+"\t\t\t\t\t\t<input type=\"hidden\" id=\"action\" name=\"action\" value=\"my_action\" >\n"
+"\t\t\t\t\t\t<div class=\"justify-content\">\n"
+"\t\t\t\t\t\t&lt;a href=\""
+
+#. Author of the plugin
+msgid "Auctollo"
+msgstr "Auctollo"
+
+#. Description of the plugin
+msgid "This plugin improves SEO using sitemaps for best indexation by search engines like Google, Bing, Yahoo and others."
+msgstr "Ez a bővítmény oldaltérképek segítségével javítja a keresőoptimalizálást (SEO-t), hogy a Google, a Bing a Yahoo! és a többi keresőmotor a lehető legjobban indexálhassa az oldalt."
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://auctollo.com/"
+msgstr "https://auctollo.com/"
+
+#: sitemap.php:315
+msgid "Unfortunately this release of Google XML Sitemaps requires at least PHP %4$s. You are using PHP %2$s, which is out-dated and insecure. Please ask your web host to update your PHP installation or go to <a href='%1$s'>active plugins</a> and deactivate the Google XML Sitemaps plugin to hide this message. You can download an older version of this plugin from the <a href='%3$s'>plugin website</a>."
+msgstr "Sajnos a Google XML Sitemaps ezen kiadása legalább PHP %4$s verziót igényel. Ön a PHP %2$s változatát használja, amely elavult és nem biztonságos. Kérje meg tárhelyszolgáltatóját, hogy frissítse a PHP-telepítését, vagy menjen az <a href='%1$s'>aktív bővítményekhez</a>, és kapcsolja ki a Google XML Sitemaps bővítményt ezen üzenet elrejtéséhez. A bővítmény régebbi verzióit letöltheti a <a href='%3$s'>weboldaláról</a>."
+
+#: sitemap.php:315
+msgid "Your PHP version is too old for XML Sitemaps."
+msgstr "Túl régi PHP verzió az XML Sitemaps-hez."
+
+#: sitemap.php:303
+msgid "Unfortunately this release of Google XML Sitemaps requires at least WordPress %4$s. You are using WordPress %2$s, which is out-dated and insecure. Please upgrade or go to <a href='%1$s'>active plugins</a> and deactivate the Google XML Sitemaps plugin to hide this message. You can download an older version of this plugin from the <a href='%3$s'>plugin website</a>."
+msgstr "Sajnos a Google XML Sitemaps ezen kiadása legalább WordPress %4$s verziót igényel. Ön a WordPress %2$s változatát használja, amely elavult és nem biztonságos. Kérjük, frissítsen, vagy menjen az <a href='%1$s'>aktív bővítményekhez</a>, és kapcsolja ki a Google XML Sitemaps bővítményt ezen üzenet elrejtéséhez. A bővítmény régebbi verzióit letöltheti a <a href='%3$s'>weboldaláról</a>."
+
+#: sitemap.php:303
+msgid "Your WordPress version is too old for XML Sitemaps."
+msgstr "Túl régi WordPress verzió az XML Sitemaps-hez."
+
+#: class-googlesitemapgeneratorui.php:1880
+msgid "Reset options"
+msgstr "Beállítások alaphelyzetbe állítása"
+
+#: class-googlesitemapgeneratorui.php:1879
+msgid "Update options"
+msgstr "Beállítások frissítése"
+
+#: class-googlesitemapgeneratorui.php:1840
+msgid "Archives"
+msgstr "Archívumok"
+
+#: class-googlesitemapgeneratorui.php:1815
+msgid "Minimum post priority (Even if auto calculation is enabled)"
+msgstr "Bejegyzések legkisebb prioritása (akkor is, ha az automatikus kiszámítás engedélyezve van)"
+
+#: class-googlesitemapgeneratorui.php:1808
+msgid "Posts (If auto calculation is disabled)"
+msgstr "Bejegyzések (ha az automatikus kiszámítás le van tiltva)"
+
+#: class-googlesitemapgeneratorui.php:1796
+msgid "Priorities"
+msgstr "Prioritások"
+
+#: class-googlesitemapgeneratorui.php:1788
+#: class-googlesitemapgeneratorui.php:1855
+msgid "Author pages"
+msgstr "Szerzőoldalak"
+
+#: class-googlesitemapgeneratorui.php:1781
+#: class-googlesitemapgeneratorui.php:1847
+msgid "Tag pages"
+msgstr "Címkeoldalak"
+
+#: class-googlesitemapgeneratorui.php:1774
+msgid "Older archives (Changes only if you edit an old post)"
+msgstr "Régebbi archívumok (csak akkor változik, ha egy régi bejegyzés módosul)"
+
+#: class-googlesitemapgeneratorui.php:1768
+msgid "The current archive of this month (Should be the same like your homepage)"
+msgstr "E hónap jelenlegi archívuma (egyezzék meg a weboldaléval)"
+
+#: class-googlesitemapgeneratorui.php:1756
+#: class-googlesitemapgeneratorui.php:1828
+msgid "Categories"
+msgstr "Kategóriák"
+
+#: class-googlesitemapgeneratorui.php:1750
+#: class-googlesitemapgeneratorui.php:1822
+msgid "Static pages"
+msgstr "Statikus oldalak"
+
+#: class-googlesitemapgeneratorui.php:1744
+msgid "Posts"
+msgstr "Bejegyzések"
+
+#: class-googlesitemapgeneratorui.php:1738
+#: class-googlesitemapgeneratorui.php:1801
+msgid "Homepage"
+msgstr "Főoldal"
+
+#: class-googlesitemapgeneratorui.php:1732
+msgid "Please note that the value of this tag is considered a hint and not a command. Even though search engine crawlers consider this information when making decisions, they may crawl pages marked 'hourly' less frequently than that, and they may crawl pages marked 'yearly' more frequently than that. It is also likely that crawlers will periodically crawl pages marked 'never' so that they can handle unexpected changes to those pages."
+msgstr "Vegye figyelembe, hogy ennek a címkének az értéke csak tipp nem parancs. Bár a keresőmotorok robotjai figyelembe veszik ezt az információt a döntéseik meghozatalakor, előfordulhat, hogy az „óránként” jelzésű oldalakat ennél ritkábban, az „évente” jelzésűeket pedig ennél gyakrabban is feltérképezik. Az is valószínű, hogy a robotok időnként a „soha” jelzésű oldalakat is átnézik, hogy ezek váratlan változásait is kezelni tudják."
+
+#: class-googlesitemapgeneratorui.php:1728
+msgid "Change Frequencies"
+msgstr "Frekvenciák módosítása"
+
+#: class-googlesitemapgeneratorui.php:1722
+msgid "Child posts won't be excluded automatically!"
+msgstr "Az alárendelt bejegyzések nincsenek automatikusan kizárva!"
+
+#: class-googlesitemapgeneratorui.php:1720
+msgid "List of IDs, separated by comma"
+msgstr "Azonosítók felsorolása, vesszővel elválasztva"
+
+#: class-googlesitemapgeneratorui.php:1720
+msgid "Exclude the following posts or pages:"
+msgstr "A következő bejegyzések vagy oldalak kizárása:"
+
+#: class-googlesitemapgeneratorui.php:1718
+msgid "Exclude posts"
+msgstr "Bejegyzések kizárása"
+
+#: class-googlesitemapgeneratorui.php:1658
+msgid "Excluded categories"
+msgstr "Kategóriák kizárása"
+
+#: class-googlesitemapgeneratorui.php:1656
+msgid "Excluded Items"
+msgstr "Kizárt elemek"
+
+#: class-googlesitemapgeneratorui.php:1639
+msgid "This is highly recommended and helps the search engines to know when your content has changed. This option affects <i>all</i> sitemap entries."
+msgstr "Ez erősen ajánlott, és segíti a keresőmotorokat a tartalom változásainak felismerésében. Ez a beállítása az <i>összes</i> oldaltérkép-elemet érinti."
+
+#: class-googlesitemapgeneratorui.php:1632
+msgid "Include the last modification time."
+msgstr "Az utolsó módosítás idejének befoglalása."
+
+#: class-googlesitemapgeneratorui.php:1627
+msgid "Further options"
+msgstr "További beállítások"
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:1613
+msgid "Include custom post type %s"
+msgstr "Egyedi bejegyzéstípus (%s) befoglalása"
+
+#: class-googlesitemapgeneratorui.php:1598
+msgid "Custom post types"
+msgstr "Egyedi bejegyzéstípusok"
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:1578
+msgid "Include taxonomy pages for %s"
+msgstr "Taxonómiaoldalak (%s) befoglalása"
+
+#: class-googlesitemapgeneratorui.php:1563
+msgid "Custom taxonomies"
+msgstr "Egyedi taxonómiák"
+
+#: class-googlesitemapgeneratorui.php:1546
+msgid "Include tag pages"
+msgstr "Címkeoldalak befoglalása"
+
+#: class-googlesitemapgeneratorui.php:1539
+msgid "Include author pages"
+msgstr "Szerzői oldalak befoglalása"
+
+#: class-googlesitemapgeneratorui.php:1533
+msgid "Include archives"
+msgstr "Archívumok befoglalása"
+
+#: class-googlesitemapgeneratorui.php:1527
+msgid "Include categories"
+msgstr "Kategóriák befoglalása"
+
+#: class-googlesitemapgeneratorui.php:1521
+msgid "Include static pages"
+msgstr "Statikus oldalak befoglalása"
+
+#: class-googlesitemapgeneratorui.php:1503
+msgid "Include posts"
+msgstr "Bejegyzések befoglalása"
+
+#: class-googlesitemapgeneratorui.php:1497
+msgid "Include homepage"
+msgstr "Főoldal befoglalása"
+
+#: class-googlesitemapgeneratorui.php:1492
+msgid "WordPress standard content"
+msgstr "WordPress alaptartalom"
+
+#: class-googlesitemapgeneratorui.php:1491
+msgid "Sitemap Content"
+msgstr "Oldaltérkép tartalma"
+
+#: class-googlesitemapgeneratorui.php:1473
+msgid "Please select how the priority of each post should be calculated:"
+msgstr "Jelölje ki, hogyan számíttassék ki az egyes bejegyzések prioritása:"
+
+#: class-googlesitemapgeneratorui.php:1471
+msgid "Post Priority"
+msgstr "Bejegyzés prioritása"
+
+#: class-googlesitemapgeneratorui.php:1465
+msgid "Add new page"
+msgstr "Új oldal hozzáadása"
+
+#: class-googlesitemapgeneratorui.php:1459
+msgid "No pages defined."
+msgstr "Nincs oldal meghatározva."
+
+#: class-googlesitemapgeneratorui.php:1453
+msgid "#"
+msgstr "#"
+
+#: class-googlesitemapgeneratorui.php:1451
+msgid "Change Frequency"
+msgstr "Változás gyakorisága"
+
+#: class-googlesitemapgeneratorui.php:1389
+msgid "Enter the date of the last change as YYYY-MM-DD (2005-12-31 for example) (optional)."
+msgstr "Adja meg az utolsó módosítás dátumát YYYY-MM-DD formátumban (pl. 2019-02-16) (nem kötelező)."
+
+#: class-googlesitemapgeneratorui.php:1388
+#: class-googlesitemapgeneratorui.php:1452
+msgid "Last Changed"
+msgstr "Utolsó módosítás"
+
+#: class-googlesitemapgeneratorui.php:1386
+msgid "Choose the priority of the page relative to the other pages. For example, your homepage might have a higher priority than your imprint."
+msgstr "Válassza ki az oldalak egymáshoz viszonyított prioritását. Pl. a kezdőlap élvezhet magasabb prioritást, mint az impresszum."
+
+#: class-googlesitemapgeneratorui.php:1385
+#: class-googlesitemapgeneratorui.php:1450
+msgid "Priority"
+msgstr "Prioritás"
+
+#: class-googlesitemapgeneratorui.php:1383
+msgid "Enter the URL to the page. Examples: http://www.foo.com/index.html or www.foo.com/home "
+msgstr "Írja be az oldal webcímét. Pl.: http://www.akarmi.hu/index.html vagy www.akarmi.hu/home "
+
+#: class-googlesitemapgeneratorui.php:1382
+#: class-googlesitemapgeneratorui.php:1449
+msgid "URL to the page"
+msgstr "Oldal webcíme"
+
+#: class-googlesitemapgeneratorui.php:1380
+msgid "If your site is in a subdirectory and you want to add pages which are NOT in the site directory or beneath, you MUST place your sitemap file in the root directory (Look at the &quot;Location of your sitemap file&quot; section on this page)!"
+msgstr "Ha webhelye egy alkönyvtárban van, és olyan oldalakat szeretne hozzáadni, amelyek NEM a webhely könyvtárában vagy alatta vannak, akkor a webhelytérkép fájlt a gyökérkönyvtárban KELL elhelyeznie. (Nézze meg ezen az oldalon a &quot;A webhelytérképfájl helye&quot; című részt.)"
+
+#: class-googlesitemapgeneratorui.php:1379
+#: class-googlesitemapgeneratorui.php:1722
+#: class-googlesitemapgeneratorui.php:1731
+msgid "Note"
+msgstr "Megjegyzés"
+
+#: class-googlesitemapgeneratorui.php:1368
+msgid "Additional Pages"
+msgstr "További oldalak"
+
+#: class-googlesitemapgeneratorui.php:1357
+msgid "(The required PHP XSL Module is not installed)"
+msgstr "(A megkívánt PHP XSL modul nincs telepítve)"
+
+#: class-googlesitemapgeneratorui.php:1354
+msgid "Include sitemap in HTML format"
+msgstr "Oldaltérkép befoglalása HTML formátumban"
+
+#: class-googlesitemapgeneratorui.php:1339
+msgid "Use this if your site is in a sub-directory, but you want the sitemap be located in the root. Requires .htaccess modification."
+msgstr "Ezt akkor használja, ha a webhelye egy alkönyvtárban van, de azt szeretné, hogy a webhelytérkép a gyökérkönyvtárban legyen. A .htaccess-t módosítani kell hozzá."
+
+#: class-googlesitemapgeneratorui.php:1338
+msgid "Override the base URL of the sitemap:"
+msgstr "Az oldaltérkép alap-webcímének felülbírálása:"
+
+#: class-googlesitemapgeneratorui.php:1335
+msgid "Use default"
+msgstr "Alapértelmezett használata"
+
+#: class-googlesitemapgeneratorui.php:1331
+msgid "Full or relative URL to your .xsl file"
+msgstr "Teljes vagy relatív URL a .xsl fájlhoz"
+
+#: class-googlesitemapgeneratorui.php:1330
+msgid "Include a XSLT stylesheet:"
+msgstr "XSLT stíluslap befoglalása:"
+
+#: class-googlesitemapgeneratorui.php:1326
+msgid "Disable this option if you get garbled content or encoding errors in your sitemap."
+msgstr "Tiltsa le ezt a beállítást, ha az oldaltérkép torz tartalmat vagy kódolási hibákat tartalmaz."
+
+#: class-googlesitemapgeneratorui.php:1324
+msgid "Try to automatically compress the sitemap if the requesting client supports it."
+msgstr "Az oldaltérkép automatikus tömörítésének megkísérlése, ha a kérő kliens támogatja."
+
+#: class-googlesitemapgeneratorui.php:1319
+msgid "in seconds, e.g. '60' or '0' for unlimited"
+msgstr "másodpercben, pl. '60' vagy '0' a korlátlan időtartamhoz"
+
+#: class-googlesitemapgeneratorui.php:1319
+msgid "Try to increase the execution time limit to:"
+msgstr "A végrehajtási időkorlát növelése ennyire:"
+
+#: class-googlesitemapgeneratorui.php:1316
+msgid "Try to increase the memory limit to:"
+msgstr "Memóriakorlát emelésének megkísérlése ennyire:"
+
+#: class-googlesitemapgeneratorui.php:1313
+msgid "Advanced options:"
+msgstr "Speciális beállítások:"
+
+#: class-googlesitemapgeneratorui.php:1307
+msgid "The virtual robots.txt generated by WordPress is used. A real robots.txt file must NOT exist in the site directory!"
+msgstr "Használatban van a WordPress által generált virtuális robots.txt fájl. A webhely könyvtárában tilos robots.txt fájlnak lennie!"
+
+#: class-googlesitemapgeneratorui.php:1303
+msgid "Add sitemap URL to the virtual robots.txt file."
+msgstr "Az oldaltérkép webcímének hozzáadása a virtuális robots.txt fájlhoz."
+
+#: class-googlesitemapgeneratorui.php:1264
+msgid "Notify Google about updates of your site"
+msgstr "A Google értesítése webhelye frissítéseiről"
+
+#: class-googlesitemapgeneratorui.php:1260
+#: class-googlesitemapgeneratorui.php:1313
+#: class-googlesitemapgeneratorui.php:1339
+#: class-googlesitemapgeneratorui.php:1343
+msgid "Learn more"
+msgstr "További információ"
+
+#: class-googlesitemapgeneratorui.php:1258
+msgid "Basic Options"
+msgstr "Alapbeállítások"
+
+#: class-googlesitemapgeneratorui.php:1242
+msgid "Since you are using Nginx as your web-server, please configure the following rewrite rules in case you get 404 Not Found errors for your sitemap:"
+msgstr "Ha Ön Nginxet használ webszervernek és 404 (az oldal nem található) hibaüzenetet kap az oldaltérkép helyére, akkor a következő átírási szabályokat állítsa be:"
+
+#: class-googlesitemapgeneratorui.php:1241
+msgid "Webserver Configuration"
+msgstr "Webszerver beállítása"
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:1217
+msgid "If you encounter any problems with your sitemap you can use the <a href=\"%d\">debug function</a> to get more information."
+msgstr "Ha probléma merült fel az oldaltérképpel kapcsolatban, a <a href=\"%d\">hibakereső funkció</a> használatával további információkat szerezhet."
+
+#: class-googlesitemapgeneratorui.php:1191
+msgid "It took %time% seconds to notify %name%, maybe you want to disable this feature to reduce the building time."
+msgstr "A(z) %name% értesítése %time% másodpercbe telt. Ha ezt a funkciót letiltja, akkor csökkenhet a felépítési idő."
+
+#: class-googlesitemapgeneratorui.php:1188
+msgid "%s was <b>successfully notified</b> about changes."
+msgstr "%s <b>sikeresen tájékoztatást kapott</b> a változásokról."
+
+#: class-googlesitemapgeneratorui.php:1171
+msgid "Search engines haven't been notified yet. Write a post to let them know about your sitemap."
+msgstr "A keresőmotorok még nem kaptak értesítést. Írjon egy bejegyzést, hogy tájékoztassa őket az oldaltérképéről."
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:1169
+msgid "The URL to your sitemap index file is: <a href='%1$s'>%2$s</a>."
+msgstr "A webhelytérkép indexfájljának URL címe: <a href='%1$s'>%2$s</a>."
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:1158
+msgid "There is still a sitemap.xml or sitemap.xml.gz file in your site directory. Please delete them as no static files are used anymore or <a href='%s'>try to delete them automatically</a>."
+msgstr "Még mindig van egy sitemap.xml vagy sitemap.xml.gz fájl a webhely könyvtárában. Mivel statikus fájl már nincs használatban, ezért kérjük, törölje őket vagy <a href='%s'>próbálja meg automatikusan törölni őket</a>."
+
+#: class-googlesitemapgeneratorui.php:1146
+msgid "Enable"
+msgstr "Engedélyezés"
+
+#: class-googlesitemapgeneratorui.php:1146
+msgid "Support Topics have been disabled. Enable them to see useful information regarding this plugin. No Ads or Spam!"
+msgstr "A támogatási témák le vannak tiltva. Engedélyezze őket, ha hasznos információkhoz akar jutni erről a bővítményről. Nincs reklám és nincs spam!"
+
+#: class-googlesitemapgeneratorui.php:1143
+msgid "No support topics available or an error occurred while fetching them."
+msgstr "Nincs rendelkezésre álló támogatási téma vagy hiba történt a betöltésükkor."
+
+#: class-googlesitemapgeneratorui.php:1126
+msgid "Disable"
+msgstr "Letiltás"
+
+#: class-googlesitemapgeneratorui.php:1122
+msgid "Recent Support Topics / News"
+msgstr "Legutóbbi támogatási témák / hírek"
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:1114
+msgid "Result of the last ping, started on %date%."
+msgstr "A legutóbbi ping eredménye, amely ekkor indult: %date%."
+
+#: class-googlesitemapgeneratorui.php:1108
+msgid "Search engines haven't been notified yet"
+msgstr "A keresőmotorok még nem kaptak értesítést"
+
+#: class-googlesitemapgeneratorui.php:1085
+msgid "Official Sitemaps FAQ"
+msgstr "Hivatalos oldaltérképek GYIK"
+
+#: class-googlesitemapgeneratorui.php:1083
+msgid "Sitemaps Protocol"
+msgstr "Oldaltérkép-protokol"
+
+#: class-googlesitemapgeneratorui.php:1077
+msgid "Sitemap Resources:"
+msgstr "Oldaltérkép – tudásanyag:"
+
+#: class-googlesitemapgeneratorui.php:1074
+msgid "translator_url"
+msgstr "http://blog.cenzi.hu"
+
+#: class-googlesitemapgeneratorui.php:1072
+#: class-googlesitemapgeneratorui.php:1074
+msgid "translator_name"
+msgstr "Cenzi, Babos Gábor"
+
+#: class-googlesitemapgeneratorui.php:1070
+msgid "Report a Bug"
+msgstr "Hiba bejelentése"
+
+#: class-googlesitemapgeneratorui.php:1066
+msgid "Suggest a Feature"
+msgstr "Javasoljon egy funkciót"
+
+#: class-googlesitemapgeneratorui.php:1065
+msgid "Plugin Homepage"
+msgstr "Bővítmény honlapja"
+
+#: class-googlesitemapgeneratorui.php:1064
+msgid "About this Plugin:"
+msgstr "A bővítmény névjegye:"
+
+#: sitemap-core.php:2774
+msgid "Don't show this anymore"
+msgstr "Ne jelenjék meg többször"
+
+#. translators: %s: search term
+#: class-googlesitemapgeneratorui.php:768
+msgid "Thanks for using this plugin! You've installed this plugin some time ago. If it works and your are satisfied, why not <a href='%1$s'>rate it</a>. and <a href='%2$s'>recommend it</a> to others? :-)"
+msgstr "Köszönjük a bővítmény használatát! Ön régebben telepítette ezt a plugint. Ha működik és elégedett vele, <a href='%1$s'>írhatna róla egy értékelés</a> és <a href='%2$s'>ajánlhatná</a> másoknak is :-)?"
+
+#: class-googlesitemapgeneratorui.php:746
+msgid "No thanks, please don't bug me anymore!"
+msgstr "Köszönöm, nem, és ne is jelenjék meg ez többet!"
+
+#: class-googlesitemapgeneratorui.php:746
+msgid "Sure, but I already did!"
+msgstr "Persze, már meg is tettem!"
+
+#: class-googlesitemapgeneratorui.php:714
+msgid "Hide this notice"
+msgstr "Értesítés elrejtése"
+
+#: class-googlesitemapgeneratorui.php:714
+msgid "Thank you very much for your donation. You help me to continue support and development of this plugin and other free software!"
+msgstr "Köszönjük az adományt! Ezzel segített nekem a bővítmény és más szabad szoftverek további támogatásában és fejlesztésében."
+
+#: class-googlesitemapgeneratorui.php:655
+msgid "Ping was executed, please see below for the result."
+msgstr "A ping végre lett hajtva, az eredményeket alább megtekintheti."
+
+#: class-googlesitemapgeneratorui.php:639
+msgid "All done!"
+msgstr "Minden kész!"
+
+#: class-googlesitemapgeneratorui.php:617
+msgid "The plugin is notifying the selected search engines about your main sitemap and all sub-sitemaps. This might take a minute or two."
+msgstr "A bővítmény a fő oldaltérképről és az összes al-oldaltérképről értesíti a kijelölt keresőmotorokat. Ez egy vagy két percig is eltarthat."
+
+#: class-googlesitemapgeneratorui.php:616
+msgid "Notify Search Engines about all sitemaps"
+msgstr "Keresőmotorok értesítése az összes oldaltérképről"
+
+#: class-googlesitemapgeneratorui.php:577
+msgid "The old files were successfully deleted."
+msgstr "A régi fájlok sikeresen törlődtek."
+
+#: class-googlesitemapgeneratorui.php:575
+msgid "The old files could NOT be deleted. Please use an FTP program and delete them by yourself."
+msgstr "A régi fájlok nem törölhetők. Kérjük, törölje őket egy FTP alkalmazás segítségével."
+
+#: class-googlesitemapgeneratorui.php:565
+msgid "The default configuration was restored."
+msgstr "Vissza lettek állítva az alapértelmezett beállítások."
+
+#: class-googlesitemapgeneratorui.php:542
+msgid "Error while saving pages"
+msgstr "Hiba az oldalak mentésekor"
+
+#: class-googlesitemapgeneratorui.php:540
+msgid "Pages saved"
+msgstr "Oldalak mentve"
+
+#: class-googlesitemapgeneratorui.php:535
+msgid "Error while saving options"
+msgstr "Hiba a beállítások mentésekor"
+
+#: class-googlesitemapgeneratorui.php:533
+msgid "Configuration updated"
+msgstr "Beállítások frissítve"
+
+#. Plugin Name of the plugin
+#: class-googlesitemapgeneratorui.php:261
+#: class-googlesitemapgeneratorui.php:1025
+msgid "XML Sitemap Generator for Google"
+msgstr "XML-oldaltérkép-generátor a Google-hoz"
+
+#: class-googlesitemapgeneratorloader.php:692
+msgid "Support"
+msgstr "Támogatás"
+
+#: class-googlesitemapgeneratorloader.php:691
+msgid "FAQ"
+msgstr "GYIK"
+
+#: class-googlesitemapgeneratorloader.php:690
+msgid "Settings"
+msgstr "Beállítások"
+
+#: class-googlesitemapgeneratorloader.php:265
+msgid "XML-Sitemap"
+msgstr "XML-oldaltérkép"
+
+#: class-googlesitemapgeneratorloader.php:265
+msgid "XML-Sitemap Generator"
+msgstr "XML-oldaltérkép-generátor"
+
+#: sitemap-core.php:923
+msgid "Never"
+msgstr "Soha"
+
+#: sitemap-core.php:922
+msgid "Yearly"
+msgstr "Évente"
+
+#: sitemap-core.php:921
+msgid "Monthly"
+msgstr "Havonta"
+
+#: sitemap-core.php:920
+msgid "Weekly"
+msgstr "Hetente"
+
+#: sitemap-core.php:919
+msgid "Daily"
+msgstr "Naponta"
+
+#: sitemap-core.php:918
+msgid "Hourly"
+msgstr "Óránként"
+
+#: sitemap-core.php:917
+msgid "Always"
+msgstr "Mindig"
+
+#: sitemap-core.php:729
+msgid "Uses the average comment count to calculate the priority"
+msgstr "A prioritás kiszámításához felhasználja a hozzászólások átlagos számát"
+
+#: sitemap-core.php:719
+msgid "Comment Average"
+msgstr "Hozzászólások átlagos száma"
+
+#: sitemap-core.php:661
+msgid "Uses the number of comments of the post to calculate the priority"
+msgstr "A prioritás kiszámításához felhasználja a bejegyzéshez írt hozzászólások számát"
+
+#: sitemap-core.php:651
+msgid "Comment Count"
+msgstr "Hozzászólások száma"

@@ -1,0 +1,2 @@
+[15-Jan-2012 17:54:23] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/adlimhu1/public_html/books/booksFunctionsB.php on line 33
+[15-Jan-2012 23:02:55] PHP Warning:  Invalid argument supplied for foreach() in /home/adlimhu1/public_html/books/booksFunctionsB.php on line 27

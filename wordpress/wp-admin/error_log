@@ -1,0 +1,764 @@
+[06-May-2019 20:24:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:24:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:26:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:26:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:27:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:27:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:28:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:28:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:29:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:29:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:29:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:29:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:29:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:29:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:29:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:29:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:30:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:30:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:31:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:31:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:32:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:32:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:32:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:32:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:32:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:32:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:32:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:32:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:32:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:32:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:32:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:32:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:33:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:33:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:33:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:33:11 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:33:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:33:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:33:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:33:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:33:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:33:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:33:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:33:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:34:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:34:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:34:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:34:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:34:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:34:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:34:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:34:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:34:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:34:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:34:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:34:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:35:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:35:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:35:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:35:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:35:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:35:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:35:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:35:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:35:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:35:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:35:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:35:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:35:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:35:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:36:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:36:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:36:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:36:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:37:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:37:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:37:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:37:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:44:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:44:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:44:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:44:25 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:52:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:52:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:52:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:52:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:54:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:54:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 20:57:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 20:57:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 21:01:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 21:01:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 21:01:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1251
+[06-May-2019 21:01:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ki310348/adlibrum.hu/wp-config.php:1) in /home/ki310348/adlibrum.hu/wp-includes/pluggable.php on line 1254
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:09:33 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:11:45 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Utility.php on line 144
+[06-May-2019 21:12:12 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:12 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:12 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:12 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:12 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:12 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:13 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:13 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:13 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:13 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:13 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:13 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:13 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:13 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:13 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:13 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:14 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:14 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:14 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:14 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:14 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:14 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:14 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:14 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:15 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:15 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:15 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:15 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:15 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:15 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:15 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:15 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:16 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:16 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:16 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:16 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:17 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:17 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:17 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:17 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:17 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:17 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:18 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:18 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:18 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:18 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:18 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:18 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:18 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:18 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:19 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:19 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:19 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:19 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:20 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:20 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:20 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:20 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:20 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:20 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:20 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:20 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:21 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:21 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:21 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:21 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:21 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:21 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:21 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:21 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:22 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:22 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:22 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:22 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:22 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:22 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:23 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:23 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:23 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:23 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:23 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:23 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:23 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:23 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:24 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:24 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:24 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:24 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:24 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:24 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:25 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:25 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:25 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:25 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:25 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:25 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:26 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:26 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:26 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:26 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:26 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:26 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:26 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:26 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:27 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:27 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:27 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:27 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:27 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:27 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:27 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:27 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:28 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:28 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:28 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:28 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:28 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:28 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:28 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:28 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:29 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:29 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:29 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:29 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:29 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:29 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:29 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:29 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:30 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:30 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action
+[06-May-2019 21:12:30 UTC] [warning]: 'A non-numeric value encountered' file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php, line: 151
+[06-May-2019 21:12:30 UTC] ---------------------------- Trace start ----------------------------
+  [0]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 133; function: debug_trace; class: Snapshot_Helper_Debug
+  [1]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/lib/Snapshot/Helper/Debug.php; line: 151; function: process_error_backtrace; class: Snapshot_Helper_Debug
+  [2]file: /home/ki310348/adlibrum.hu/wp-content/plugins/snapshot/snapshot.php; line: 2801; function: set_error_reporting; class: Snapshot_Helper_Debug
+  [3]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 286; function: snapshot_ajax_backup_proc; class: WPMUDEVSnapshot
+  [4]file: /home/ki310348/adlibrum.hu/wp-includes/class-wp-hook.php; line: 310; function: apply_filters; class: WP_Hook
+  [5]file: /home/ki310348/adlibrum.hu/wp-includes/plugin.php; line: 465; function: do_action; class: WP_Hook
+  [6]file: /home/ki310348/adlibrum.hu/wp-admin/admin-ajax.php; line: 167; function: do_action

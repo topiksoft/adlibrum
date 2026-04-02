@@ -1,0 +1,3224 @@
+<!DOCTYPE html>
+<html lang='hu'>
+<head>
+	<title>Könyvkatalógus | Ad Librum Kiadó</title>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="shortcut icon" type="image/x-icon" href="../assets/favicon.ico">
+
+	<link href="../assets/bootstrap.min.css" rel="stylesheet">
+	<style>
+			img.cover {padding: 5px;}
+			body { font-family: 'Inter', sans-serif; background-color: #f8f9fa; color: #333; }
+			.book-cover { box-shadow: 0 10px 30px rgba(0,0,0,0.15); border-radius: 8px; transition: transform 0.3s ease; }
+			.book-cover:hover { transform: scale(1.02); }
+			.price-tag { font-size: 1.5rem; font-weight: 700; color: #d63384; }
+			.old-price { text-decoration: line-through; color: #6c757d; font-size: 1rem; }
+			.sidebar-card { border: none; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+			.review-quote { border-left: 5px solid #0d6efd; padding-left: 20px; font-style: italic; }
+			.breadcrumb { background: transparent; padding: 0; }
+			footer { background: #212529; color: white; padding: 40px 0; margin-top: 60px; }
+
+			
+	</style>
+	<!--	Umami követőkód webstatisztikához -->
+	<script defer src="https://cloud.umami.is/script.js" data-website-id="496e74ae-6240-428f-892b-d299eb32dd32"></script>
+</head>
+
+<body class="container-md">
+
+<nav class="navbar navbar-expand-md bg-success navbar-dark">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <a class="navbar-brand" href="../index.html">
+      <img src="../assets/logo-adlibrum.webp" alt="Logo" height="50" class="d-inline-block align-text-top"></a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Kezdőlap</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../katalogus/index.html">Könyveink</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://facebook.com/adlibrum" target='blank'>Facebook</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://konyvesbolt.online/" target='blank'>Könyvesbolt</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://sztorimondo.hu/" target='blank'>Új szerzőknek</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../rolunk.html">Rólunk</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- my: margin top and bottom -->
+<!-- py: padding top and bottom -->
+<div class="row my-5">
+
+<p>Ez az <strong>Ad Librum</strong> Kiadó, <strong>Személyes Történelem</strong> Kiadó, <strong>Expert Books</strong> Kiadó, <strong>Storming Brain</strong> Kiadó és a <strong>Könyv Guru</strong> által kiadott könyvek katalógusa.</p>
+
+<div>
+  <table id='booktable'>
+  	<tr class='header'><th><input type='text' id='searchfield' onkeyup='booksearch()' placeholder='Keresés...' title='Kezdje el begépelni a szerző nevét, a könyv címet vagy más adatot!'></th></tr>
+  	
+    <tr>
+      <td>Caelum Thorne: <em><a href='Chronocondrium.html'>Chronocondrium. Istenek kora</a></em> Könyv Guru, 2026. ISBN 978-615-6979-45-2 <em>Megjelenés alatt</em></td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Nemes-paros.html'>Nemes páros</a></em> Könyv Guru, 2026. ISBN 978-615-6979-62-9 <em>Megjelenés alatt</em></td>
+    </tr>
+  
+    <tr>
+      <td>Mihók Attila: <em><a href='Az-M-model.html'>M-MODEL. Multidomain Optimal Development. Az elit teljesítmény keretrendszere</a></em> Ad Librum Kiadó, 2026. ISBN 978-615-6439-82-6 <em>Megjelenés alatt</em></td>
+    </tr>
+  
+    <tr>
+      <td>Ábrahám Nikolett: <em><a href='Almodtam-egy-vilagot.html'>Álmodtam egy világot</a></em> Könyv Guru, 2026. ISBN 978-615-6979-54-4 <em>Megjelenés alatt</em></td>
+    </tr>
+  
+    <tr>
+      <td>Mark Tigchelaar és Oscar de Bos: <em><a href='Fokusz.html'>Fókusz ON/OFF</a></em> Ad Librum Kiadó, 2026. ISBN 978-615-6439-63-5 <em>Megjelenés alatt</em></td>
+    </tr>
+  
+    <tr>
+      <td>Arnold Kinga Anna: <em><a href='Az-Ejfel-Volgyi-Gimnazium-2.html'>Az Éjfél-völgyi Gimnázium 2. Tenebrium tornya</a></em> Könyv Guru, 2026. ISBN 978-615-6979-47-6 <em>Megjelenés alatt</em></td>
+    </tr>
+  
+    <tr>
+      <td>Mihály András: <em><a href='Parnadon-arc.html'>Párnádon arc</a></em> Könyv Guru, 2026. ISBN 978-615-6979-60-5 <em>Megjelenés alatt</em></td>
+    </tr>
+  
+    <tr>
+      <td>Amarilla Auguszt: <em><a href='Jasmine-and-Nora-in-Las-Vegas.html'>Jasmine and Nora in Las Vegas. Tales of a Magical Journey</a></em> Könyv Guru, 2026. ISBN 9798250699464 </td>
+    </tr>
+  
+    <tr>
+      <td>Pál Sándor Ede: <em><a href='Vilagunk-szellemi-hidjai.html'>Világunk szellemi hídjai</a></em> Könyv Guru, 2026. ISBN 978-615-6979-51-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Császár K. Éva: <em><a href='A-szuletes-miszteriuma.html'>A születés misztériuma</a></em> Könyv Guru, 2026. ISBN 978-615-6979-43-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Magyar László: <em><a href='A-fellegek-lovasai.html'>A fellegek lovasai</a></em> Könyv Guru, 2026. ISBN 978-615-6979-41-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Bánky András: <em><a href='Harmonia.html'>Harmónia. A zongora, aki érez és gondolkodik</a></em> Könyv Guru, 2026. ISBN 978-615-6979-33-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Soltész-Nagy Éva: <em><a href='Lilit-kertje.html'>Lilit kertje</a></em> Soltész-Nagy Éva, 2026. ISBN 978-615-02-5843-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Horváth Fanni: <em><a href='Harom-feherszarvas.html'>A három fehér szarvas</a></em> Könyv Guru, 2026. ISBN 978-615-6979-29-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Kiss László: <em><a href='A-pilota.html'>A pilóta</a></em> Könyv Guru, 2026. ISBN 978-615-6979-39-1 </td>
+    </tr>
+  
+    <tr>
+      <td>H. P. Bigest: <em><a href='Isten-urhajoja.html'>Isten űrhajója. Fantasztikus! regény</a></em> Könyv Guru, 2026. ISBN 978-615-6979-35-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Soós Gábor és Soós Anna (szerk.): <em><a href='Szazeves-hirek-1925.html'>Százéves hírek. 1925</a></em> Személyes Történelem, 2025. ISBN 9773094405259 </td>
+    </tr>
+  
+    <tr>
+      <td>Ifj. Tordai József: <em><a href='1160.html'>1160. Hat lecke az életről, az élettől</a></em> Könyv Guru, 2026. ISBN 978-615-6979-37-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Lizy Smith: <em><a href='Profilozo.html'>Profilozó</a></em> Könyv Guru, 2025. ISBN 978-615-6979-19-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Epilogus.html'>Epilógus</a></em> Könyv Guru, 2025. ISBN 978-615-6439-65-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Gary R. Renard: <em><a href='Az-univerzum-eltunese.html'>Az univerzum eltűnése. Kötetlen beszélgetés az illúziókról, előző életekről, a vallásról, szexről, politikáról és a megbocsátás csodájáról</a></em> Társalgó Books, 2025. ISBN 978-615-02-5067-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Rózsa: <em><a href='Egy-almodozo-elso-csokja.html'>Egy álmodozó első csókja</a></em> Könyv Guru, 2025. ISBN 978-615-6979-27-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Molnár Vanda: <em><a href='Black-Coffee.html'>Black Coffee</a></em> Könyv Guru, 2025. ISBN 978-615-6979-31-5 </td>
+    </tr>
+  
+    <tr>
+      <td>A.S. Field: <em><a href='Tavlatok.html'>Az utolsó másodperc lélegzete</a></em> Könyv Guru, 2025. ISBN 978-615-6979-23-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Kertész Viktor: <em><a href='Sikba-zart-ter.html'>Síkba zárt tér</a></em> Ad Librum Kiadó, 2025. ISBN 978-615-6439-57-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Benedek László: <em><a href='Hat-evtized-hat-kontinens.html'>Hat évtized, hat kontinens. Földkerülő történetek</a></em> Benedek László, 2025. ISBN 978-615-02-5326-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Szabó Krisztina: <em><a href='Alvocimbik.html'>Alvócimbik</a></em> Könyv Guru, 2025. ISBN 978-615-6979-25-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Bánszegi Katalin: <em><a href='Kaukazus.html'>Út a Kaukázuson át. Örményország, Georgia, Azerbajdzsán</a></em> Ad Librum Kiadó, 2025. ISBN 978-615-6439-59-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Szank Angéla: <em><a href='Angi-es-Yodus-kalandjai_A-telapo.html'>Angi és Yodus kalandjai. A Télapó</a></em> , 2025. ISBN 978-615-02-5287-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Szolnoki Kata: <em><a href='Tukrozodesek-feher-fenyben.html'>Tükröződések fehér fényben</a></em> Könyv Guru, 2025. ISBN 978-615-6979-17-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Mihály András: <em><a href='Elkepzelt-utak.html'>Elképzelt utak. Versek és kép-emlékek</a></em> Könyv Guru, 2025. ISBN 978-615-6979-21-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Káldor Judit: <em><a href='Ukanyam-Giselle.html'>Ükanyám, Giselle...</a></em> Könyv Guru, 2025. ISBN 978-615-6979-00-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Kovács György: <em><a href='On-the-Origin-of-Earthquakes.html'>On the Origin of Earthquakes</a></em> Ad Librum Kiadó, 2025. ISBN 978-615-6439-51-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Britz-Farkas Nelli és Kertész Katalin: <em><a href='A-jatek-mindenkie.html'>A játék mindenkié</a></em> Könyv Guru, 2025. ISBN 978-615-6979-15-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Sophie Lévy-Rose: <em><a href='Utikalauz-az-anyoshoz.html'>Útikalauz az anyóshoz. Kézikönyv menyeknek</a></em> Könyv Guru, 2025. ISBN 978-615-6979-07-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Garay Zsuzsanna: <em><a href='A-kislany-es-a-madarijeszto.html'>A kislány és a madárijesztő</a></em> Könyv Guru, 2025. ISBN 978-615-6979-09-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Auguszt Amarilla: <em><a href='A-nepali-dzsungel-mesei.html'>A nepáli dzsungel meséi</a></em> Könyv Guru, 2025. ISBN 978-615-6766-96-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Mary G. Grant: <em><a href='Szerelem-elso-jaratra.html'>Szerelem első járatra</a></em> Könyv Guru, 2025. ISBN 978-615-6979-05-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Gazdag Tamás Dávid: <em><a href='A-rivaldafeny-mogott.html'>A rivaldafény mögött</a></em> Könyv Guru, 2025. ISBN 978-615-6979-02-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Sárvári János: <em><a href='Petite-mort.html'>Petite mort</a></em> Könyv Guru, 2025. ISBN 978-615-6766-98-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Rénes András: <em><a href='Kotelekek.html'>Kötelékek</a></em> Könyv Guru, 2025. ISBN 978-615-6766-94-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Varsányi Gyula: <em><a href='Ujratervezok.html'>Újratervezők. A cédrus magányossága</a></em> Könyv Guru, 2025. ISBN 978-615-6766-92-2 </td>
+    </tr>
+  
+    <tr>
+      <td>A. K. Caras: <em><a href='A-kobor-kutyak-utolso-evei.html'>A kóbor kutyák utolsó évei</a></em> Könyv Guru, 2025. ISBN 978-615-6979-13-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Gábor Olivér: <em><a href='Ezerkilencszazhetven.html'>Ezerkilencszázhetven</a></em> Könyv Guru, 2025. ISBN 978-615-6979-11-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Alma Kent: <em><a href='Aki-bujt-aki-nem.html'>Aki bújt, aki nem...</a></em> , 2025. ISBN 978-615-02-3088-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Juhász Zoltán: <em><a href='Mereldolia.html'>Mereldólia, a Teremtő Kertje. I. A Megjövendölt</a></em> Könyv Guru, 2025. ISBN 978-615-6766-72-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Liz Kelly: <em><a href='Ez-a-konyv-olcsobb-mint-a-terapia.html'>Ez a könyv olcsóbb, mint a terápia. Gyakorlati útmutató a lelki egészséged javításához</a></em> Ad Librum Kiadó, 2025. ISBN 978-615-6439-44-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Bányavölgyi Éva: <em><a href='Oregedj-sikeresen.html'>Öregedj sikeresen! Kezdő öregedők kézikönyve</a></em> Ad Librum Kiadó, 2025. ISBN 978-615-6439-55-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Mihály András: <em><a href='Ki-olte-meg-a-professzort.html'>Ki ölte meg a professzort? Novellák és elbeszélések</a></em> Könyv Guru, 2025. ISBN 978-615-6766-88-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Frideczky Katalin: <em><a href='Tessek-felebredni.html'>Tessék felébredni! Álomklipek</a></em> Könyv Guru, 2025. ISBN 978-615-6766-90-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Petrus Márta: <em><a href='Kaoszbol-szerelem.html'>Káoszból szerelem. Kata története</a></em> Könyv Guru, 2025. ISBN 978-615-6766-86-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Helga Liara: <em><a href='Az-Elhagyott.html'>Az Elhagyott</a></em> Könyv Guru, 2025. ISBN 978-615-6766-74-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Pap Éva Magdolna: <em><a href='Fenylo-csillagaim.html'>Fénylő csillagaim</a></em> Könyv Guru, 2025. ISBN 978-615-6766-82-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Árvai Levente: <em><a href='Istenek-szornyek-csodak-nyomaban-jartam.html'>Istenek, szörnyek, csodák nyomában jártam</a></em> Könyv Guru, 2025. ISBN 978-615-6766-76-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Majzik Kitti: <em><a href='Nektek-meselek.html'>Nektek mesélek</a></em> Könyv Guru, 2025. ISBN 978-615-6766-78-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Molnár Imre: <em><a href='Afrikai-kaland.html'>Afrikai kaland</a></em> Könyv Guru, 2025. ISBN 978-615-6766-80-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Virág Gábor: <em><a href='Aldatlan-allapot.html'>Áldatlan állapot</a></em> Könyv Guru, 2025. ISBN 978-615-6766-84-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Palotai Zója: <em><a href='Szexmunkas.html'>Szexmunkás</a></em> Szerzői kiadás, 2025. ISBN 978-615-6766-66-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Barbara Bell: <em><a href='Vegzetes-vizió.html'>Végzetes vízió</a></em> Könyv Guru, 2025. ISBN 978-615-6766-70-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Endi és Miko Monori: <em><a href='A-holdfenyhaju-lany-kronikaja.html'>A holdfényhajú lány krónikája</a></em> Könyv Guru, 2025. ISBN 978-615-6766-68-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Peter Flower: <em><a href='Among-the-yakuza.html'>Among the Yakuza</a></em> Szerzői kiadás, 2025. ISBN  </td>
+    </tr>
+  
+    <tr>
+      <td>Daniel Mamah: <em><a href='Ahogy-a-folyok-osszefolynak.html'>Ahogy a folyók összefolynak</a></em> Könyv Guru, 2024. ISBN 978-615-6766-50-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Szekeres Márta: <em><a href='Kalandvagyo-Mirci-cica.html'>Kalandvágyó Mirci cica</a></em> Könyv Guru, 2025. ISBN 978-615-6766-64-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Amy Saltz: <em><a href='The-Game.html'>The Game. Legyél te is szuperhős!</a></em> Könyv Guru, 2024. ISBN 978-615-6766-43-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Dancs Szabolcs: <em><a href='resen-at.html'>résen át</a></em> Könyv Guru, 2025. ISBN 978-615-6766-58-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Szepes Márton: <em><a href='Na-de-mi-koze-ehhez-az-isteneknek.html'>Na de mi közük ehhez az isteneknek?</a></em> Könyv Guru, 2024. ISBN 978-615-6766-62-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Bella Blanco: <em><a href='Elcserelt-sorsok.html'>Elcserélt sorsok</a></em> Könyv Guru, 2024. ISBN 978-615-6766-60-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Velinszky Vilmos: <em><a href='Jokor-legyen-mondva.html'>Jókor legyen mondva. Keveseknek ajánlom</a></em> Könyv Guru, 2024. ISBN 978-615-6766-52-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Christine Yarosh: <em><a href='Onertekeles.html'>Önértékelés. Kognitív viselkedésterápiai munkafüzet</a></em> Ad Librum Kiadó, 2024. ISBN 978-615-6439-38-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Mary G. Grant: <em><a href='Eskuvoi-kalamajka.html'>Esküvői kalamajka</a></em> Könyv Guru, 2024. ISBN 978-615-6766-54-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Soós Gábor és Soós Anna (szerk.): <em><a href='Szazeves-hirek-1924.html'>Százéves hírek. 1924</a></em> Személyes Történelem, 2024. ISBN 978-615-6439-40-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Kaszás Levente: <em><a href='Mourinho.html'>José Mourinho. A Real Madrid kispadjától a török bajnokságig</a></em> Ad Librum Kiadó, 2024. ISBN 978-615-6439-48-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Kutyavilag.html'>Kutyavilág</a></em> Könyv Guru, 2024. ISBN 978-615-6439-46-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Susanna Park: <em><a href='Tuskehegy-Taltos.html'>Tüskehegy. Táltos</a></em> Könyv Guru, 2024. ISBN 978-615-6766-41-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Mika Tillensen: <em><a href='Rio-dalom-Braziliaban.html'>Rio-dalom Brazíliában</a></em> Könyv Guru, 2024. ISBN 978-615-6766-29-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Kovács György: <em><a href='A-foldrengesek-kivalto-oka.html'>A földrengések kiváltó oka</a></em> Ad Librum Kiadó, 2024. ISBN 978-615-6439-36-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Darabos Attila: <em><a href='Mano-mesek.html'>Manó Mesék</a></em> Könyv Guru, 2024. ISBN 978-615-6766-39-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Ángyán Patrícia: <em><a href='Az-utolso-tevedes.html'>Az utolsó tévedés</a></em> Könyv Guru, 2023. ISBN 978-615-6766-35-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Kate George: <em><a href='Fejtsd-meg-az-almom.html'>Fejtsd meg az álmom</a></em> Könyv Guru, 2024. ISBN 978-615-6766-37-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Csíkos Csaba: <em><a href='Hajoepítes-a-hatso-udvarban.html'>Hajóépítés a hátsó udvarban. A Turandot vitorlás építésének története</a></em> Könyv Guru, 2024. ISBN 978-615-6766-23-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Bálint Erika: <em><a href='Felszarnyu-angyalok.html'>Félszárnyú angyalok</a></em> Könyv Guru, 2024. ISBN 978-615-6766-33-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Peter Urs: <em><a href='Kivalasztottak.html'>Kiválasztottak</a></em> Könyv Guru, 2024. ISBN 978-615-6766-25-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Virág Gábor: <em><a href='Bukasra-itelve.html'>Bukásra ítélve</a></em> Könyv Guru, 2024. ISBN 978-615-6766-31-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Tasnádi György: <em><a href='Riport-Janos-vitezzel.html'>Riport János vitézzel</a></em> Könyv Guru, 2024. ISBN 978-615-6766-21-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Kovács Zoltán: <em><a href='Ejsotet-horizont.html'>Éjsötét horizont</a></em> Könyv Guru, 2024. ISBN 978-615-6766-17-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Husz Mariann: <em><a href='Talpra-esni-kotelezo.html'>Talpra esni kötelező</a></em> Könyv Guru, 2024. ISBN 978-615-6766-27-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Szekeres Ibolya: <em><a href='Emberseg.html'>Emberség! Esszék és történetek</a></em> Könyv Guru, 2024. ISBN 978-615-6766-19-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Németh György Gábor: <em><a href='Virgo.html'>Virgo</a></em> Könyv Guru, 2024. ISBN 978-615-6766-14-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Folk György: <em><a href='Centreville.html'>Centreville, Utopia</a></em> Könyv Guru, 2024. ISBN 978-615-6766-12-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Király Ella: <em><a href='Az-igazsag-tuze.html'>Az igazság tüze</a></em> Könyv Guru, 2024. ISBN 978-615-6766-10-6 </td>
+    </tr>
+  
+    <tr>
+      <td>A. L. Kovács Szilárd: <em><a href='Regalion-Monooser.html'>Regalion. Hatalomvágy</a></em> Könyv Guru, 2024. ISBN 978-615-6766-08-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Kollerné Gintli Eszter: <em><a href='Az-igeny-szerinti-gyermek.html'>Az igény szerinti gyermek</a></em> Könyv Guru, 2024. ISBN 978-615-6766-00-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Becca Violiny: <em><a href='Deveno.html'>Deveno. Az érzelmek harca</a></em> Könyv Guru, 2024. ISBN 978-615-6766-02-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Laczkó Zsuzsa: <em><a href='Tul-a-negyvenen.html'>Túl a negyvenen. Úti élmények, úti kalandok negyven országban</a></em> Könyv Guru, 2024. ISBN 978-615-6440-90-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Nyakas Tibor: <em><a href='A-ket-oroszlan.html'>A két oroszlán</a></em> Könyv Guru, 2024. ISBN 978-615-6766-04-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Haraszti Judit: <em><a href='Erdon-mezon-egen-foldon.html'>Erdőn-mezőn, égen-földön. Évszakok meséi</a></em> Könyv Guru, 2024. ISBN 978-615-6440-98-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Kertész Viktor: <em><a href='Egyszeru-Bonyolult.html'>Egyszerű? Bonyolult?</a></em> Ad Librum Kiadó, 2024. ISBN 978-615-6439-31-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Mlčúch Brenda Nicole: <em><a href='Rettegesek-mocsara.html'>Rettegések mocsara</a></em> Könyv Guru, 2024. ISBN 978-615-6766-06-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Mátyás Zoltán: <em><a href='Allergias-reakcio-az-eletre.html'>Allergiás reakció az életre</a></em> Könyv Guru, 2024. ISBN 978-615-6440-96-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Gál B. Betti: <em><a href='A-felhok-felett-mindig-sut-a-nap.html'>A felhők felett mindig süt a nap</a></em> Könyv Guru, 2024. ISBN 978-615-6440-94-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Sadler Lívia: <em><a href='Lany-egyedul.html'>Lány egyedül</a></em> Könyv Guru, 2024. ISBN 978-615-6440-92-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Demendi Zita: <em><a href='Demonkracia-I.html'>Démonkrácia. A lázadás ára</a></em> Könyv Guru, 2024. ISBN 978-615-6440-88-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Bánszegi Katalin: <em><a href='Vietnam.html'>Vietnám</a></em> Ad Librum Kiadó, 2024. ISBN 978-615-6439-33-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Balogh Szilárd: <em><a href='Hajnalig3.html'>Hajnalig III.</a></em> Könyv Guru, 2024. ISBN 978-615-6440-86-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Nagybaczoni Molnár Ferenc: <em><a href='Csinszka-szarmazasa.html'>„Sorsom kiktől örököltem?” Boncza Berta (Csinszka) származása, rokonsága és személyisége</a></em> Ad Librum Kiadó, 2024. ISBN 978-615-6439-25-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Mitták Anita: <em><a href='Deja-vu.html'>Déjà vu</a></em> Könyv Guru, 2024. ISBN 978-615-6440-82-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Szabó Angéla: <em><a href='Mesel-a-nagyi.html'>Mesél a nagyi</a></em> Könyv Guru, 2024. ISBN 978-615-6440-84-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Ángyán Patrícia: <em><a href='Az-utolso-hiba.html'>Az utolsó hiba</a></em> Könyv Guru, 2023. ISBN 978-615-6439-29-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Dienes Bálint: <em><a href='Pokoli-hetvege.html'>Pokoli hétvége</a></em> Könyv Guru, 2023. ISBN 978-615-6440-80-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Imre Regina Mária: <em><a href='Nagy-ar-a-szabadsagert.html'>Nagy ár a szabadságért. Egy névtelen magyar feltaláló története</a></em> Könyv Guru, 2023. ISBN 978-615-6440-74-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Zsidó Emese Tímea: <em><a href='Homo-fortis.html'>Homo Fortis</a></em> Könyv Guru, 2023. ISBN 978-615-6440-76-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Gulyás Gábor: <em><a href='Az-ajto-kifele-nyilik.html'>Az ajtó kifelé nyílik</a></em> Könyv Guru, 2023. ISBN 978-615-6440-78-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Bánszegi Katalin: <em><a href='Pakisztan.html'>Pakisztán</a></em> Ad Librum Kiadó, 2023. ISBN 978-615-6439-23-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Szokolszky Ágnes: <em><a href='Igy-muzsikaltunk.html'>Így muzsikáltunk. Déki Lakatos Sándor cigányprímás élet- és családtörténete</a></em> Személyes Történelem, 2023. ISBN 978-615-6439-27-7 </td>
+    </tr>
+  
+    <tr>
+      <td>D8rka: <em><a href='Te-nem-lehetsz-autista.html'>Te nem lehetsz autista</a></em> Könyv Guru, 2023. ISBN 978-615-6440-72-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Peter Flower: <em><a href='Jakuzak-kozott.html'>Jakuzák között</a></em> Könyv Guru, 2023. ISBN 978-615-6440-70-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Makk Dániel: <em><a href='Fel-terkepe.html'>Fel térképe</a></em> Könyv Guru, 2023. ISBN 978-615-6440-64-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Brett O’Conor: <em><a href='Az-ureg.html'>Az üreg</a></em> Könyv Guru, 2023. ISBN 978-615-6440-68-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Debreczeni Tibor: <em><a href='Belvarosi-fergeteg.html'>Belvárosi fergeteg</a></em> Könyv Guru, 2023. ISBN 978-615-6440-66-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Pap Endre: <em><a href='Verseny-a-Halallal.html'>Verseny a Halállal</a></em> Könyv Guru, 2023. ISBN 978-615-6440-62-4 </td>
+    </tr>
+  
+    <tr>
+      <td>L. Murányi László: <em><a href='A-haboru-arnyekaban.html'>A háború árnyékában. Ukrajna, 2022</a></em> Ad Librum Kiadó, 2023. ISBN 978-615-6439-21-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Végh Csenge: <em><a href='Elvegyulve.html'>Elvegyülve</a></em> Könyv Guru, 2023. ISBN 978-615-6440-60-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Vidéki Herceg: <em><a href='Madarkak.html'>Madárkák</a></em> Könyv Guru, 2023. ISBN 978-615-6440-58-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Gőri Gergely Attila: <em><a href='Megolni-mind-A-Varjulovag.html'>Megölni mind. A Varjúlovag</a></em> Könyv Guru, 2023. ISBN 978-615-6440-56-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Balázs Anita: <em><a href='Szazadunk-mesei.html'>Századunk meséi</a></em> Könyv Guru, 2023. ISBN 978-615-6440-54-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Horváth Krisztina: <em><a href='Tarot.html'>Életre tanít a tarot, tarot-ra tanít az élet</a></em> Könyv Guru, 2023. ISBN 978-615-6440-44-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Szekeres Ibolya: <em><a href='Batorsag.html'>Bátorság! A káoszból a félelmeken át az egyensúlyig</a></em> Könyv Guru, 2023. ISBN 978-615-6440-48-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Tihanyi Éda: <em><a href='Eletrevalok-utikonyve.html'>Életrevalók útikönyve. A guide to happiness</a></em> Könyv Guru, 2023. ISBN 978-615-6440-40-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Halusz Léna: <em><a href='Allatkommando2.html'>Állatkommandó. Az elromlott kívánságkút</a></em> Könyv Guru, 2023. ISBN 978-615-6440-52-5 </td>
+    </tr>
+  
+    <tr>
+      <td>W. L. Know: <em><a href='Gourmet.html'>Gourmet</a></em> Könyv Guru, 2023. ISBN 978-615-6440-36-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Kiss Judit (Tilli): <em><a href='Kalandos-koborlasaim.html'>Izrael színei. Kalandos kóborlásaim krónikája. 2. kiadás</a></em> Ad Librum Kiadó, 2023. ISBN 978-615-6439-19-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Henn Edith: <em><a href='Felhotlen-eveim.html'>Felhőtlen éveim</a></em> Könyv Guru, 2023. ISBN 978-615-6440-46-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Joó Viktória: <em><a href='Varazslatos-meseszorzo.html'>Varázslatos meseszorzó</a></em> Könyv Guru, 2023. ISBN 978-615-6440-50-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Mlčúch Brenda Nicole: <em><a href='Krokodilkonny.html'>Krokodilkönny</a></em> Könyv Guru, 2023. ISBN 978-615-6440-38-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Péntek Balázs: <em><a href='Koszonom-en-jol-vagyok.html'>Köszönöm, én jól vagyok!</a></em> Könyv Guru, 2023. ISBN 978-615-6440-42-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Egyszervolt-szerelmek.html'>Enyém, tied, övé… Egyszervolt szerelmek</a></em> Ad Librum Kiadó, 2023. ISBN 978-615-6439-17-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Balogh Szilárd: <em><a href='Hajnalig2.html'>Hajnalig II.</a></em> Könyv Guru, 2023. ISBN 978-615-6440-29-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Koncz Péter: <em><a href='Becky.html'>Becky. Történetek okról és okozatról</a></em> Könyv Guru, 2023. ISBN 978-615-6440-34-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Kovács Adorján: <em><a href='Petofi2.html'>A próteuszi Petőfi. Kísérletező és anticipáló költészete 1845–49. 2. kiadás</a></em> Ad Librum Kiadó, 2023. ISBN 978-615-6439-13-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Szlamcsik Máté: <em><a href='Kulipintyo.html'>Kulipintyó. Az eltűnt kori fogadó</a></em> Könyv Guru, 2023. ISBN 978-615-6440-28-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Ángyán Patrícia: <em><a href='Szakitasunk-naploja.html'>Szakításunk naplója</a></em> Könyv Guru, 2023. ISBN 978-615-6440-26-6 </td>
+    </tr>
+  
+    <tr>
+      <td>T. B. Byrt: <em><a href='A-nema-csillag-dala.html'>A néma csillag dala</a></em> Könyv Guru, 2023. ISBN 978-615-6440-22-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Szabics Adrienn: <em><a href='A-prostitualt-hercegno.html'>A prostituált hercegnő</a></em> Könyv Guru, 2023. ISBN 978-615-6440-30-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Háry Pál: <em><a href='Vilagkozepi-elmenyeim.html'>Világközepi élményeim. A gönyűi gyermekkortól a dunai menekülésünkig</a></em> Személyes Történelem, 2023. ISBN 978-615-6439-15-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Körösényi András, Gyulai Attila és Illés Gábor (szerk.): <em><a href='Vezerdemokraciak.html'>Vezérdemokráciák a világban. Macrontól Erdoğanig és Trumpig</a></em> Ad Librum Kiadó, 2022. ISBN 978-615-6439-11-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Sugi.html'>Sugi</a></em> Ad Librum Kiadó, 2022. ISBN 978-615-6439-09-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Balázs Anita: <em><a href='Mesekontos.html'>Meseköntösben a 21. század</a></em> Könyv Guru, 2022. ISBN 978-615-6440-24-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Szabó Zsuzsi: <em><a href='Tusz-voltam-Adenben.html'>Túsz voltam Ádenben. Jemeni napló</a></em> Személyes Történelem, 2022. ISBN 978-615-6439-06-2 </td>
+    </tr>
+  
+    <tr>
+      <td>B. D. Alíz: <em><a href='Eget-a-nap.html'>Éget a nap</a></em> Könyv Guru, 2022. ISBN 978-615-6440-20-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Bencsik Ferenc Pál: <em><a href='Toredekek.html'>Töredékek. 89 év 29 fejezetben</a></em> Könyv Guru, 2022. ISBN 978-615-6440-16-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Kenéz Péter: <em><a href='Vegtelen-az-ut-amelyen-te-jarsz_2.html'>Végtelen az út, amelyen te jársz. Kalandregény napjainkból. 2. rész</a></em> Könyv Guru, 2022. ISBN 978-615-6440-12-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Nemere István: <em><a href='Utott-az-orad.html'>Ütött az órád. Krimi az encsencsi szeszgyárban</a></em> Könyv Guru, 2022. ISBN 978-615-6440-10-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Dörfler Katalin: <em><a href='Beleneztem-a-Napba.html'>Belenéztem a Napba</a></em> Könyv Guru, 2022. ISBN 978-615-6440-18-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Mika Tillensen: <em><a href='Ideges-ur-elete.html'>Ideges úr élete</a></em> Könyv Guru, 2022. ISBN 978-615-6440-14-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='44.html'>44</a></em> Ad Librum Kiadó, 2022. ISBN 978-615-6439-04-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Susanna Park: <em><a href='Tuskehegy-Amyta.html'>Tüskehegy. Amyta</a></em> Könyv Guru, 2022. ISBN 978-615-6440-08-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Kertész Viktor: <em><a href='Kiszamithatosag-Veletlen-Kaosz.html'>Kiszámítható? Véletlen? Káosz?</a></em> Ad Librum Kiadó, 2022. ISBN 978-615-6439-02-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Bánszegi Katalin: <em><a href='Algeria.html'>Algéria</a></em> Ad Librum Kiadó, 2022. ISBN 978-615-6439-00-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Kozák Fruzsi: <em><a href='Viking-es-tunder.html'>Viking és tündér. Beteljesedik-e újra az átok?</a></em> Könyv Guru, 2022. ISBN 978-615-6440-02-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Harmati Erzsébet: <em><a href='Babahercegno.html'>A Babahercegnő</a></em> Könyv Guru, 2022. ISBN 978-615-6440-04-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Tóth István Gábor: <em><a href='Birsalma.html'>A birsalma íze</a></em> Könyv Guru, 2022. ISBN 978-615-6440-06-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Kerekes Anna: <em><a href='Az-eleki-svabok-hagyateka.html'>Az eleki svábok hagyatéka. Az ötnemzetiségű Elek kialakulása (1724-1944)</a></em> Személyes Történelem, 2022. ISBN 978-615-5758-89-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Kurdi István: <em><a href='Sarkanyos-mesek.html'>Sárkányos mesék</a></em> Könyv Guru, 2022. ISBN 978-615-6440-00-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Martin S. Key: <em><a href='Egy-harmonikus-vilagvege.html'>Egy harmonikus világvége</a></em> Könyv Guru, 2022. ISBN 978-615-5758-97-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Gulyás Gábor: <em><a href='Orokpanorama.html'>Örökpanoráma</a></em> Könyv Guru, 2022. ISBN 978-615-6153-95-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Kovács Adorján: <em><a href='Petofi.html'>A próteuszi Petőfi. Kísérletező és anticipáló költészete 1845–49</a></em> Ad Librum Kiadó, 2022. ISBN 978-615-5758-86-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Nagy Eszter: <em><a href='Naugye2.html'>Már megint… Naugye</a></em> Könyv Guru, 2022. ISBN 978-615-5758-99-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Balogh Szilárd: <em><a href='Hajnalig.html'>Hajnalig I.</a></em> Könyv Guru, 2022. ISBN 978-615-6153-93-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Mester-Gyorgyi_Allati.html'>Állati</a></em> Ad Librum Kiadó, 2022. ISBN 978-615-5758-95-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Arnold Kinga Anna: <em><a href='Az-Ejfel-Volgyi-Gimnazium-1.html'>Az Éjfél-völgyi Gimnázium. 1. Noctisum könyve</a></em> Könyv Guru, 2022. ISBN 978-615-5758-91-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Gorbói Tamás: <em><a href='A-to-felett-a-dombon.html'>A tó felett, a dombon</a></em> Könyv Guru, 2022. ISBN 978-615-6153-99-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Kenéz Péter: <em><a href='Vegtelen-az-ut-amelyen-te-jarsz.html'>Végtelen az út, amelyen te jársz 1. rész</a></em> Könyv Guru, 2022. ISBN 978-615-6153-97-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Hopp László: <em><a href='Az-ezust-denar.html'>Az ezüstdénár</a></em> Könyv Guru, 2022. ISBN 978-615-6153-89-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Szepes Márton: <em><a href='Darukiralyfi.html'>Darukirályfi</a></em> Könyv Guru, 2022. ISBN 978-615-5758-93-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Albert Csilla: <em><a href='Meszaros-Julianna-biciklije.html'>Mészáros Julianna biciklije</a></em> Könyv Guru, 2022. ISBN 978-615-6153-91-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Kovács György: <em><a href='The-birth-of-christian-religion.html'>The birth of christian religion: A history</a></em> Ad Librum Kiadó, 2022. ISBN 978-615-5686-74-0 </td>
+    </tr>
+  
+    <tr>
+      <td>L. Murányi László: <em><a href='A-szivarvany-arnyeka.html'>A szivárvány árnyéka</a></em> Ad Librum Kiadó, 2022. ISBN 978-615-5014-94-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Szabics Adrienn: <em><a href='Szivzavar.html'>Szívzavar</a></em> Könyv Guru, 2022. ISBN 978-615-6153-87-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Péntek Kamilla: <em><a href='A-masik-Malody-lany.html'>A másik Malody lány</a></em> Könyv Guru, 2022. ISBN 978-615-6153-83-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Bencze Lilien Alexa: <em><a href='Az-ordog-jatszmaja.html'>Az ördög játszmája</a></em> Könyv Guru, 2022. ISBN 978-615-6153-85-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Végh-Fodor Mónika: <em><a href='Latte-Liverpoolban.html'>Latte Liverpoolban</a></em> Könyv Guru, 2021. ISBN 978-615-6153-79-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Mika Tillensen: <em><a href='Bertram-atya-kalandjai.html'>Bertram atya kalandjai</a></em> Könyv Guru, 2021. ISBN 978-615-6153-81-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Kondi Nikoletta: <em><a href='A-sakal-fia.html'>A sakál fia</a></em> Könyv Guru, 2021. ISBN 978-615-6153-77-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Steve Boateng: <em><a href='Palmabor-es-kukacok-II.html'>Pálmabor és kukacok II. Avagy miért nem lettem nőgyógyász Ghánában</a></em> Személyes Történelem, 2021. ISBN 978-615-5758-84-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Oláh Tibor: <em><a href='Kaktusz-szogesdrottal.html'>Kaktusz szögesdróttal</a></em> Könyv Guru, 2021. ISBN 978-615-6153-63-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Kassai Tibor: <em><a href='Latogatas-a-Birodalomba.html'>Látogatás a Birodalomba. Útinapló egy 1958-as szovjet tanulmányútról</a></em> Személyes Történelem, 2021. ISBN 978-615-5686-38-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Horváth Kamilla: <em><a href='Utolso-csepp-a-poharban.html'>Utolsó csepp a pohárban</a></em> Könyv Guru, 2021. ISBN 978-615-6153-73-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Horváth Martin: <em><a href='Szanszara-kuldetes.html'>Szanszára-küldetés</a></em> Könyv Guru, 2021. ISBN 978-615-6153-71-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Varga Éva Sára: <em><a href='Rovid.html'>Rövid. Novellák és Covid-emlékezetek</a></em> Könyv Guru, 2021. ISBN 978-615-6153-75-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Mesel-a-tel.html'>Mesél a tél…</a></em> Ad Librum Kiadó, 2021. ISBN 978-615-5758-82-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Ewald Pick: <em><a href='Sziberia-a-vilag-vege.html'>Szibéria – a világ vége. Négy év orosz hadifogságban</a></em> Személyes Történelem, 2021. ISBN 978-615-5758-80-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Bánszegi Katalin: <em><a href='Szudan.html'>Szudán</a></em> Ad Librum Kiadó, 2021. ISBN 978-615-5758-78-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Eiger Levente János: <em><a href='A-pasztor-visszatert.html'>A pásztor visszatért</a></em> Könyv Guru, 2021. ISBN 978-615-6153-69-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Dr. Bujáky Miklós: <em><a href='Bujaky-Miklos-Folytassa-Doki.html'>Folytassa, Doki!</a></em> Könyv Guru, 2021. ISBN 978-615-6153-67-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Almási Márta: <em><a href='Preselt-viragok.html'>Préselt virágok</a></em> Könyv Guru, 2021. ISBN 978-615-6153-65-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Borza V. Eszter: <em><a href='Camp-Feszt.html'>Camp-Feszt. A Camp-trilógia első része</a></em> Könyv Guru, 2021. ISBN 978-615-6153-59-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Ayn Rand: <em><a href='Az-onzes-erenye.html'>Az önzés erénye</a></em> Ad Librum Kiadó, 2021. ISBN 978-615-5758-77-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Cseh László: <em><a href='Eyonea-kronikai.html'>Eyonea krónikái</a></em> Könyv Guru, 2021. ISBN 978-615-5758-73-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Czine Vanessza: <em><a href='Bunos-vonzalom.html'>Bűnös vonzalom</a></em> Könyv Guru, 2021. ISBN 978-615-6153-43-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Tóth János Zoltán: <em><a href='Erre-mit-lepsz-Kishaver.html'>Erre mit lépsz, Kishaver? Egy akvarista emlékére</a></em> Könyv Guru, 2021. ISBN 978-615-5758-71-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Halusz Léna: <em><a href='Allatkommando.html'>Állatkommandó. Langaléta Lajos esete</a></em> Könyv Guru, 2021. ISBN 978-615-6153-57-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Csizmadia Ervin: <em><a href='A-hianyzo-masik-fel.html'>A hiányzó másik fél. Politikai és kulturális elmélkedések</a></em> Ad Librum Kiadó, 2021. ISBN 978-615-5758-21-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Teofilos Miklós: <em><a href='Haborusag-es-bekesseg.html'>Háborúság és békesség. Három eljövendő beszélgetés</a></em> Könyv Guru, 2021. ISBN 978-615-5758-13-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Kulcsár Dezső: <em><a href='Kisrokak.html'>Hová, hová, kis rókák?</a></em> Könyv Guru, 2021. ISBN 978-615-6153-47-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Nagy Eszter: <em><a href='Naugye.html'>Naugye</a></em> Könyv Guru, 2021. ISBN 978-615-6153-53-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Sue Kis-Jókai Szakall: <em><a href='Persona-non-grata.html'>Persona non grata</a></em> Könyv Guru, 2021. ISBN 978-615-6153-55-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Lily Defiant: <em><a href='Egan-kronikak.html'>Egan krónikák. Történet egy tündér tollából</a></em> Könyv Guru, 2021. ISBN 978-615-6153-49-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Derenkó Dániel: <em><a href='Az-eg-leanyai.html'>Az ég leányai (Emma Delington sorozat 3.)</a></em> Könyv Guru, 2021. ISBN 978-615-6153-51-7 </td>
+    </tr>
+  
+    <tr>
+      <td>dr. Pataki János István: <em><a href='Pataki-Janos_A-magyar-birosagi_vegrehajtas-rendszere.html'>A magyar bírósági végrehajtás rendszere. A bírósági végrehajtási eljárás rendszere, a végrehajtó szervezet, történeti előzmények, a szabályozás és a főbb problémák bemutatása, értékelése Magyarországon</a></em> Ad Librum Kiadó, 2021. ISBN 978-615-5758-75-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Pál Richárd: <em><a href='Sorsodmagaddal.html'>Sorsodmagaddal</a></em> Könyv Guru, 2021. ISBN 978-615-6153-41-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Bánszegi Katalin: <em><a href='Libanon.html'>Libanon. Látnivalók, történelem, kultúra</a></em> Ad Librum Kiadó, 2021. ISBN 978-615-5758-66-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Deák Hedvig: <em><a href='Collection-of-Situations.html'>Collection of Situations. Szituációs gyűjtemény angol nyelvvizsgára készülőknek alapfoktól felsőfokig (A1-C2)</a></em> Ad Librum Kiadó, 2021. ISBN  </td>
+    </tr>
+  
+    <tr>
+      <td>Lengyel Gábor: <em><a href='Csile.html'>Csile, a Bérc tündére, avagy a Gyermekvasút meséi</a></em> Könyv Guru, 2021. ISBN 978-615-6153-45-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Sizzie_III.html'>Zizi naplója III. Sizzie`s diary III</a></em> Ad Librum Kiadó, 2021. ISBN 978-615-5758-69-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Gráf László: <em><a href='Tudomany-es-kaland-amerikaban.html'>Tudomány, kaland, Amerika. Egy biokémikus útkeresése II. A következő tíz év</a></em> Személyes Történelem, 2020. ISBN 978-615-5758-64-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Péntek Kamilla: <em><a href='A-gazlampa.html'>A gázlámpa</a></em> Könyv Guru, 2020. ISBN 978-615-6153-33-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Kádár László: <em><a href='Hasznalt-nok.html'>Használt nők</a></em> Könyv Guru, 2020. ISBN 978-615-6153-35-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Balázs Dezső: <em><a href='Balazs-Dezso_Hallo-Itt-Peter-beszel.html'>Halló! Itt Péter! Péter beszél! Egy budapesti zsidó család története az 1944-es esztendőben</a></em> Személyes Történelem, 2020. ISBN 978-615-5758-58-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Glied Viktor: <em><a href='Az-europai-migració-ket-arca.html'>Az európai migráció két arca</a></em> Ad Librum Kiadó, 2020. ISBN 978-615-5758-62-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Barna Zsolt: <em><a href='Az-elso-negyvenkilenc.html'>Az első negyvenkilenc. Szerelmes szösszenetek</a></em> Könyv Guru, 2020. ISBN 978-615-6153-38-8 </td>
+    </tr>
+  
+    <tr>
+      <td>T. H. Fabling: <em><a href='Fabling-Liderc-uli-penzet.html'>Lidérc üli pénzét</a></em> Könyv Guru, 2020. ISBN 978-615-6153-40-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Rajczi Regő: <em><a href='Felhomalyos-karcolatok.html'>Félhomályos karcolatok</a></em> Könyv Guru, 2020. ISBN 978-615-6153-29-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Steve Boateng: <em><a href='Palmabor-es-kukacok.html'>Pálmabor és kukacok I. Egy orvos útja Ghánától Somogyig</a></em> Személyes Történelem, 2020. ISBN 978-615-5758-56-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Szabó Maák Sándor: <em><a href='Egy-elet-ajandekba.html'>Egy élet ajándékba. Hamvas ifjúság</a></em> Könyv Guru, 2020. ISBN 978-615-6153-31-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Pichler Anita: <em><a href='Svabok.html'>Svábok. Honnan indultunk?</a></em> Könyv Guru, 2020. ISBN 978-615-6153-27-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Köszörűs Anita: <em><a href='Mese-mese-meskete.html'>Mese, mese, meskete..</a></em> Ad Librum Kiadó, 2020. ISBN 978-615-5758-60-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Bencsik Ferenc Pál: <em><a href='Az-elet-masodik-fele.html'>Az élet második fele</a></em> Könyv Guru, 2020. ISBN 978-615-5014-82-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Janurik Tamás: <em><a href='Az-etruszk-nyelv.html'>Az etruszk nyelv. Európa elveszett kincse</a></em> Ad Librum Kiadó, 2020. ISBN 978-615-5014-20-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Rekettye Gábor: <em><a href='Villanybol-Tokioba.html'>Villányból Tokióba. Egy külkereskedő - diplomata - egyetemi professzor kalandos élete</a></em> Személyes Történelem, 2020. ISBN 978-615-5758-54-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Aaron Atkins: <em><a href='Kek-homaly.html'>Kék homály</a></em> Könyv Guru, 2020. ISBN 978-615-6153-25-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Nyerges Erika: <em><a href='A-kavehazi-ciganyzene.html'>“Húzd rá cigány! Te örök, te áldott…” A kávéházi cigányzene története</a></em> Személyes Történelem, 2020. ISBN 978-615-5758-40-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Ozoróczy Viktória: <em><a href='Tinik-a-fedelzeten.html'>Tinik a fedélzeten. A földközi-tengeri kaland</a></em> Könyv Guru, 2020. ISBN 978-615-6153-21-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Visima: <em><a href='Atkozott-lenyek.html'>Átkozott lények. A gyöngy</a></em> Könyv Guru, 2020. ISBN 978-615-6153-23-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Nagy Edit: <em><a href='Kisertes.html'>Kísértés</a></em> Könyv Guru, 2020. ISBN  </td>
+    </tr>
+  
+    <tr>
+      <td>Kórász Krisztián: <em><a href='Kasmirsal.html'>Kasmírsál</a></em> Könyv Guru, 2020. ISBN 978-615-6153-19-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Kaiser Balázs: <em><a href='A-jovo-remenysegei.html'>A jövő reménységei</a></em> Könyv Guru, 2020. ISBN 978-615-6153-17-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Bobál Róbertné: <em><a href='Suliba-indulo.html'>Suliba induló. Tájékozódás a mennyiségek, terek és formák világában</a></em> Könyv Guru, 2020. ISBN 978-615-6153-14-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Fülöp Hollósi Erika: <em><a href='Egy-sarvari-lany-Becsbol.html'>Egy sárvári lány Bécsből</a></em> Személyes Történelem, 2020. ISBN 978-615-6153-12-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Luky János: <em><a href='Hucul-hatan.html'>Hucul hátán. Barsendrédi gondolatok</a></em> Könyv Guru, 2020. ISBN 978-615-6153-04-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Csap János: <em><a href='Csap-Janos_Egyszer-kulonbet-almodtunk.html'>Egyszer különbet álmodtunk. A szabadságharcos életútja</a></em> Személyes Történelem, 2020. ISBN 978-615-5758-47-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Garai K. Mónika: <em><a href='A_lehetetlen_lehetseges.html'>A lehetetlen lehetséges</a></em> Könyv Guru, 2020. ISBN 978-615-6153-10-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Sizzie_II.html'>Zizi naplója II. Sizzie`s diary II</a></em> Ad Librum Kiadó, 2020. ISBN 978-615-5014-30-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Vadas Nimród: <em><a href='A-Mihaszna.html'>A Mihaszna (és más történetek)</a></em> Könyv Guru, 2020. ISBN --- </td>
+    </tr>
+  
+    <tr>
+      <td>Morvay Frigyes: <em><a href='Sok-sok-kerdes.html'>Sok-sok kérdés – Sok-sok válasz</a></em> Könyv Guru, 2020. ISBN 978-615-6153-00-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Sebők Erika: <em><a href='Egy-nover-mindennapjai.html'>Egy nővér mindennapjai</a></em> Könyv Guru, 2020. ISBN 978-615-6153-08-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Virágné Herbert Márta: <em><a href='46-ev-kozszolgakent.html'>46 év közszolgaként</a></em> Könyv Guru, 2020. ISBN 978-615-6153-02-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Dudás Viktória: <em><a href='K-psycho.html'>K-psycho</a></em> Könyv Guru, 2020. ISBN 978-615-5803-98-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Versényi Anna: <em><a href='Karcolasok.html'>Karcolások. A pszichológus segítő könyve a vagdosásról, szülőknek</a></em> Ad Librum Kiadó, 2020. ISBN 978-615-5014-14-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Rutkai András: <em><a href='A-peceli-oroszlan.html'>A péceli oroszlán és más családi történetek</a></em> Könyv Guru, 2020. ISBN 978-615-5803-94-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Körmendy Lajos: <em><a href='A-kozosseg-nelkuli-ember.html'>A közösség nélküli ember</a></em> Ad Librum Kiadó, 2020. ISBN 978-615-5758-51-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Gráf László: <em><a href='Kaland-es-tudomany.html'>Kaland és tudomány</a></em> Személyes Történelem, 2020. ISBN 978-615-5758-49-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Dr. Horváth Katalin: <em><a href='Sohasem-keso.html'>Sohasem késő! Életmód-változtatás a homeopátia segítségével</a></em> Könyv Guru, 2020. ISBN 978-615-5803-88-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Kerékgyártó Dénes: <em><a href='Ebgondolat.html'>Ebgondolat, avagy a boldogság záloga</a></em> Könyv Guru, 2020. ISBN 978-615-5803-92-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Mester-Gyorgyi_Simogato-allatmesek.html'>Simogató állatmesék</a></em> Könyv Guru, 2020. ISBN 978-615-5803-90-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Donna Bogitta: <em><a href='A-rozsaszin-negyven-arnyalata.html'>A rózsaszín negyven árnyalata. Királynői életek, elgurult koronák</a></em> Könyv Guru, 2020. ISBN 978-615-5803-86-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Almási Márta: <em><a href='Lila-pluss-melykek-diszitessel.html'>Lila plüss, mélykék díszítéssel</a></em> Könyv Guru, 2019. ISBN 978-615-5803-84-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Pap Csaba: <em><a href='Nincs-kecmec.html'>Nincs kecmec</a></em> Könyv Guru, 2019. ISBN 978-615-5803-82-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Julia Boyd: <em><a href='Szornyeteg-vagy-peldakep.html'>Szörnyeteg vagy példakép? Korabeli utazók a nácik Németországáról</a></em> Személyes Történelem, 2019. ISBN 978-615-5758-41-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Kovács György: <em><a href='Kovacs_Gyorgy--A_kereszteny_vallas_megszuletesenek_tortenete_2-kiadas.html'>A keresztény vallás megszületésének története. 2. kiadás</a></em> Ad Librum Kiadó, 2019. ISBN 978-615-5758-44-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Hannibál Nyúl Béla: <em><a href='Hannibal-Nyul-Bela.html'>Több mint tanú</a></em> Könyv Guru, 2019. ISBN 978-615-5803-80-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Örkényi Ádám: <em><a href='2068.html'>2068 Éld az életem!</a></em> Könyv Guru, 2019. ISBN 978-615-5803-78-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Bencsik Ferenc Pál: <em><a href='A_menhelytol-a-katedraig.html'>A menhelytől a katedráig</a></em> Személyes Történelem, 2019. ISBN 978-615-5758-43-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Sára Anna: <em><a href='Az-emlekek-kulcsa.html'>Az emlékek kulcsa</a></em> Könyv Guru, 2019. ISBN 978-615-5803-75-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Felföldi Jenő: <em><a href='Visszatekintes-szepkoruan.html'>Visszatekintés szépkorúan</a></em> Személyes Történelem, 2019. ISBN 978-615-5758-39-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Dr. Bujáky Miklós: <em><a href='Bujaky-Miklos-Egy-allatorvos-tortenetei.html'>Egy állatorvos történetei – nem csak állatokról</a></em> Könyv Guru, 2019. ISBN 978-615-5803-74-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Zalay Sándor: <em><a href='Zalay-Sandor-A-szenvedesnek-ara-van.html'>A szenvedésnek ára van</a></em> Könyv Guru, 2019. ISBN 978-615-5803-72-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Pfárer Elizabet: <em><a href='Szovetsegben-az-Istennel.html'>Szövetségben az Istennel</a></em> Könyv Guru, 2019. ISBN 978-615-5803-70-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Garay Zsuzsanna: <em><a href='Csalard-cukorka.html'>A csalárd cukorka, avagy bajok a Zengő Erdőben</a></em> Könyv Guru, 2019. ISBN 978-615-5758-37-9 </td>
+    </tr>
+  
+    <tr>
+      <td>T. H. Fabling: <em><a href='Fabling-Visszavago.html'>Visszavágó</a></em> Könyv Guru, 2019. ISBN 978-615-5803-64-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Juhos Gábor: <em><a href='Clearview.html'>Clearview</a></em> Könyv Guru, 2019. ISBN 978-615-5803-66-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Callen Indigo: <em><a href='Callen-Indigo-Gyere-velem.html'>Gyere velem!</a></em> Könyv Guru, 2019. ISBN 978-615-5803-68-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Bettina Benton: <em><a href='Bettina-Benton-Bombay-kontra-Budapest.html'>Bombay kontra Budapest</a></em> Könyv Guru, 2019. ISBN 978-615-5803-62-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Hodászi Lili: <em><a href='Csillaghercegno.html'>A Csillaghercegnő</a></em> Könyv Guru, 2019. ISBN 978-615-5803-28-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Knizner István: <em><a href='Igy-jartam-Pakson.html'>Így jártam Pakson</a></em> Személyes Történelem, 2019. ISBN 978-615-5758-35-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Jenes Gyula: <em><a href='Jenes-Gyula-Panik-a-Teiden.html'>Pánik a Teidén és más történetek</a></em> Könyv Guru, 2019. ISBN 978-615-5803-59-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Foglár Gábor: <em><a href='Foglar-Gabor-Iteletido.html'>Ítéletidő</a></em> Könyv Guru, 2019. ISBN 978-615-5803-53-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Virginia Sol: <em><a href='Virginia-Sol-A-belso-vad.html'>A belső vad. Fogság</a></em> Könyv Guru, 2019. ISBN 978-615-5803-51-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Tamas Garam: <em><a href='A-Dallam.html'>A Dallam</a></em> Könyv Guru, 2019. ISBN 978-615-5803-45-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Quinn H. Lennox: <em><a href='Beronis.html'>Beronis. Megapoliszi álmok</a></em> Könyv Guru, 2019. ISBN 978-615-5803-49-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Julius Dreamer: <em><a href='Kamaszkorom-legszebb-emlekei.html'>Kamaszkorom legszebb emlékei. A bontakozó szexualitás évei</a></em> Könyv Guru, 2019. ISBN 978-615-5803-57-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Kovács Gyula: <em><a href='A-legbelsobb-fegyver.html'>A legbelsőbb fegyver</a></em> Könyv Guru, 2019. ISBN 978-615-5803-47-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Mirejla Boglaar: <em><a href='Tollaszkodas.html'>Tollászkodás. Kis játék betűkkel</a></em> Könyv Guru, 2019. ISBN 978-615-5803-55-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Dr. Gergelyné Dr. Tóth Éva: <em><a href='Gergelyne_Toth_Eva--Szasz.html'>SZASZ. Ewing-kór a young korban. Második kiadás</a></em> Ad Librum Kiadó, 2019. ISBN 978-615-5758-34-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Szentgyörgyvölgyi Péter: <em><a href='Huszarok.html'>A magyar huszár a magyar irodalomban 2. kiadás</a></em> Ad Librum Kiadó, 2018. ISBN 978-615-5758-33-1 </td>
+    </tr>
+  
+    <tr>
+      <td>László Ibolya: <em><a href='Laszlo-Ibolya-A-sors-keze-Karpataljan.html'>A sors keze Kárpátalján</a></em> Könyv Guru, 2018. ISBN 978-615-5803-41-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Hering Zoltán József: <em><a href='Hering-Zoltan-Jozsef-Lelki-Aikido.html'>Lelki Aikido</a></em> Könyv Guru, 2018. ISBN 978-615-5803-43-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Keszi Csaba: <em><a href='Keszi-Csaba-Harom-perce-meg-eltem.html'>Három perce még éltem</a></em> Könyv Guru, 2018. ISBN 978-615-5803-33-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Versényi Anna: <em><a href='Versenyi-Anna-Elejtett-peldanyok.html'>Elejtett példányok</a></em> Könyv Guru, 2018. ISBN 978-615-5803-39-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Zsiros András: <em><a href='Zsiros-Andras_Kacsak-ludak-recek.html'>Víziszárnyasok. Kacsák, ludak, récék tenyésztése</a></em> Expert Books, 2018. ISBN 978-615-5758-26-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Szeder Réka: <em><a href='Szeder-Reka_Sugar-Daddyk.html'>Puncsapuk. Sugar daddy történetek nőkről, pénzről és bizniszről</a></em> Ad Librum Kiadó, 2018. ISBN 978-615-5758-28-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Gelsei Bernadett: <em><a href='Gelsei_Bernadett--A_hutlen,_a_megcsalt_es_a_szereto.html'>A hűtlen, a megcsalt és a szerető. A szerelmi háromszög pszichológiája 2. kiadás</a></em> Expert Books, 2018. ISBN 978-615-5758-30-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Kuruc Attila: <em><a href='Kuruc-Attila_Arnyak-konyve.html'>Árnyak könyve</a></em> Könyv Guru, 2018. ISBN 978-615-5803-37-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Mester-Gyorgyi_Az-elet-irta.html'>Az élet írta</a></em> Ad Librum Kiadó, 2018. ISBN 978-615-5758-31-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Mogyorósi Vivien: <em><a href='Mogyorosi-Vivien_Miutan-meghaltatok-nelkulem.html'>Miután meghaltatok nélkülem</a></em> Könyv Guru, 2018. ISBN 978-615-5803-24-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Andrea Skyn: <em><a href='Andrea-Skyn_Boldogan-bunhodni.html'>Boldogan bűnhődni. Repülj, mint a madár!</a></em> Könyv Guru, 2018. ISBN 978-615-5803-35-2 </td>
+    </tr>
+  
+    <tr>
+      <td>L. I. Lázár: <em><a href='Lazar_Rejtozo-kavicsok-II.html'>Rejtőző kavicsok II.</a></em> Könyv Guru, 2018. ISBN 978-615-5803-29-1 </td>
+    </tr>
+  
+    <tr>
+      <td>L. I. Lázár: <em><a href='Lazar_Rejtozo-kavicsok-I.html'>Rejtőző kavicsok I.</a></em> Könyv Guru, 2018. ISBN 978-615-5803-27-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Józsa István: <em><a href='Jozsa-Istvan_Multmerengo.html'>Múltmerengő</a></em> Könyv Guru, 2018. ISBN 978-615-5803-31-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Derenkó Dániel: <em><a href='Derenko-Daniel_Az_erdo_vandorai.html'>Az erdő vándorai (Emma Delington sorozat 2.)</a></em> Könyv Guru, 2018. ISBN 978-615-5803-16-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Erdei László: <em><a href='Erdei-Laszlo_Koborlasaim.html'>Kóborlásaim az élet ösvényein</a></em> Személyes Történelem, 2018. ISBN 978-615-5758-22-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Kun Mia: <em><a href='Kun-Mia_A_pillango_utja.html'>A pillangó útja</a></em> Könyv Guru, 2018. ISBN 978-615-5803-20-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Kuti Veronika: <em><a href='Kuti-Veronika_Vagyviragzas.html'>Vágyvirágzás. Nők a kibontakozó szexualitásukról</a></em> Ad Librum Kiadó, 2018. ISBN 978-615-5758-14-0 </td>
+    </tr>
+  
+    <tr>
+      <td>T. H. Fabling: <em><a href='Fabling_Tiltott-gyozelem.html'>Tiltott győzelem</a></em> Könyv Guru, 2018. ISBN 978-615-5803-22-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Orosz Andrea: <em><a href='Az-uzleti-memo.html'>Az üzleti memo. Segédanyag az LCCI nyelvvizsgára</a></em> Expert Books, 2018. ISBN 978-615-5758-20-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Domszky László: <em><a href='Ferfimuszak_2_kiadas.html'>Férfiműszak. Melegprostik a megfizetett boldogságról. 2. kiadás</a></em> Ad Librum Kiadó, 2018. ISBN 978-615-5758-07-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Lovász-Horváth Nikolett: <em><a href='Lovasz_Horvath_Nikolett-Vastapsfelelosok.html'>Vastapsfelelősök. A kulisszák mesterei a színház titkairól</a></em> Ad Librum Kiadó, 2018. ISBN 978-615-5758-16-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Végh-Fodor Mónika: <em><a href='Mesetrening.html'>Mesetréning. 31 napos önismereti program</a></em> Expert Books, 2018. ISBN 978-615-5758-18-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Mayer Antal (szerző) / Dr. Mayer János (szerk.): <em><a href='Mayer-Antal_En-mar-valasztottam-hazat.html'>Én már választottam hazát. Egy bácskai családtörténet és más, összegyűjtött írások</a></em> Személyes Történelem, 2018. ISBN 978-615-5758-10-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Tóth György és Tóth Györgyné: <em><a href='Toth-Gyorgy-ne_Katonaevek.html'>Katonaévek 1965-1968</a></em> Személyes Történelem, 2018. ISBN 978-615-5758-24-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Zia: <em><a href='Zia_Jelek.html'>Jelek... Életszösszenetek nem csak ötveneseknek</a></em> Könyv Guru, 2018. ISBN 978-615-5803-18-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Garay Zsuzsanna: <em><a href='Garay-Zsuzsanna_A-kacatkucko-lakoja.html'>A kacatkuckó lakója</a></em> Könyv Guru, 2018. ISBN 978-615-5803-14-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Vlagyimir Viszockij (ford. Marosi Lajos): <em><a href='Vlagyimir-Viszockij_Zavarni-neha-meg-fogok.html'>Zavarni néha még fogok. Viszockij 80</a></em> Könyv Guru, 2018. ISBN 978-615-5803-10-9 </td>
+    </tr>
+  
+    <tr>
+      <td>George Hannmer: <em><a href='George-Hannmer_Nok-es-Ferfiak.html'>Nők és Férfiak</a></em> Könyv Guru, 2018. ISBN 978-615-5803-12-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Mészáros Ádám Zoltán: <em><a href='Meszaros-Adam_Szukseg-torvenyt-bont.html'>Szükség törvényt bont? Az ártatlant sújtó szükségcselekmények a büntetőjogban</a></em> Storming Brain, 2018. ISBN 978-615-5758-08-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Vida Gusztáv: <em><a href='Vida-Gusztav_Ez-van.html'>Ez van</a></em> Könyv Guru, 2018. ISBN 978-615-5803-08-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Mester-Gyorgyi-Kis-karacsony-nagy-karacsony.html'>Kis karácsony, nagy karácsony</a></em> Ad Librum Kiadó, 2017. ISBN 978-615-5758-05-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Sajter Gizella: <em><a href='Sajter_Gizella--Vizvonal.html'>Vízvonal</a></em> Könyv Guru, 2017. ISBN 978-615-5803-02-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Barczikay Lilla: <em><a href='Barczikay-Lilla_Szobortanc.html'>Szobortánc</a></em> Ad Librum Kiadó, 2017. ISBN 978-615-5758-01-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Barbara Whest: <em><a href='A-hallgatas-merge.html'>A hallgatás mérge</a></em> Könyv Guru, 2017. ISBN 978-615-5803-04-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Domszky László: <em><a href='Ferfimuszak.html'>Férfiműszak. Melegprostik a megfizetett boldogságról</a></em> Ad Librum Kiadó, 2017. ISBN 978-615-5686-95-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Büky Dorottya: <em><a href='Angyalboksz.html'>Angyalboksz. Nehézfiúk a börtönéletről</a></em> Ad Librum Kiadó, 2017. ISBN 978-615-5686-87-0 </td>
+    </tr>
+  
+    <tr>
+      <td>George Hannmer: <em><a href='George-Hannmer_Oszinten-hazudva.html'>Őszintén hazudva</a></em> Könyv Guru, 2017. ISBN 978-615-5803-06-2 </td>
+    </tr>
+  
+    <tr>
+      <td>George Hannmer: <em><a href='George-Hannmer-Faj-dalom.html'>Fáj-dalom</a></em> Könyv Guru, 2017. ISBN 978-615-5803-00-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Krencz Nóra: <em><a href='Krencz-Nora_Megszamlalhatatlan_2.html'>Megszámlálhatatlan 2. A hófehér másvilág</a></em> Ad Librum Kiadó, 2017. ISBN 978-615-5758-03-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Ó. G. Marianna: <em><a href='O.G.Marianna_Hogyan-eljuk-tul.html'>Hogyan éljük túl a küzdelmet a terhességért?</a></em> Ad Librum Kiadó, 2017. ISBN 978-615-5686-93-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Gelsei Bernadett: <em><a href='Gelsei_Bernadett--A_hutlen,_a_megcsalt_es_a_szereto.html'>A hűtlen, a megcsalt és a szerető. A szerelmi háromszög pszichológiája</a></em> Expert Books, 2017. ISBN 978-615-5686-69-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Naszvadi József: <em><a href='Naszvadi-Jozsef_Proliregeny.html'>Proliregény. Emlékezni szabad, ugye?</a></em> Személyes Történelem, 2017. ISBN 978-615-5686-97-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Nagy Judit: <em><a href='Nagy_Judit--Usd_ki_a_panikod.html'>Üsd ki a pánikod! Gyakorlati tanácsok egy tapasztalt pánikos tollából</a></em> Ad Librum Kiadó, 2017. ISBN 978-615-5686-91-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Gyuró Monika: <em><a href='Gyuro-Monika_Egeszseg-betegseg-diskurzus.html'>Egészség, betegség, diskurzus. Kvalitatív elemzési módszerek az egészségügyi kutatásban</a></em> Storming Brain, 2017. ISBN 978-615-5686-99-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Garay Zsuzsanna: <em><a href='Garay-Zsuzsanna_Esocsepp-utazasai.html'>Esőcsepp utazásai</a></em> Ad Librum Kiadó, 2017. ISBN 978-615-5686-89-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Támba Renátó: <em><a href='Tamba_Renato-Gyermekkor_a_vasznakon.html'>Gyermekkor a vásznakon. A dualizmus kori gyermekszemlélet az alföldi iskola festészetében</a></em> Storming Brain, 2017. ISBN 978-615-5686-83-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Mikos Ákos: <em><a href='Mikos_Akos--Eskuvo_Tour.html'>Esküvő Tour. Így éld meg jól az esküvődet!</a></em> Expert Books, 2017. ISBN 978-615-5686-67-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Garay Zsuzsanna: <em><a href='Garay_Zsuzsanna-Szinek-Masodik_kiadas.html'>Színek. Második, bővített kiadás</a></em> Ad Librum Kiadó, 2017. ISBN 978-615-5686-85-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Naszvadi Judith: <em><a href='Naszvadi_Judith--A_mi_muzsank.html'>A mi Múzsánk</a></em> Ad Librum Kiadó, 2017. ISBN 978-615-5686-53-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Kathy Schranko: <em><a href='Kathy_Schranko--Barbar_oseink.html'>Barbár őseink</a></em> Ad Librum Kiadó, 2017. ISBN 978-615-5686-81-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Jenes Gyula szerk.: <em><a href='Jenes_Gyula_szerk_--A_melybol_jott_festo__Sziklai_Karoly_naiv_festeszete.html'>A mélyből jött festő. Sziklai Károly naiv festészete</a></em> Ad Librum Kiadó, 2017. ISBN 978-615-5686-57-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Böhönyey Márta – Tóth Melinda: <em><a href='Bohonyey_Marta--Toth_Melinda--Mira.html'>Mira. Így váltsd meg a világod!</a></em> Expert Books, 2017. ISBN 978-615-5686-77-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Pauer Emánuel: <em><a href='Pauer_Emanuel--Magamon_kivul.html'>Magamon kívül</a></em> Ad Librum Kiadó, 2017. ISBN 978-615-5686-75-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Kerekes Anna: <em><a href='Kerekes_Anna--Megszepites_nelkul.html'>Megszépítés nélkül. Egy sváb család hányattatásai</a></em> Személyes Történelem, 2017. ISBN 978-615-5686-59-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Horváth Márk és Lovász Ádám: <em><a href='Horvath--Lovasz--A_megsemmisules.html'>A megsemmisülés</a></em> Ad Librum Kiadó, 2017. ISBN 978-615-5686-79-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Molnár Tóni: <em><a href='Molnar_Toni--Tepodesek.html'>Tépődések</a></em> Ad Librum Kiadó, 2017. ISBN 978-615-5686-61-0 </td>
+    </tr>
+  
+    <tr>
+      <td>K. Grein & A. Decker: <em><a href='Grein--Decker--A_Szektor_kronikai_1_Felbukkanas.html'>A Szektor krónikái. Felbukkanás</a></em> Ad Librum Kiadó, 2017. ISBN 978-963-9888-99-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Varga Béla: <em><a href='Varga_Bela--Lelkunk_parancsa.html'>Lelkünk parancsa</a></em> Ad Librum Kiadó, 2017. ISBN 978-615-5686-65-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Csüllög Ferenc: <em><a href='Csullog_Ferenc--Vilagfa.html'>Világfa</a></em> Ad Librum Kiadó, 2017. ISBN 978-615-5686-63-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Nemes Péter és Nemes Péterné Kovács Tündér: <em><a href='Nemes_Peter_es_Tunder--Gyokerek_es_szarnyak.html'>Gyökerek és szárnyak</a></em> Személyes Történelem, 2017. ISBN 978-615-5686-71-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Solti Gabriella: <em><a href='Solti_Gabriella--Elet-enek.html'>Élet-Ének</a></em> Ad Librum Kiadó, 2017. ISBN 978-615-5686-73-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Takács Hajnal: <em><a href='Takacs_Hajnal--Bantalmazottak_igazsaga.html'>Bántalmazottak igazsága</a></em> Ad Librum Kiadó, 2017. ISBN 978-615-5686-55-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Mester_Gyorgyi--Felnottmesek_kifestokonyv.html'>Felnőttmesék. Kifestőkönyv</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5686-46-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Bárdos Erika: <em><a href='Bardos_Erika--Az_onismeret_a_harmonikus_elet_kulcsa.html'>Az önismeret a harmonikus élet kulcsa</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5686-44-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Pintér Zoltán: <em><a href='Pinter_Zoltan--Vetkozo_lelkek.html'>Vetkőző lelkek</a></em> Expert Books, 2016. ISBN 978-615-5686-11-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Sajter Gizella: <em><a href='Sajter_Gizella--Tudatelegtelenseg.html'>Tudatelégtelenség</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5686-42-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Kertai István: <em><a href='Kertai_Istvan--Kvizkonyv.html'>Mi a Fenevad száma? - 666 kvízkérdés nem csak megszállottaknak</a></em> Expert Books, 2016. ISBN 978-615-5686-13-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Matthew Vigo: <em><a href='Matthew_Vigo--Mystery_in_Noir.html'>Mystery in Noir</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5686-27-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Matthew Vigo: <em><a href='Matthew_Vigo--Rejtveny_fekete-feherben.html'>Rejtvény fekete-fehérben</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5686-25-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Filep Dávid: <em><a href='Filep_David--A_kapitany.html'>A kapitány</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5686-05-4 </td>
+    </tr>
+  
+    <tr>
+      <td>V. Kiss Orsolya: <em><a href='Kiss_Orsolya--A_herceg_fekete_lovon_erkezett.html'>A herceg fekete lovon érkezett</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5110-91-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Szakáczky Edit: <em><a href='Szakaczky_Edit--Lelekterkep.html'>Lélektérkép</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5686-07-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Hegedűs Rita: <em><a href='Hegedus_Rita--Az_Ember_fia.html'>Az Ember fia</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5686-09-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Kanyó András: <em><a href='Kanyo_Andras--Egy_kirugott_hirszerzo_emlekei.html'>Egy kirúgott hírszerző emlékei. Miként szippantott be az ÁVH, fedésben Londonban és a Kádár-interjú igaz története</a></em> Személyes Történelem, 2016. ISBN 978-615-5110-96-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Vida Gusztáv: <em><a href='Vida_Gusztáv--Volt_egyszer_egy_Gencs.html'>Volt egyszer egy Gencs</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5110-92-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Kajsza Tibor: <em><a href='Kajsza_Tibor--Katonakonyv.html'>Katonakönyv</a></em> Személyes Történelem, 2016. ISBN 978-615-5110-95-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Nicholas Shear: <em><a href='Nicholas_Shear--Szornyu_Almos_tizedes_kalandjai.html'>Szörnyű Álmos tizedes kalandjai</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5110-94-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Salánki Anikó: <em><a href='Salanki_Aniko--Anikomment.html'>Anikomment</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5110-97-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Krencz Nóra: <em><a href='Krencz_Nora--Megszamlalhatatlan_1.html'>Megszámlálhatatlan</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5110-93-1 </td>
+    </tr>
+  
+    <tr>
+      <td>dr. Babós Lajos: <em><a href='Babos_Lajos--Az_elso_aradi_vertanu.html'>Az első aradi vértanú. Tények és dokumentumok Ormai Norbert életéről</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5110-87-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Zsiros András: <em><a href='Zsiros_Andras--Tarajosvilag.html'>Tarajosvilág. Hányféleképpen hajthat hasznot a sokszínű baromfiudvar?</a></em> Expert Books, 2016. ISBN 978-615-5110-84-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Wanderer János: <em><a href='Wanderer_Janos--Az_osfak_fiainak_lombjai_alatt.html'>Az ősfák fiainak lombjai alatt</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5110-88-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Rinyai László: <em><a href='Rinyai_Laszlo--Lakodalom_az_allatkertben.html'>Lakodalom az állatkertben</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5110-86-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Barczikay Lilla: <em><a href='Barczikay_Lilla--Batyam_konnyei.html'>Bátyám könnyei</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5110-82-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Villax Richárd: <em><a href='Villax_Richard--Fanyuvok.html'>Fanyűvők (Nemzeti Jeti)</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5110-83-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Mester_Gyorgyi--Sizzies_diary.html'>Zizi naplója I. - Sizzie`s diary I.</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5110-85-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Mester_Gyorgyi--A_hatodik.html'>A hatodik. Novellák</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5110-80-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Bagi István (szerk.): <em><a href='Bagi_Istvan--Amerikai_koltok.html'>Amerikai költők a második ezredfordulón</a></em> Szerzői kiadás, 2016. ISBN 978-963-12-4833-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Robin O`Wrightly: <em><a href='Robin_OWrightly--Alomtalanitas.html'>Álomtalanítás</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5110-81-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Varga Béla: <em><a href='Varga_Bela--Tulelni_allati_ereny.html'>Túlélni állati erény</a></em> Ad Librum Kiadó, 2016. ISBN 978-615-5110-79-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Péter Szabó, Daniel Meier és Hankovszky Katalin: <em><a href='Szabo-Meier-Hankovszky--Rovid_es_tartos_coaching.html'>Rövid és tartós COACHING: Megoldásközpontú beszélgetések Harmadik, bővített kiadás</a></em> SolutionSurfers Magyarország Kft., 2016. ISBN 978-615-80268-1-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Jenő Kontschán et al.: <em><a href='Kontschan_et_al--New_data_to_the_mite_fauna_of_the_Korean_Peninsula.html'>New data to the mite fauna of the Korean Peninsula</a></em> Storming Brain, 2016. ISBN 978-615-5110-77-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Puskás Dezső: <em><a href='Puskas_Dezso--Egyedul_a_dzsungelben.html'>Egyedül a dzsungelben</a></em> Ad Librum Kiadó, 2015. ISBN 978-615-5110-76-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Kontschán Jenő, Ács Anita, Suták Anita, Kiss Balázs: <em><a href='Kontschan_et_al--A_hazai_autopalyak_pihenoinek_atkai.html'>A hazai autópályák pihenőinek atkái</a></em> Storming Brain, 2015. ISBN 978-615-5014-70-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Mrázik Julianna: <em><a href='Mrazik_Julianna--Neveles_es_iskola.html'>Nevelés és iskola. A nevelés pedagógiai antropológiai és összehasonlító megközelítése</a></em> Ad Librum Kiadó, 2015. ISBN 978-615-5110-74-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Mester_Gyorgyi--A_pillangofa.html'>A pillangófa és más mesék</a></em> Ad Librum Kiadó, 2015. ISBN 978-963-87769-1-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Telbisz Márta: <em><a href='Telbisz_Marta--Hangrol_hangra_2015.html'>Hangról hangra – megtanulok furulyázni 2. kiadás</a></em> Ad Librum Kiadó, 2015. ISBN 978-615-5110-75-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Matthew Vigo: <em><a href='Matthew_Vigo--A_vegzetes_bestseller.html'>A végzetes bestseller</a></em> Ad Librum Kiadó, 2015. ISBN 978-615-5110-73-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Kovács György: <em><a href='Kovacs_Gyorgy--A_kereszteny_vallas_megszuletesenek_tortenete.html'>A keresztény vallás megszületésének története</a></em> Ad Librum Kiadó, 2014. ISBN 978-615-5110-71-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Sarlós Erzsébet: <em><a href='Sarlos_Erzsebet--Az_eltitkoltak_eneke.html'>Az eltitkoltak éneke</a></em> Ad Librum Kiadó, 2014. ISBN 978-963-06-9013-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Bárdosi Attila: <em><a href='Bardosi_Attila--Allati_tukorkepek.html'>Állati tükörképek</a></em> Ad Librum Kiadó, 2014. ISBN 978-615-5110-70-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Thomas Z Marshall: <em><a href='Thomas_Z_Marshall--Egek_fele.html'>Egek felé</a></em> Ad Librum Kiadó, 2014. ISBN 978-615-5110-69-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Yasmín Hondar Gómez: <em><a href='Yasmin_Hondar_Gomez--Compartiendo.html'>Compartiendo sueños con mis amigos de Vento</a></em> Ad Librum Kiadó, 2014. ISBN 978-615-5110-65-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Kontschán Jenő: <em><a href='Kontschan_Jeno--Uropodina_mites_of_Transylvania.html'>Uropodina mites (Acari: Mesostigmata) of Transylvania (Romania)</a></em> Ad Librum Kiadó, 2014. ISBN 978-615-5110-67-2 </td>
+    </tr>
+  
+    <tr>
+      <td>P. Dobrossy Rita: <em><a href='Dobrossy_Rita--Mindhalálig.html'>Mindhalálig</a></em> Ad Librum Kiadó, 2014. ISBN 978-615-5110-68-9 </td>
+    </tr>
+  
+    <tr>
+      <td>P. Tarator: <em><a href='Tarator--Szellel_szemben.html'>Széllel szemben</a></em> Ad Librum Kiadó, 2014. ISBN 978-615-5110-66-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Chris Iveson, Evan George, Harvey Ratner: <em><a href='SolutionSurfers--Brief_Coaching.html'>Brief Coaching. Megoldásközpontú megközelítés</a></em> SolutionSurfers Magyarország Kft., 2014. ISBN 978-963-08-9075-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Gábor Kerekes: <em><a href='Gabor_Kerekes--Bewahrte_Traditionen_und_neue_Horizonte_-_Nachwuchskonferenz_ungarndeutscher_Thematik.html'>Bewahrte Traditionen und neue Horizonte - Nachwuchskonferenz ungarndeutscher Thematik</a></em> Ad Librum Kiadó, 2013. ISBN 978-615-5110-64-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Gábor Kerekes: <em><a href='Gabor_Kerekes--Literatur_diesseits_und_jenseits_des_Rennweg.html'>Literatur diesseits und jenseits des Rennweg. Studien zur österreichischen Literatur</a></em> Ad Librum Kiadó, 2013. ISBN 978-963-87819-8-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Jóba Katalin: <em><a href='Joba_Katalin--Cinegemese.html'>Cinegemese</a></em> Ad Librum Kiadó, 2014. ISBN 978-963-87819-5-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Frank Karsten és Karel Beckman: <em><a href='Karsten_es_Beckman--Tul_a_demokracian.html'>Túl a demokrácián</a></em> Szerzői kiadás, 2014. ISBN 978-963-08-8813-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Bárdosi Attila és Reglődi Dóra: <em><a href='Bardosi-Reglodi--Valaszok_a_valaszokra.html'>Válaszok a válaszokra. Versek 2013-2014</a></em> Ad Librum Kiadó, 2014. ISBN 978-963-87819-6-3 </td>
+    </tr>
+  
+    <tr>
+      <td>N. Diviki Emma: <em><a href='Diviki_Emma--Gacsari_Kronika.html'>175 éves a füzesgyarmati Gacsári Krónika</a></em> Szerzői kiadás, 2014. ISBN 978-963-87819-7-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Gábor Kerekes und Angéla Korb (Hrsg.): <em><a href='Kerekes_Korb-- Bretter,_die_die_Welt_bedeuten.html'>Bretter, die die Welt bedeuten. 200 Jahre Deutsches Theater in Pesth</a></em> Ad Librum Kiadó, 2013. ISBN 978-963-89334-1-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Bárdosi Attila: <em><a href='Bardosi_Attila--Pathetique.html'>Pathétique</a></em> Ad Librum Kiadó, 2013. ISBN 978-615-5110-20-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Vasi Szabó János: <em><a href='Vasi_Szabo_Janos--Levegokovacs.html'>Levegőkovács</a></em> Ad Librum Kiadó, 2013. ISBN 978-615-5014-74-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Ellen Adlon: <em><a href='Ellen_Adlon--A_Csajkovszkij-projekt_III.html'>A Csajkovszkij-projekt III. Az ügynöknő halála</a></em> Szerzői kiadás, 2013. ISBN (nincs ISBN) </td>
+    </tr>
+  
+    <tr>
+      <td>C. Simian: <em><a href='C__Simian--Lokottek_kozott_II_.html'>Lököttek között II.</a></em> Szerzői kiadás, 2013. ISBN 978-963-87741-4-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Kerekes Gábor és Müller Márta (szerk.): <em><a href='Kerekes_Muller--Traditionspflege_und_Erneuerung.html'>Traditionspflege und Erneuerung - Perspektiven der deutschen Nationalität in Ungarn im 21. Jahrhundert</a></em> Ad Librum Kiadó, 2013. ISBN 978-615-5110-63-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Gábor Kerekes: <em><a href='Kerekes_Gabor--Verspaetet--FB.jpg.html'>Verspätet, abgebrochen, erschwert, unwillig und rational. Studien zur Rezeption deutscher Literatur und Kultur in Ungarn im 20. Jahrhundert</a></em> Ad Librum Kiadó, 2013. ISBN 978-963-87741-3-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Tamás Zoltán: <em><a href='Tamas_Zoltan--Ferfi_lelekvandorlas.html'>Férfi lélekvándorlás</a></em> Ad Librum Kiadó, 2013. ISBN 978-963-87741-2-5 </td>
+    </tr>
+  
+    <tr>
+      <td>P. Dobrossy Rita: <em><a href='Dobrossy_Rita--Orokke_fiatalon.html'>Örökké fiatalon</a></em> Ad Librum Kiadó, 2013. ISBN 978-963-87741-5-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Frideczky Katalin: <em><a href='Frideczky_Katalin--Alomszottes.html'>Álomszőttes</a></em> Ad Librum Kiadó, 2013. ISBN 978-963-87819-4-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Ellen Adlon: <em><a href='Ellen_Adlon--A_Csajkovszkij-projekt_II.html'>A Csajkovszkij-projekt II. Szárnycsapások</a></em> Szerzői kiadás, 2013. ISBN (nincs ISBN) </td>
+    </tr>
+  
+    <tr>
+      <td>Matthew Vigo: <em><a href='Matthew_Vigo--Alarcok_bel_cantoban.html'>Álarcok bel cantóban</a></em> Ad Librum Kiadó, 2013. ISBN 978-615-5110-61-0 </td>
+    </tr>
+  
+    <tr>
+      <td>dr. Pataki János István: <em><a href='Pataki_Janos--A_vegrehajto_es_az_ados.html'>A végrehajtó és az adós. A bírósági végrehajtás a gyakorlatban</a></em> Ad Librum Kiadó, 2013. ISBN 978-615-5110-62-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Kontschán Jenő: <em><a href='Kontschan_Jeno--Uropodina_mites_from_Korean_Peninsula.html'>Uropodina mites from the Korean Peninsula</a></em> Ad Librum Kiadó, 2013. ISBN 978-615-5014-66-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Ellen Adlon: <em><a href='Ellen_Adlon--A_Csajkovszkij-projekt_I.html'>A Csajkovszkij-projekt I. Árnyak az éjszakában</a></em> Szerzői kiadás, 2013. ISBN (nincs ISBN) </td>
+    </tr>
+  
+    <tr>
+      <td>Tom G. Palmer (szerk.): <em><a href='Palmer,_Tom_G--Erkolcsos_kapitalizmus.html'>Az erkölcsös kapitalizmus</a></em> Ad Librum Kiadó, 2012. ISBN 978-615-5014-67-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Susy Cat Lee: <em><a href='Susy_Cat_Lee--Forro_csoki_es_fekete_kave.html'>Forró csoki kontra fekete kávé</a></em> Ad Librum Kiadó, 2012. ISBN 978-615-5110-60-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Wanderer János: <em><a href='Wanderer_Janos--Csilimon.html'>Csilimon</a></em> Ad Librum Kiadó, 2012. ISBN 978-615-5110-59-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Füleki Gábor: <em><a href='Fuleki_Gabor--Zengo_anakronit.html'>Zengő anakronit</a></em> Ad Librum Kiadó, 2012. ISBN 978-615-5110-55-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Bárdosi Attila: <em><a href='Bardosi_Attila--Olommadar.html'>Ólommadár</a></em> Ad Librum Kiadó, 2012. ISBN 978-615-5110-58-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Simon Weber: <em><a href='Simon_Weber--Ezustnyilak.html'>Ezüstnyilak - Mercedes-Benz Motorsport</a></em> Ad Librum Kiadó, 2012. ISBN 978-615-5110-52-8 </td>
+    </tr>
+  
+    <tr>
+      <td>P. Dobrossy Rita: <em><a href='Dobrossy_Rita--Elmenni_messze.html'>Elmenni messze...</a></em> Ad Librum Kiadó, 2012. ISBN 978-615-5110-56-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Mester_Gyorgyi--Zizi_naploja_III.html'>Zizi naplója - A Kos jegyében</a></em> Ad Librum Kiadó, 2012. ISBN 978-615-5110-57-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Szilágyi L. Laura: <em><a href='Szilagyi_Laura--Szertelensegem_Bibliaja.html'>Szertelenségem Bibiliája. Egy ex-drogos önvallomása - a pszichés függőség labirintusában</a></em> Ad Librum Kiadó, 2012. ISBN 978-615-5110-53-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Gábor Kerekes: <em><a href='Kerekes_Gabor--Goethe,Golf,Adolf_und_die_Toten_Hosen.html'>Goethe, Golf, Adolf und die Toten Hosen Studien zur deutschen Literatur und Kultur</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-50-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Mester_Gyorgyi--Zizi_naploja_II.html'>Zizi naplója - Tizenkét évvel később</a></em> Ad Librum Kiadó, 2012. ISBN 978-615-5110-51-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Kovács László: <em><a href='Kovacs_Laszlo--A_kuldetes.html'>A küldetés</a></em> Ad Librum Kiadó, 2012. ISBN 978-615-5110-49-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Stubán Hajnalka és Stubán Fruzsina: <em><a href='Stuban_Hajnalka--Mesel_az_allatkert.html'>Mesél az állatkert</a></em> Ad Librum Kiadó, 2012. ISBN 978-615-5110-48-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Varga Béla: <em><a href='Varga_Bela--Fulop_lovag_az_orvosolo.html'>Fülöp lovag, az orvosölő</a></em> Ad Librum Kiadó, 2012. ISBN 978-615-5110-47-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Békés A. Vera: <em><a href='Bekes_Vera--Trauma_es_narrativa.html'>Trauma és narratíva – A Holokauszt trauma reprezentációja</a></em> Ad Librum Kiadó, 2012. ISBN 978-615-5110-16-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Bakó Béla: <em><a href='Bako_Bela--Orokseg_es_tortenelem_kozott.html'>Örökség és történelem közt</a></em> Ad Librum Kiadó, 2012. ISBN 978-615-5110-46-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Halmos Antal: <em><a href='Halmos_Antal--Anti-kapitalizmus.html'>Anti-kapitalizmus (Egy igaz kommunista kiáltványa)</a></em> Ad Librum Kiadó, 2012. ISBN 978-963-08-3123-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Krisztina Arató, Zsolt Enyedi and Ágnes Lux (eds.): <em><a href='Structures_and_Futures_of_Europe.html'>Structures and Futures of Europe</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-45-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Bogár Gyula: <em><a href='Bogar_Gyula--Dicsoseg_a_hazaert_elpusztult_hosoknek.html'>Dicsőség a Hazáért elesett Hősöknek – 1956</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-31-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Szőke Tibor (szerk.): <em><a href='Szoke_Tibor--Aktiv_repulogepek.html'>Aktív kereskedelmi utas- és teherszállító repülőgépek</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-40-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Jim Butcher: <em><a href='Jim_Butcher--Pusztito_vihar.html'>Pusztító vihar</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-38-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Szabó Marianna (szerk. és ford.): <em><a href='Szabo_Marianna--Afrika_lelke.html'>Afrika lelke – A sötét kontinens novellái</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-27-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Mester_Gyorgyi--Zizi_naploja.html'>Zizi naplója</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-41-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Frideczky Katalin: <em><a href='Frideczky_Katalin--Salto_vitale.html'>Salto vitale</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-42-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Gigi Scott: <em><a href='Gigi_Scott--Sarkany_szuletik_2.html'>Sárkány születik - A fiú</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-29-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Gy.A.: <em><a href='GyA--Miert.html'>Miért?</a></em> Szerzői kiadás, 2011. ISBN 978-963-08-1639-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Gy. Horváth Károly: <em><a href='Horvath_Karoly--Gondolatok_a_konyhaban.html'>Gondolatok a konyhában</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-37-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Susanna Lehner: <em><a href='Susanna_Lehner--uj_borito.html'>Az aranypárducok ébredése</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-36-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Raffay Margit: <em><a href='Raffay_Margit--Atmentem_a_szivarvany_alatt.html'>Átmentem a szivárvány alatt</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-32-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Jakabfi Zsolt: <em><a href='Jakabfi_Zsolt--Csak_egy_tanc_volt.html'>Csak egy tánc volt...</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-21-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Yasmín Hondar Gómez: <em><a href='Yasmin_Hondar_Gomez--Mosolyogva_spanyolul_I_Masodik_kiadas.html'>Mosolyogva spanyolul I. - Második, javított kiadás</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-30-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Dr. Eitler Tamás: <em><a href='Eitler_Tamas--Hatekony_szovegertes.html'>Hatékony szövegértés (Készségfejlesztő feladatgyűjtemény)</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5014-63-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Tamás Zoltán: <em><a href='Tamas_Zoltan--In_Memoriam.html'>In Memoriam</a></em> Szerzői kiadás, 2011. ISBN 978-963-08-1926-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Rinyai László: <em><a href='Rinyai_Laszlo--Kulonleges_hazassag.html'>Különleges házasság</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-35-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Bárdosi Attila: <em><a href='Bardosi_Attila--Valami_szur.html'>Valami szúr</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-24-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Ferencz Krisztián: <em><a href='Ferencz_Krisztian--Az_eszkimok_unnepe.html'>Az eszkimók ünnepe</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-33-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Halmos Antal: <em><a href='Halmos_Antal--Vilagok,_nepek_emberek.html'>Világok, népek, emberek</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-34-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Frédéric Bastiat: <em><a href='Bastiat--A_Torveny.html'>A törvény – Ami látható s ami nem látható</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-17-7 </td>
+    </tr>
+  
+    <tr>
+      <td>P. Dobrossy Rita: <em><a href='Dobrossy_Rita--Vandorok.html'>Vándorok</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-28-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Prudent Man: <em><a href='Prudent_Man--A_hulladeklebonto.html'>A Hulladéklebontó</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-25-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Zágonyi Mónika: <em><a href='Zagonyi_Monika--Versiras_konnyeden.html'>Versírás könnyedén</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-22-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Bélteki Katalin: <em><a href='Belteki_Katalin--Setet_ejurunk_segits_rajtunk.html'>Setét Éjurunk, segélj rajtunk…</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-15-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Nagy Gusztáv: <em><a href='Nagy_Gusztav--Webprogramozas.html'>Web programozás alapismeretek</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-26-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Rázsó Laura: <em><a href='Razso_Laura--A_kohercegno.html'>A kőhercegnő</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-12-2 </td>
+    </tr>
+  
+    <tr>
+      <td>gyilkoszenek.com: <em><a href='Gondor_Otto_gyilkoszenek--Gitart_karokkal.html'>Gitárt karokkal, avagy a tékozló rocker hazatér</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-23-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Susy Cat Lee: <em><a href='Susy_Cat_Lee--Forro_csoki_és_Mona_Lisa.html'>Forró csoki és Mona Lisa</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-11-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Yasmín Hondar Gómez: <em><a href='Yasmin_Hondar_Gomez--Mosolyogva_spanyolul_II.html'>Mosolyogva spanyolul - Második kötet</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-13-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Mester_Gyorgyi--Vizio.html'>Vízió - Novellák</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-19-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Pusztai Marianna: <em><a href='Pusztai_Marianna--Az_ido_fogsagaban.html'>Az idő fogságában</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-08-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Réczey Kata: <em><a href='Reczey_Kata--Orvenykonyv.html'>Örvénykönyv – Arno anno</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-14-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Tamás Zoltán: <em><a href='Tamas_Zoltan--Bioarnyek.html'>Bio-árnyék</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-05-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Czakó Éva: <em><a href='Czako_Eva--Telihold.html'>Telihold – Csillámok és Ádámságok</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-10-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Fülöp Beáta: <em><a href='Fulop_Beata--Adela.html'>Adela - Az álmok útján</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-01-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Élő Ildikó: <em><a href='Elo_Ildiko--Elso_angol_dalaim.html'>My first English songs</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-09-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Halmos Antal: <em><a href='Halmos_Antal--Beteg_emberiseg,_mocskos_vilag.html'>Beteg emberiség, mocsok világ</a></em> Szerzői kiadás, 2011. ISBN 978-963-08-1171-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Bodó János: <em><a href='Bodo_Janos--Feher_koteny,_kek_viraggal.html'>Fehér kötény, kék virággal</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-07-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Benzk Ádám: <em><a href='Benzk_Adam--Szamarfulek_es_szilankok.html'>Szamárfülek és szilánkok</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-06-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Ditke Soltesz: <em><a href='Ditke_Soltesz--Noi_intim_szfera.html'>Női intim szféra</a></em> Szerzői kiadás, 2011. ISBN 978-963-08-0891-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Halmos Antal: <em><a href='Halmos_Antal--Mitol_doglik_meg_az_orszag.html'>Mitől döglik meg ez az ország?</a></em> Szerzői kiadás, 2010. ISBN 978-963-08-0901-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Vágó Zoltán: <em><a href='Vago_Zoltan--Kalandok_Kapitany_bacsival.html'>Kalandok Kapitány Bácsival</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-03-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Kovács László: <em><a href='Kovacs_Laszlo--Erett_asszonyok_alma.html'>Érett asszonyok álma</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-04-7 </td>
+    </tr>
+  
+    <tr>
+      <td>László Hajdú: <em><a href='Hajdu_Laszlo--Non-tectonic_systems.html'>Non-tectonic Systems. A universal approach to the unavoidable future building industrialization</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5110-02-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Lengyel Dávid és Kuba Richárd: <em><a href='Lengyel-Kuba--Holtak_vilaga.html'>Holtak világa - A jóslat</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5014-99-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Nagy Enikő Éva: <em><a href='Nagy_Eniko--Fonixmadar.html'>Főnixmadár - válogatott versek</a></em> Lélek-Erő Kft., 2011. ISBN 978-963-08-0693-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Csodacsalád Egyesület: <em><a href='Csodacsalad--Professzionalis_kigyermekellatas.html'>Professzionális kisgyermekellátás a gyakorlatban - Szakmai kézikönyv</a></em> Csodacsalád Egyesület, 2011. ISBN 978-963-08-0395-3 </td>
+    </tr>
+  
+    <tr>
+      <td>P. Dobrossy Rita: <em><a href='Dobrossy_Rita--Uveg-folyo.html'>Üveg-folyó</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5014-97-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Halmos Antal: <em><a href='Halmos_Antal--Het_ev_Indiaban.html'>7 év a csodálatos Indiában és két nepáli túra</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-74-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Anthony Norton: <em><a href='Anthony_Norton--Demon_szuletik.html'>Démon születik</a></em> Ad Librum Kiadó, 2011. ISBN 978-615-5014-98-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Galyas Éva: <em><a href='Galyas_Eva--Rolam_vagy_rolad.html'>Rólam vagy rólad</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-64-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Szatmári Zsuzsanna: <em><a href='Szatmari_Zsuzsanna--Erzesek.html'>Érzések és érzelmek</a></em> Szerzői kiadás, 2010. ISBN 978-963-08-0457-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Koch Renáta: <em><a href='Koch_Renata--Te_mit_csinaltal_volna.html'>Te mit csináltál volna?</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-48-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Stephanie Ford: <em><a href='Stephanie_Ford--Tamadas.html'>Támadás</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-85-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Kiss Sarolta: <em><a href='Kiss_Sarolta--Szelkabatban.html'>Szélkabátban</a></em> Szerzői kiadás, 2010. ISBN 978-963-08-0435-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Eiben Tamás: <em><a href='Eiben_Tamas--Jelszo_hatekonysag.html'>A jelszó: hatékonyság – Menedzsment útmutató az eredményes üzlethez</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-72-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Frideczky Katalin: <em><a href='Frideczky_Katalin--Jolan_gyereket_var.html'>Jolán gyereket vár</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-73-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Lady Nairi: <em><a href='Lady_Nairi--Verstar.html'>Verstár</a></em> Szerzői kiadás, 2010. ISBN 978-963-08-0396-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Mária M. Bosnyák: <em><a href='Maria_M_Bosnyak--Baljos_sugallat.html'>Baljós sugallat</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-87741-3-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Péter Szabó, Daniel Meier és Hankovszky Katalin: <em><a href='Szabo-Meier-Hankovszky--Rovid_es_tartos_coaching.html'>Rövid és tartós COACHING. Megoldásközpontú beszélgetések</a></em> SolutionSurfers Magyarország Kft., 2010. ISBN 978-963-08-0168-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Dua Podagra: <em><a href='Dua_Podagra--Szelnek_hagyott_lovagok.html'>Szélnek hagyott lovagok</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-62-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Gary Elijah: <em><a href='Gary_Elijah--Visszajatszas_Az_alom.html'>Visszajátszás. Az álom</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-60-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Hollai Imre: <em><a href='Hollai_Imre--Ut_az_elnokseghez.html'>Út az Elnökséghez</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-56-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Füst Antal: <em><a href='Fust_Antal--Koronas_hegyek.html'>Koronás hegyek. A Zagyva-völgyi várak regénye</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-61-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Janurik Tamás: <em><a href='Janurik_Tamas--A_lovari_nyelv_kiskateja.html'>A lovári nyelv kiskátéja</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-54-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Duga Boglárka: <em><a href='Duga_Boglarka--zsEBkonyv.html'>zsEBkönyv</a></em> Szerzői kiadás, 2010. ISBN 978-615-5014-59-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Molnár Hajnalka: <em><a href='Molnar_Hajnalka--Durcas_a_szamitogeped.html'>Durcás a számítógéped? Informatikakönyv nőknek</a></em> Szerzői kiadás, 2010. ISBN 978-963-08-0086-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Nemes Rózsa: <em><a href='Nemes_Rozsa--Egy_batyu_humor.html'>Egy batyu humor</a></em> Szerzői kiadás, 2010. ISBN 978-963-06-9564-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Jankovich Valéria: <em><a href='Jankovich_Valeria--Eleteim-titkaim.html'>Életeim-titkaim. Ungár Anikó élete</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-36-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Alim B. R.: <em><a href='Alim_BR--Hentes.html'>Hentes</a></em> Szerzői kiadás, 2010. ISBN 978-963-06-7848-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Halmos Antal: <em><a href='Halmos_Antal--Kolja.html'>Kolja, a nép ellenségének fia. Filmnovella</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-57-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Wanderer János: <em><a href='Wanderer_Janor--Akik_felett_mindig_kek_az_eg.html'>Akik felett mindig kék az ég</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-35-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Dr. Kerekes Pál PhD: <em><a href='Kerekes_Pal--Az_elektronikus_konyv.html'>Az elektronikus könyv: e-könyv, e-könyv-olvasó, e-könyv-kereskedelem</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-58-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Gabryel Flynt: <em><a href='Gabryel_Flynt--Sotet_szarnyak.html'>Sötét szárnyak</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-40-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Demeter D. Zoltán: <em><a href='Demeter_D_Zoltan--A_szabadsag_ara.html'>A szabadság ára</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-55-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Borbás Miklós: <em><a href='Borbas_Miklos--Az_orok_vesztes_strategiaja.html'>Az örök vesztes stratégiája</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-41-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Dohoczki Máté: <em><a href='Dohoczki_Mate--Bizonytalan_jovo.html'>Bizonytalan jövő</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-37-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Kürti János: <em><a href='Kurti_Janos--TABELLO.html'>TABELLO (nyelvoktató rendszer)</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-53-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Tilli Winchfield: <em><a href='Tilli_Winchfield--Bolondos_elet.html'>Bolondos élet. Kalandok a világban</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-47-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Bodó János: <em><a href='Bodo_Janos--Vince_bacsi_sapkaja.html'>Vince bácsi sapkája (és más írások)</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-42-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Wiersumné dr. Gyöngyösi Erika: <em><a href='Wiersumne_dr__Gyongyosi_Erika--GCSE_Mathematics_I__For_Bilingual_Students.html'>GCSE Mathematics I. For Bilingual Students</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-49-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Wiersumné dr. Gyöngyösi Erika: <em><a href='Wiersumne_dr__Gyongyosi_Erika--GCSE_Mathematics_II__For_Bilingual_Students.html'>GCSE Mathematics II. For Bilingual Students</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-50-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Wiersumné dr. Gyöngyösi Erika: <em><a href='Wiersumne_dr__Gyongyosi_Erika--GCSE_Mathematics_III__For_Bilingual_Students.html'>GCSE Mathematics III. For Bilingual Students</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-51-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Wiersumné dr. Gyöngyösi Erika: <em><a href='Wiersumne_dr__Gyongyosi_Erika--GCSE_Mathematics_IV__For_Bilingual_Students.html'>GCSE Mathematics IV. For Bilingual Students</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-52-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Erős Vilmos: <em><a href='Eros_Vilmos--A_szellemtortenettol_a_nepisegtortenetig.html'>A szellemtörténettől a népiségtörténetig (Tanulmányok a két világháború közötti magyar történetírásról)</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-06-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Galuska László Pál - Janurik Tamás: <em><a href='Galuska-Janurik--Suttogo_fuzesek.html'>Suttogó füzesek</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-45-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Janurik Tamás: <em><a href='Janurik_Tamas--Lovari-magyar_olvasokonyv.html'>Lovári-magyar kétnyelvű olvasókönyv</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-46-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Weszelovszky Zoltán: <em><a href='Weszelovszky_Zoltan--Korszimfonia_I.html'>Korszimfónia</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-04-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Kontschán Jenő: <em><a href='Kontschan_Jeno--Rotundabaloghid.html'>Rotundabaloghid mites of the World</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-38-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Szabó Csaba: <em><a href='Szabo_Csaba--Fel_ev_Afganisztanban.html'>Fél év Afganisztánban (Részletek egy katona naplójából)</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-82-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Matthew Vigo: <em><a href='Matthew_Vigo--Rejtelem_a_deltengeren.html'>Rejtelem a déltengeren</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-33-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Varga M. János: <em><a href='Varga_M_Janos--Az_ESZ_Torvenye.html'>Az ÉSZ Törvénye. Az életkor-szabályozás regénye</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-00-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Hölbling Tamás: <em><a href='Holbling_Tamas--A_honfoglalas_forraskritikaja_II.html'>A honfoglalás forráskritikája II. A hazai kútfők</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-39-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Kakuk Mátyás: <em><a href='Kakuk_Matyas--Oszet_nyelvi_peldatar.html'>Oszét nyelvi példatár és szótár</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-93-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Nagy Gusztáv: <em><a href='Nagy_Gusztav--Drupal_6.html'>Drupal 6 alapismeretek</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-43-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Mátyás István: <em><a href='Matyas_Istvan--Zugsarok.html'>Zugsarok</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-34-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Mrázik Julianna: <em><a href='Mrazik_Julianna--A_tanarok_hangja.html'>A tanárok hangja. Hogyan vélekednek hivatásukról a pedagógusok?</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-07-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Móri Hanna: <em><a href='Mori_Hanna--Zahiromka.html'>Zahiromka lombiktörténete</a></em> TBMM Kft., 2010. ISBN 978-963-06-9470-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Titi Hajnalka: <em><a href='Titi_Hajnalka--7_nap_7_mese.html'>7 nap, 7 mese</a></em> Szerzői kiadás, 2010. ISBN 978-963-06-9384-4 </td>
+    </tr>
+  
+    <tr>
+      <td>F. Szőllősi Csilla: <em><a href='Szollosi--Hazassagkotesi_beszedek.html'>Házasságkötési köszöntő beszédek anyakönyvvezetőknek</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-02-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Bosnyák Mária: <em><a href='Bosnyak_Maria--A_lelek_viragai.html'>A lélek virágai</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-05-5 </td>
+    </tr>
+  
+    <tr>
+      <td>R. F. Braen O’Sency: <em><a href='Braen--Holtak_kapuja.html'>A Holtak Kapuja – első könyv</a></em> Szerzői kiadás, 2010. ISBN 978-963-06-9651-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Nemes Rózsa: <em><a href='Nemes_Maria--Batyu_humor.html'>Egy batyu humor</a></em> Szerzői kiadás, 2010. ISBN 978-963-06-9564-0 </td>
+    </tr>
+  
+    <tr>
+      <td>herceg Windischgraetz Natália és Dr. Dobay Miklós: <em><a href='Windischgraetz--Dobay--Ok_is_hosok_voltak.html'>Ők is hősök voltak. Két fennmaradt egészségügyi dokumentum a Don menti harcok idejéből</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-98-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Janurik Tamás: <em><a href='Janurik_Tamas--A_lovari_nyelv_torteneti_szotana.html'>A lovári nyelv történeti szótana</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-29-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Ferencz Krisztián: <em><a href='Ferencz_Krisztian--Madach_eszkimoi.html'>Madách eszkimói</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-03-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Varga M. János: <em><a href='Varga_M_Janos--Epifrazisok.html'>Epifrázisok</a></em> Ad Librum Kiadó, 2010. ISBN 978-615-5014-01-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Csonka Edit: <em><a href='Csonka_Edit--Csillagok.html'>A csillagok mesélnek</a></em> Szerzői kiadás, 2010. ISBN 978-963-06-9229-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Enrico Angelotti: <em><a href='Enrico_Angelotti--Evszaktunderek.html'>Évszaktündérek</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-97-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Gábor Kerekes: <em><a href='Kerekes_Gabor--Zwischen_Heldenplatz_und_Hosok_tere.html'>Zwischen Heldenplatz und Hősök tere. Studien zur österreichischen Literatur</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-43-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Tóth László Pál: <em><a href='Toth_Laszlo_Pal--Felelmunknek_vegre_vege.html'>Félelmünknek végre vége</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-80-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Brigitte Bear: <em><a href='Brigitte_Bear--VarazsloVer.html'>VarázslóVér</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-90-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Mészáros Tibor: <em><a href='Meszaros_Tibor--Hiaba_minden_aldozat_I.html'>Hiába minden áldozat? Viharban, Pocsolya, Kéregető</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-87-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Brátán Erzsébet: <em><a href='Bratan_Erzsebet--Elni_vagy_olni.html'>Élni vagy ölni? Egy vérvonal hattyúdala</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-95-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Mester_Gyorgyi--Halali_jo_tortenetek.html'>Haláli (jó) történetek</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-87741-7-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Kovács László: <em><a href='Kovacs_Laszlo--A_nyomozo.html'>A nyomozó</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-99-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Kollát Gyula: <em><a href='Kollat_Gyula--Korok_az_ordogszantasok_foldjen.html'>Körök az ördögszántások földjén (Rendhagyó bükki túrakalauz és fotóalbum)</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-96-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Mickey Miller: <em><a href='Mickey_Miller--Kairoi_gyilkossagok.html'>Kairói gyilkosságok</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-91-7 </td>
+    </tr>
+  
+    <tr>
+      <td>B.B. Nala: <em><a href='Nala--Elixir.html'>Elixír - az örök szerelem forrása</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-94-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Kopor Tihamér: <em><a href='Kopor_Tihamer--Folyondar.html'>A Folyondár</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-73-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Zágon Judit: <em><a href='Zagon_Judit--Almomban_egy_farkas…_mit_jelent__-_(270_alom_jelentese_+_alom-szotar).html'>Álmomban egy farkas… mit jelent? - (270 álom jelentése + álom-szótár)</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-92-4 </td>
+    </tr>
+  
+    <tr>
+      <td>C. Simian: <em><a href='Simian--Lokottek_kozott.html'>Lököttek között</a></em> Szerzői kiadás, 2010. ISBN 978-963-06-8705-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Mark Wander: <em><a href='Mark_Wander--A_bosszu_kotelez.html'>A bosszú kötelez</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-81-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Gabriel A. Dom: <em><a href='Gabriel_Dom--A_vegzet_kezdete.html'>A végzet kezdete</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-78-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Tamás Zoltán: <em><a href='Tamas_Zoltan--Mindenkeppen_kimeletlen.html'>Mindenképpen kíméletlen</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-79-5 </td>
+    </tr>
+  
+    <tr>
+      <td>P. Tarator: <em><a href='Tarator--Mamuttampon.html'>Mamuttampon</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-76-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Korponai István: <em><a href='Korponai_Istvan--Most_es_Mindorokke.html'>Most és Mindörökké</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-83-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Ráday Martin Bence: <em><a href='Raday_Martin_Bence--Az_utolso_valosagshow.html'>Az Utolsó Valóságshow</a></em> Szerzői kiadás, 2010. ISBN 978-963-06-8911-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Petrozsényi Nagy Pál: <em><a href='Petrozsenyi_Nagy_Pal--Eletkepek.html'>Életképek. Elbeszélések és egyéb kisprózai alkotások</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9888-90-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Nánássy Szabolcs: <em><a href='Nanassy_Szabolcs--Kalandozasok_ket_kereken.html'>Kalandozások két keréken - Erdély</a></em> Szerzői kiadás, 2010. ISBN 978-963-06-9094-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Magyar B. Attila: <em><a href='Magyar_B_Attila--Viragszerda.html'>Virágszerda</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-85-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Attila B. Magyar: <em><a href='Attila_B_Magyar--Palm_Wednesday.html'>Palm Wednesday</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-84-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Dr. Szalayné Halász Orsolya: <em><a href='Szalayne_Halasz_Orsolya--Egy_szenvedelybeteg_eletutja.html'>Egy szenvedélybeteg életútja</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-77-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Varga Attila: <em><a href='Varga_Attila--Biblia_es_biztonsagpolitika.html'>Biblia és biztonságpolitika</a></em> Szerzői kiadás, 2010. ISBN 978-963-06-8910-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Komor Zoltán: <em><a href='Komor_Zoltan--Mesek_Kaptarvarosbol.html'>Mesék Kaptárvárosból (parabolaregény)</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-87741-9-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Brátán Erzsébet: <em><a href='Bratan_Erzsebet--Mindenbol_van_kiut.html'>Mindenből van kiút! Gyógyulás a rákból, és egyéb betegségekből alternatív módon</a></em> Szerzői kiadás, 2010. ISBN 978-963-06-8772-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Ariána Vict: <em><a href='Ariana_Vict--Eletem_nyilo_viraga.html'>Életem nyíló virága (Napló életutamról)</a></em> Szerzői kiadás, 2010. ISBN 978-963-06-8771-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Fülöp Beáta: <em><a href='Fulop_Beata--Dolce.html'>DOLCE – A megbocsátás ára</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-74-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Tóth Gergely: <em><a href='Toth_Gergely--Birodalmak_asztalanal.html'>Birodalmak asztalánál</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-72-6 </td>
+    </tr>
+  
+    <tr>
+      <td>GabeReal the Great: <em><a href='GabeReal--Tudod_vannaK_azok_a_szavak.html'>Tudod, vannak azok a szavak</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-06-8817-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Mária M. Bosnyák: <em><a href='Bosnyak_Maria--Tureshatarig.html'>Tűréshatárig</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-71-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Kölcsey Krisztina: <em><a href='Kolcsey_Krisztina--Hajnalhasadas.html'>Hajnalhasadás</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-70-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Janurik Tamás: <em><a href='Janurik_Tamas--A_romani_nyelv_alapjai.html'>A romani nyelv alapjai</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-75-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Sz Gy: <em><a href='SzGy--Hetpecsetes_kitarulkozas.html'>Hétpecsétes kitárulkozás. Se eleje, se veleje</a></em> Szerzői kiadás, 2010. ISBN 978-963-06-8770-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Hans-Hermann Hoppe: <em><a href='Hoppe--Demokracia.html'>Demokrácia, a bukott bálvány. A monarchia, a demokrácia és a természetes rend gazdaságtana és politikája</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-68-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Thomas E. Forstner: <em><a href='Thomas_Forstner--Fata_Morgana.html'>Fata Morgana</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-63-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Stephanie Ford: <em><a href='Stephanie_Ford--Veres_labnyomok_a_levegoben.html'>Véres lábnyomok a levegőben</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-58-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Deák Csaba: <em><a href='Deak_Csaba--Ordogmalom.html'>Ördögmalom</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-67-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Csodacsalád Egyesület: <em><a href='Csodacsalad--Kezikonyv_csaladi_napkozi_uzemeltetoknek.html'>Kézikönyv családi napközi működtetőknek</a></em> Csodacsalád Egyesület, 2010. ISBN 978-963-06-8684-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Locskai Dénes: <em><a href='Locskai_Denes--Kisertetkastely.html'>Kísértetkastély. A Kezdet</a></em> Szerzői kiadás, 2010. ISBN 978-963-06-8682-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Cserjés Katalin: <em><a href='Cserjes_Katalin--Hajnoczy.html'>„a lebegő orgonagyökér” - Egy Hajnóczy-prózakalauz első fejezetei</a></em> Szerzői kiadás, 2009. ISBN 978-963-06-8571-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Cserepes Andrea: <em><a href='Cserepes_Andrea--Hullolecke.html'>Hüllőlecke</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-69-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Leon Maxwell Fate: <em><a href='Leon_Maxwell_Fate--Aki_eletben_marad.html'>Aki életben marad</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-61-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Vasi Szabó János: <em><a href='Vasi_Szabo_Janos--Vilagallam.html'>Világállam</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-65-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Anita Gayn: <em><a href='Anita_Gayn--Senkinek_sem_kellesz_.html'>Senkinek sem kellesz!</a></em> Szerzői kiadás, 2010. ISBN 978-963-06-8585-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Nelah Mored: <em><a href='Nelah_Mored--Sarkanyver.html'>Sárkányvér</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-64-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Vadrózsa: <em><a href='Vadrozsa--Kitagadas_es_orokbefogadas.html'>Kitagadás és örökbefogadás</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-26-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Vasvári György CISM: <em><a href='Vasvari_Gyorgy--Biztonsagi_kultura.html'>A társadalmi és szervezeti (vállalati) biztonsági kultúra</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-66-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Bakos Ferenc: <em><a href='bakos_sivatagiszel.html'>Sivatagi szél - haiku</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-62-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Szentgyörgyvölgyi Péter: <em><a href='Szentgyorgyvolgyi_Peter--Belvarosi_historiak.html'>Belvárosi históriák</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-56-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Hölbling Tamás: <em><a href='Holbling_Tamas--A_honfoglalas_forraskritikaja_I.html'>A honfoglalás forráskritikája I. A külföldi kútfők</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-22-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Alim B. R.: <em><a href='Alim_BR--Gyulolet.html'>Gyűlölet</a></em> Szerzői kiadás, 2009. ISBN 978-963-88690-0-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Osváth Sándor: <em><a href='Osvath_Sandor--Titkok,_vallomasok.html'>Titkok, vallomások</a></em> Szerzői kiadás, 2009. ISBN 978-963-06-8458-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Ozory Zorka: <em><a href='Ozory_Zorka--Sorsmetszetek.html'>Sorsmetszetek</a></em> Szerzői kiadás, 2009. ISBN 978-963-06-8459-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Kovács László: <em><a href='Kovacs_Laszlo--Kartyasok_a_tuzhanyon.html'>Kártyások a tűzhányón</a></em> Ad Librum Kiadó, 2010. ISBN 978-963-9934-59-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Lengyel László: <em><a href='Lengyel_Laszlo--Kutyavilag.html'>Kutyavilág</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-55-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Vasas Judit: <em><a href='Vasas_Judit--Mah-ree_Nok.html'>Mah-ree Nok - Misztikus kalandregény</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-33-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Edith Stockbauer: <em><a href='Edith_Stockbauer--A_legnagyobb_ajandek.html'>A legnagyobb ajándék, amit a Mindenség adhat Neked</a></em> Szerzői kiadás, 2009. ISBN 978-963-06-8155-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Major Judit: <em><a href='Major_Judit--Parhuzamos_utak.html'>Párhuzamos utak</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-53-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Szalóczy Pál: <em><a href='Szaloczy_Pal--Venusz-rejtely.html'>A Vénusz-rejtély</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-47-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Alexander Wolf: <em><a href='Alexander_Wolf--Solo_trilogia_II.html'>Solo játékai</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-04-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Endridi Skalli: <em><a href='Endridi_Skalli--Amit_Odin_sugott.html'>Amit Ódin súgott</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-45-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Dr. Ujvári Ákos: <em><a href='Ujvari_Akos--A_jogos_vedelem.html'>A jogos védelem megítélésének új irányai</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-52-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Szűcs István: <em><a href='Szucs_Istvan--Full_Erotica_(Ami_belefer_a_szerelembe).html'>Full Erotica (Ami belefér a szerelembe)</a></em> Szerzői kiadás, 2009. ISBN 978-963-06-8179-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Váczy Jépont Tamás: <em><a href='Jepont--Utcakonyv.html'>Egy idegenvezető magánélete (Utcakönyv)</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-57-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Agnes B. Iron: <em><a href='Agnes_B_Iron--Nehez_eset.html'>Nehéz eset</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-46-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Mihucz Gábor: <em><a href='Mihucz_Gabor--Ezt_nem_en_irom_.html'>Ezt nem én írom!</a></em> Szerzői kiadás, 2009. ISBN 978-963-9934-50-4 </td>
+    </tr>
+  
+    <tr>
+      <td>B.B. Nala: <em><a href='Nala--Vagy_es_telihold.html'>Vágy és telihold</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-49-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Paunoch Péter: <em><a href='Paunoch_Peter--Mi_a_palya__-_A_FIFA_licences_jatekosugynok_tanacsai.html'>Mi a pálya? - A FIFA licences játékosügynök tanácsai</a></em> Center-Sport, 2009. ISBN 978-963-06-8160-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Balás B. Dénes: <em><a href='Balas_Denes--A_tavirotol_a_radioig.html'>A távírótól a rádióig. A rádiótechnika története az 1800-as évektől a II. világháborúig</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-19-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Pásztor Péter: <em><a href='Pasztor_Peter--Koca_es_az_ismeretlen.html'>Kóca és az ismeretlen</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-44-3 </td>
+    </tr>
+  
+    <tr>
+      <td>CZX: <em><a href='CZX--Daniel_vidam_vilagban.html'>Dániel vidám világban</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-06-8195-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Cserepes Andrea: <em><a href='Cserepes_Andrea--Gomb_Oli.html'>Gomb Oli</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-48-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Lena Belicosa: <em><a href='Lena_Belicosa--Isten_nyilai_kozott.html'>Isten nyilai között - avagy a Titok valóban működik</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-35-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Fózer Vendel: <em><a href='Fozer_Vendel--Maradjon_meg_emlekezetunkben__Emlekek_a_porteleki_iskolarol.html'>Maradjon meg emlékezetünkben. Emlékek a porteleki iskoláról</a></em> Szerzői kiadás, 2009. ISBN 978-963-06-8105-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Villányi Rózsa: <em><a href='Villanyi_Rozsa--Baratom,_Cvek_Edli.html'>Barátom, Cvek Edli</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-23-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Zaicsek Balázs: <em><a href='Zaicsek_Balazs--A_kard_haboruja.html'>A Kard Háborúja</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-34-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Vasvári Zoltán: <em><a href='Vasvari_Zoltan--Emlek_emlek_miert_kisersz.html'>Emlék, emlék, miért kísérsz? - Tanulmány a XX. századi emlékkönyvkultúráról</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-42-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Kustán Magyari Attila: <em><a href='Kustan_Magyari_Attila--Muanyag.html'>Műanyag</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-40-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Nagy J. Gábor: <em><a href='Nagy_J_Gabor--Dalnoki.html'>Dalnoki, a 11. csapás</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-41-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Dr. Nagy Zoltán András: <em><a href='Nagy_Zoltan_Andras--Buncselekmenyek_szamitogepes_kornyezetben.html'>Bűncselekmények számítógépes környezetben</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-92-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Juhász V. E.: <em><a href='Juhasz_Edika--A_hunok_aruloja.html'>Edika – A hunok árulója</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-38-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Cserepes Andrea: <em><a href='Cserepes_Andrea--Algaringa.html'>Algaringa-tó</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-29-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Boronkai Dóra: <em><a href='Boronkai_Dora--Tarsalgaselemzes.html'>Bevezetés a társalgáselemzésbe</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-89-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Gigi Scott: <em><a href='Gigi_Scott--Sarkany_szuletik.html'>Sárkány születik - A gyermek</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-27-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Zeus Bratis: <em><a href='Zeus_Bratis--Alin_Labirintusa.html'>Alin Labirintusa és a sárkánylegyek harcosai</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-31-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Cserepes Andrea: <em><a href='Cserepes_Andrea--Orkankedd.html'>Orkánkedd</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-30-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Glied Viktor (szerk.): <em><a href='Glied_Viktor--Vizkonfliktusok.html'>Vízkonfliktusok - Küzdelem egy pohár vízért</a></em> Publikon Kiadó, 2009. ISBN 978-963-88332-9-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Szinay Balázs: <em><a href='Szinay_Balazs.html'>Parampara (Válogatott versek 2001-2004)</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-21-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Béni-Nyerges Olga: <em><a href='Az_utolsoelotti_szo_jogan.html'>Az utolsó előtti szó jogán</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-28-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Salga Attila: <em><a href='Salga_Attila--A_mateszalkai_kalandor_regenyes_tortenete.html'>A mátészalkai kalandor regényes története - Intézd úgy, hogy önszántukból adják!</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-20-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Rácz Katalin: <em><a href='Racz_Katalin--Foldonkivuliek_a_Penzverem_utcaban.html'>Földönkívüliek a Pénzverem utcában</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-37-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Hetagurov Koszta: <em><a href='Hetagurov_Koszta--Oszet_lira.html'>Oszét líra. Ford. Kakuk Mátyás</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-32-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Tarren P. Attack: <em><a href='Tarren_P_Attack--Az_utolso_riport.html'>Az utolsó riport</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-25-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Vas Zoltán: <em><a href='Vas_Zoltan--Pozitiv_gondolatok.html'>Pozitív gondolatok kalendáriuma. Napi bölcsességek az élethez</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-24-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Szabó Krisztina: <em><a href='Szabo_Krisztina--Harmadik_part.html'>Harmadik part</a></em> Szerzői kiadás, 2009. ISBN 978-963-06-7636-6 </td>
+    </tr>
+  
+    <tr>
+      <td>P. Dobrossy Rita: <em><a href='Dobrossy_Rita--Ne_hagyjatok_beken.html'>Ne hagyjatok békén!</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-09-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Palicz Judit: <em><a href='Palicz_Judit--Tukrom.html'>Tükröm</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-59-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Metzger László Csaba: <em><a href='Metzger_Csaba--A_pszichohistoria_alapjai.html'>A pszichohistória alapjai</a></em> Szerzői kiadás, 2009. ISBN 978-963-06-7631-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Atrox N. Teuton: <em><a href='Atrox_Teuton--Az_elatkozott_grofsag.html'>Az elátkozott grófság</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-97-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Dr. Pongrácz Pál: <em><a href='Pongracz_Pal--A_hegedurol_ma.html'>A hegedűről ma</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-18-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Fekete Tünde Amália: <em><a href='Fekete_Tunde_Amalia--Holdkifli.html'>Holdkifli</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-17-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Góczi Noémi: <em><a href='Goczi_Noemi--Az_elet_arnyekaban.html'>Az élet árnyékában</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-16-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Toldi Nagy Miklós: <em><a href='Toldi_Nagy_Miklos--Humor_a_petrencen.html'>Humor a petrencén</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-32-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Horváth Szilárd: <em><a href='Horvath_Szilard--Dogkut.html'>Dögkút</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-31-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Kun Attila: <em><a href='Kun_Attila--A_multinacionalis_vallalatok_szocialis_felelossege.html'>A multinacionális vállalatok szociális felelőssége. CSR-alapú önszabályozás kontra (munka)jogi szabályozás</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-86-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Rinyai László: <em><a href='Rinyai--Tetrameron.html'>Tetrameron I.</a></em> Szerzői kiadás, 2009. ISBN 978-963-06-7071-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Mester_Gyorgyi_3-Tisztitotuz.html'>Tisztítótűz</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-14-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Alexander Wolf: <em><a href='Alexander_Wolf--Solo_trilogia_I.html'>Vámpírkard</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-03-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Kamocsay Ildikó: <em><a href='Kamocsay_Ildiko--Bovary_kisasszony.html'>Bovary kisasszony</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-77-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Aimen Klimmeron: <em><a href='Aimen_Klimmeron--Kama_Pura.html'>Káma Púra. A gyönyörök városa</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-94-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Szeifert Natália: <em><a href='Szeifert_Natalia--Gyogyfuresz.html'>Gyógyfűrész. Soha naplója</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-12-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Gáti Vilmos: <em><a href='Gati_Vilmos--Elfelejtett_legio.html'>Az elfelejtett légió</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-62-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Vasi Szabó János: <em><a href='Vasi_Szabo_Janos--Csillagpuszta.html'>Csillagpuszta</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-10-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Petrozsényi Nagy Pál: <em><a href='Petrozsenyi_Nagy_Pal.-Turos_puliszka.html'>Túrós puliszka</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-13-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Jade Dorado: <em><a href='Jade_Dorado--Erinthetetlen.html'>Érinthetetlen</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-96-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Sebestyén Ádám: <em><a href='Sebestyen_Adam--Marika_mesel_I.html'>Bukovinai székely népmesék I. - Márika meséi</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-12-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Sebestyén Ádám: <em><a href='Sebestyen_Adam--A_bukovinai_szekelyseg.html'>A bukovinai székelység tegnap és ma</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-11-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Körmendi János: <em><a href='Kormendi_Janos--Utolso_figyelmeztetes.html'>Utolsó figyelmeztetés</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-11-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Haffner Orsolya: <em><a href='Haffner_Orsolya--Ahogy_a_felnottek.html'>Ahogy a felnőttek mondanák</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-29-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Dr. Sándorné Manyika: <em><a href='Dr__Sandorne_Manyika--Orok_szerelem.html'>Örök szerelem</a></em> Szerzői kiadás, 2009. ISBN 978-963-06-7064-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Varga Géza: <em><a href='Varga_Geza--Menj_biztosra.html'>Menj biztosra! (Olvasókönyv biztosítósoknak és ügyfeleiknek)</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-30-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Kate Van Dyke: <em><a href='Kate_van_Dyke--A_latin_demon.html'>A latin démon</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-91-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Jenei András: <em><a href='Jenei_Andras--Konstantin-kereszt.html'>Nyeregben a Konstantin-kereszt</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-01-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Sunny McCormack: <em><a href='Sunny_McCormack--Urvandorok.html'>Űrvándorok</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-10-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Tabacsik Ferenc: <em><a href='Tabacsik_Ferenc--Az_ejszaka_szulotte.html'>Az éjszaka szülötte</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-95-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Srychy: <em><a href='Srychy--Reiki.html'>REIKI a természet ereje</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-69-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Ábrahám Zsuzsanna: <em><a href='Abraham_Zsuzsanna--Forditottia.html'>Fordítottia</a></em> Szerzői kiadás, 2009. ISBN 978-963-06-6862-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Ferenczi Krisztina: <em><a href='Ferenczi_Krisztina--Tunodes_egy_gondolatsoron.html'>Tűnődés egy gondolatsoron - versek</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-07-8 </td>
+    </tr>
+  
+    <tr>
+      <td>seva: <em><a href='Seva--Fabu-lo.html'>FABU-LÓ</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-06-1 </td>
+    </tr>
+  
+    <tr>
+      <td>H. Szabó Klári: <em><a href='H_Szabo_Klari--Bolcso_vagyok.html'>Bölcső vagyok – válogatott versek</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-08-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Bóta Gabriella Sarolta: <em><a href='Bota_Gabriella--Lelek,_test,_kotodes.html'>Lélek, test, kötődés - A méhen belüli állapot és a szülés-születés pszichológiája és élettana</a></em> Szerzői kiadás, 2009. ISBN 978-963-9888-17-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Gábor Kerekes: <em><a href='Kerekes_Gabor--Zwei_Jahrhunderte.html'>Zwei Jahrhunderte der deutsch-ungarischen literarischen Kontakte. Interkulturelle Studien</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-79-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Redenczki Mária: <em><a href='Redenczki_Maria--Turelemfa.html'>Türelemfa - avagy nevel, vagy nevelem a családom?</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-98-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Garay Zsuzsanna: <em><a href='Garay_Zsuzsanna--Szinek.html'>Színek</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-02-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Dr. Gergelyné Dr. Tóth Éva: <em><a href='Gergelyne_Toth_Eva--Szasz.html'>SZASZ. Ewing-kór a young korban</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-05-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Gábor Kerekes: <em><a href='Kerekes_Gabor--Ungarnbild.html'>Prag liegt zwischen Galizien und Wien - Das Ungarnbild in der österreichischen Literatur 1890-1945</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-19-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Böhm Edit: <em><a href='Bohm_Edit--A_magyar_versszavalas_tortenete.html'>A magyar versszavalás története</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-93-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Kakuk Mátyás: <em><a href='Kakuk_Matyas--Szkita-magyar.html'>Szkíta-magyar nyelvhasonlítás</a></em> Szerzői kiadás, 2009. ISBN 978-963-06-6658-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Böhm Edit: <em><a href='Bohm_Edit--Versszavalas.html'>A magyar versszavalás története</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-93-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Mary Morgan: <em><a href='Mary_Morgan--Selina.html'>Selina, a vámpírboszorkány</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-87-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Nyírfalvi Károly: <em><a href='Nyirfalvi_Karoly--Masnapra_megenyhul.html'>Másnapra megenyhül</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-66-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Dr. Szabó Szilárd: <em><a href='Szabo_Szilard--Asztrologia.html'>Mi az igazság az asztrológiáról? Amit a magyar adatok mutatnak</a></em> Szerzői kiadás, 2009. ISBN 978-963-06-6776-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Kuklai Katalin: <em><a href='Kuklai_Katalin--90_napos_dieta.html'>A 90 napos diéta</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-75-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Németh Dezső: <em><a href='Nemeth_Dezso--Uj_Minotaurusz.html'>Új Minótaurosz</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-81-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Dr. Szabó Erika: <em><a href='Szabo_Erika--Tunetmagyarazo.html'>Házi tünetmagyarázó. Fejfájás, hasi fájdalom, láz, lapozza fel, mi okozhatja</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-76-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Kovács Gergő: <em><a href='Kovacs_Gergo--Froccs.html'>Frö(c)csögés. Fröccs mellett fogyasztható történetek</a></em> SzolidArt Vizuális Műhely Egyesület, 2009. ISBN 978-963-06-6421-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Bialkó-Hermán László Gergő: <em><a href='E-BOK.html'>e-BOK avagy Válogatás a kortárs naplóírók munkáiból</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-74-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Dr. Sáry Gyula: <em><a href='Sary_Gyula.html'>Üres helyek trófeái</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-54-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Fürj Katalin: <em><a href='Furj_Kata.html'>Az elefánt és a repülő szőnyegek</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-58-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Zsiros András: <em><a href='Zsiros_Andras--Hobbinyultenyesztes.html'>Hobbinyúltenyésztés. A tervezéstől a kiállításokig</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-70-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Gáthy Vera: <em><a href='Gathy_Vera.html'>Egy dinoszaurusz (nőstény) történetei</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9934-00-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Dr. Tóth József: <em><a href='Toth_Jozsef--Tudomanyos_elorehaladas.html'>A gyorsabb tudományos előrehaladás útjai és buktatói</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-80-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Ólomlábú Tonya: <em><a href='Olomlabu_Tonya--Allj_vagy_elaslak.html'>Állj vagy eláslak! - szemelvények a lapátos alakulatok életéből</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-85-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Szőke Eda: <em><a href='Szoke_Eda--Tevelyges.html'>Tévelygés. Egy hűtlen feleség magyarázkodása</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-88-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Nagy Ilona: <em><a href='Nagy_Ilona--Minden_igaz_ember_a_szivevel_szeret.html'>Minden igaz ember a szívével szeret</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-83-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Eric Asvak: <em><a href='Eric_Asvak.html'>Vér/vonal. Harc a létezésért</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-72-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Arany János: <em><a href='Arany_Janos--John_Arany--Utazas_a_jovobe.html'>Utazás a jövőbe. Egy kivándorlás története</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-73-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Kovács László: <em><a href='Kovacs_Laszlo--Az_ehes_ornagy.html'>Az éhes őrnagy</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-82-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Nácsa János: <em><a href='Nacsa_Janos--Csontvary-kod.html'>A Csontváry-kód, avagy nem esik messze a macska a fájától</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-84-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Balogné Bérces Katalin: <em><a href='Balogne_Berces_Katalin--Dialectology.html'>Beginner`s English Dialectology. An Introduction to the Accents and Dialects of English</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-44-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Zeus Bratis: <em><a href='Zeus_Bratis.html'>A Nagy Piramis egy világtérkép</a></em> Ad Librum Kiadó, 2009. ISBN 978-963-9888-63-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Szőts Balázs: <em><a href='Szots_Balazs.html'>esemesszerelem</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-49-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Ágoston Piroska: <em><a href='Agoston_Piroska.html'>Csarnokvíz helyett higany. Versek;  Mercurio invece dell’umore vitreo – poesie</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-55-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Kepes Júlia: <em><a href='Kepes_Julia.html'>Édesfehér</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-57-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Vázsonyi Judit: <em><a href='Vazsonyi_Judit.html'>Anya imái</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-61-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Tóth Attila: <em><a href='Toth_Attila.html'>A vasfüggönytől Schengenig - Hatvan év emlékezete</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-64-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Kiss-György Rita, Kiss-György László: <em><a href='Kiss-Gyorgy.html'>Jegyesség, házasság, gyermeknevelés. Praktikus tanácsok házasságra készülők számára</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-65-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Csáky István: <em><a href='Csaky_Istvan.html'>Elhitelezett Magyarország. A magyar nemesek és taksások emlékének</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-67-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Mester_Gyorgyi_II.html'>Fehéren, feketén. Válogatott novellák</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-68-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Bender Máté (A.Sz.): <em><a href='Bender_Mate.html'>Hintázó körökben</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-71-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Bagolyné Szűcs Andrea: <em><a href='Bagolyne_Szucs_Andrea--Lilla_szakacskonyve.html'>Lilla szakácskönyve</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-48-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Németh György Gábor: <em><a href='Nemeth_Gyorgy.html'>Ophelia virágai</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-51-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Kovács Viktória: <em><a href='Kovacs_Viktoria.html'>Nicsak! Mi  beszélünk!</a></em> Szerzői kiadás, 2008. ISBN 978-963-06-5849-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Judy Michael: <em><a href='Judy_Michael--A_terv_2.html'>A TERV 2. rész: A második fázis</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-22-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Judy Michael: <em><a href='Judy_Michael--A_terv_3.html'>A TERV 3. rész: Az utolsó lépések ki tudja hová vezetnek</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-23-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Judy Michael: <em><a href='Judy_Michael--A_terv_4.html'>A TERV 4. rész: Ahol az elnyomás felüti fejét</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-24-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Orosz T. Csaba: <em><a href='OroszTCsaba.html'>Lehettünk volna Istenek</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-40-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Klicsu Anna: <em><a href='Klicsu_Anna_II.html'>Matthew vs. Patrick (avagy Shannon döntésképtelensége férfiügyben)</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-39-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Avira Bloemfontein: <em><a href='Avira_Bloemfontein.html'>Megpecsételt sorsok</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-46-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Sarlós Erzsébet: <em><a href='Sarlos_Erzsebet.html'>Tündérnyalóka - Versfélék a lehetségesről, a lehetetlenről és arról, ami a kettő között van...</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-45-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Csiszár Mária: <em><a href='Csiszar_Maria--Elsz_Barackvirag.html'>Élsz, Barackvirág!</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-43-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Szabó Dániel: <em><a href='Szabo_Daniel.html'>A halál üdvözletét küldi</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-47-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Arany Emmi: <em><a href='Arany_Emmi--Ti,_kinaiak.html'>Ti, kínaiak</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-50-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Pozsgai Zsolt: <em><a href='Pozsgai_Zsolt.html'>Szeretlek, fény - történelmi játékok, társadalmi drámák, bohózatok</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-53-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Arany Emmi: <em><a href='Arany_Emmi.html'>Ti, kínaiak</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-50-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Gáti Vilmos: <em><a href='Gati_Vilmos.html'>Fedésben. A terroristák nyomában (politikai krimi)</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-37-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Tahi Tóth Gábor: <em><a href='Tahi-Toth_Gabor--Azok_a_csodalatos_Nok.html'>Azok a csodálatos Nők!</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-52-4 </td>
+    </tr>
+  
+    <tr>
+      <td>TUNISZ: <em><a href='Tunisz.html'>21/12 (ROCK`N`ROLL)</a></em> Szerzői kiadás, 2008. ISBN 978-963-9888-20-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Grünhut Zoltán: <em><a href='Grunhut_Zoltan.html'>A biztonság kerítése – Új fejezet az izraeli-palesztin konfliktus történetében</a></em> Publikon Kiadó, 2008. ISBN 978-963-8785-65-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Untener Erika: <em><a href='Untener1.html'>Kiadjuk magunkat I. Tehetségek mundérban</a></em> Szerzői kiadás, 2008. ISBN 978-963-06-5796-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Untener Erika: <em><a href='Untener2.html'>Kiadjuk magunkat II. Paroli nélkül</a></em> Szerzői kiadás, 2008. ISBN 978-963-06-5797-6 </td>
+    </tr>
+  
+    <tr>
+      <td>David Jou: <em><a href='David_Jou.html'>Az univerzum írásai - versek a tudományról</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-27-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Réczey Kata: <em><a href='Reczey_Kata.html'>Isola Bella, avagy egyedülálló élményeim Lombardia földjén</a></em> Szerzői kiadás, 2008. ISBN 978-963-06-5801-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Jenei Imre: <em><a href='Jenei_Imre.html'>Triggerek, tárolt eljárások és függvények alkalmazása MySQL-ben</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-33-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Meszlényi Attila: <em><a href='Meszlenyi.html'>A világvége illemtana (Túlélőkönyv)</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-87769-5-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Polgár András: <em><a href='Polgar_Andras.html'>hüje zsiráf</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-42-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Szabó Mária Gizella: <em><a href='Szabo_Maria_Gizella.html'>Szerelmi zsákutcák avagy száz békát megcsókoltam</a></em> Szerzői kiadás, 2008. ISBN 978-963-06-5800-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Christian Crow: <em><a href='Christian_Crow.html'>A polip barlangjában</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-38-8 </td>
+    </tr>
+  
+    <tr>
+      <td>dr. Mező Ferenc: <em><a href='MezoFerenc.html'>Legyenek-e az ellenségeink a politikusok (Töredékek Jób elfelejtett naplójából)</a></em> Fit-Plan Bt., 2008. ISBN 978-963-87753-0-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Klicsu Anna: <em><a href='Klicsu_Anna.html'>Érdekes forgatókönyv</a></em> Szerzői kiadás, 2008. ISBN 978-963-9888-25-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Szentgyörgyvölgyi Péter: <em><a href='Huszarok.html'>A magyar huszár a magyar irodalomban</a></em> Huszár Múzeum Baráti Kör, 2008. ISBN 978-963-9888-26-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Finta Kata: <em><a href='Finta_Kata.html'>Sokáig integettünk</a></em> Szerzői kiadás, 2008. ISBN 978-963-9888-28-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Christine Fawkes: <em><a href='Christine_Fawkes.html'>Világok közt</a></em> Szerzői kiadás, 2008. ISBN 978-963-06-5798-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Torma László: <em><a href='Ubuntu.html'>Az Ubuntu világa</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-87819-1-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Nagy Enikő: <em><a href='Nagy_Eniko.html'>Online források használata a tájékoztatásban</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-34-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Barlay Mónika Laura: <em><a href='BarlayMonika.html'>Malignus tumorban szenvedő gyermek a családban. Az egészséges testvérre kifejtett hatásrendszer vizsgálata</a></em> Szerzői kiadás, 2008. ISBN 978-963-9888-06-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Antal József - Szentesi Ágnes: <em><a href='Terra.html'>TERRA - Magyar fantasztikus irodalmi antológia - I. évfolyam</a></em> Szerzői kiadás, 2008. ISBN 978-963-9888-16-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Mester Györgyi: <em><a href='Mester_Gyorgyi.html'>A LEGJAVÁBÓL - válogatott novellák</a></em> Szerzői kiadás, 2008. ISBN 978-963-9888-15-9 </td>
+    </tr>
+  
+    <tr>
+      <td>N. Diviki Emma: <em><a href='DivikiEmma.html'>Távoli harangszó</a></em> Szerzői kiadás, 2008. ISBN 978-963-9888-07-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Czank Georgina: <em><a href='Czank_Georgina.html'>Ihlet meséi</a></em> Szerzői kiadás, 2008. ISBN 978-963-87819-2-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Wesselényi Miklós: <em><a href='WesselenyiUtinaplo.html'>Útinapló, 1821-1822</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-87741-1-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Miller Adrienn: <em><a href='MillerAdrienn.html'>A budapesti Le Meridien Hotel és a párizsi Ambassador Hotel Front Office részlegének komplex elemzése</a></em> Szerzői kiadás, 2008. ISBN 978-963-87830-3-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Mészáros Ádám: <em><a href='MeszarosAdam.html'>A bűncselekmény elkövetői. Elméleti és gyakorlati alapkérdések</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-9888-02-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Tolnai Tamás: <em><a href='Tolnai--Tanitsatak.html'>Tanítsátok meg az embereket szeretni</a></em> Szerzői kiadás, 2008. ISBN 978-963-9888-03-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Kiss Péter János: <em><a href='KissPeter.html'>Hétköznapok ünneplőben (novellák, versek)</a></em> Szerzői kiadás, 2008. ISBN 978-963-9888-00-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Sóki Péter: <em><a href='Soki_Peter.html'>Fényben szomorkodni</a></em> Szerzői kiadás, 2008. ISBN 978-963-9888-06-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Nyírfás Pyrker Dezső: <em><a href='NyirfasZRT.html'>A Zrt.</a></em> Szerzői kiadás, 2008. ISBN 978-963-9888-13-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Gulyás Mária: <em><a href='GulyasMaria.html'>Velem vándorol utamon Jézus. A Mester velünk járja a Caminót</a></em> Szerzői kiadás, 2008. ISBN 978-963-9888-14-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Kiss Mónika Dorota: <em><a href='KissMonikaDorota.html'>Közhatalmi intézmények a helyi önkormányzati jogrendszerben</a></em> Szerzői kiadás, 2008. ISBN 978-963-87830-5-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Béres M. Léna: <em><a href='BeresLena.html'>Menni vagy maradni?</a></em> Szerzői kiadás, 2008. ISBN 978-963-87819-0-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Nyírfás Pyrker Dezső: <em><a href='NyirfasDedi.html'>A dédi öröksége</a></em> Szerzői kiadás, 2008. ISBN 978-963-87830-9-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Bendász Péter: <em><a href='BendaszPeter.html'>A fogadás</a></em> Szerzői kiadás, 2008. ISBN 978-963-9888-04-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Judy Michael: <em><a href='Judy_Michael--A_terv_1.html'>A TERV 1. rész: A titok nem titok már többé</a></em> Szerzői kiadás, 2008. ISBN 978-963-9888-01-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Ormos Jenő: <em><a href='Ormos_Jeno--Visszaemlekezesek.html'>Visszaemlékezések</a></em> Szerzői kiadás, 2008. ISBN 978-963-87830-6-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Viola Zoltán: <em><a href='ViolaZoltan.html'>Y</a></em> Szerzői kiadás, 2008. ISBN 978-963-87769-9-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Varga Krisztina: <em><a href='VargaKrisztina.html'>Válságkommunikáció és PR a Volkswagen-Škoda botrányban</a></em> Szerzői kiadás, 2008. ISBN 978-963-87819-3-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Nagy Ágnes: <em><a href='NagyAgnes.html'>Balotaszállás egészségtervének elkészítése és a menedzseri tervek kialakítása</a></em> Szerzői kiadás, 2008. ISBN 978-963-87830-2-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Sebestyén Ádám: <em><a href='SebestyenAdam.html'>Gyógyító praktikák: Néprajzi gyűjtés a bukovinai székelyeknél</a></em> Szerzői kiadás, 2008. ISBN 978-963-87830-7-3 </td>
+    </tr>
+  
+    <tr>
+      <td>Tóth Ákos: <em><a href='TothAkos.html'>Gyémántkutyák</a></em> Szerzői kiadás, 2008. ISBN 978-963-87830-8-0 </td>
+    </tr>
+  
+    <tr>
+      <td>Scharle-Breznay Márta: <em><a href='Scharle-Breznay_Marta--Osszefonodasok.html'>Összefonódások</a></em> Szerzői kiadás, 2008. ISBN 978-963-87830-4-2 </td>
+    </tr>
+  
+    <tr>
+      <td>Csoma Katalin: <em><a href='CsomaKatalin.html'>Információs és kommunikációs technológiák a nyelvtanárképzésben</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-87769-6-9 </td>
+    </tr>
+  
+    <tr>
+      <td>Imre Balázs (szerk.): <em><a href='Imre_Balazs_(szerk_)--e-tudomany_evkonyv_I.html'>e-tudomány évkönyv I</a></em> e-tudomány Egyesület, 2008. ISBN 978-963-87819-9-4 </td>
+    </tr>
+  
+    <tr>
+      <td>Grőb Tamás (szerk.): <em><a href='Dharma.html'>Dharma – Deviáns Hazai Amatőr Rajzolók Manga Antológiája</a></em> Szerzői kiadás, 2008. ISBN 978-963-87830-1-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Fitó Ica, Matos Maja, Radva Juli: <em><a href='Asszonylelek.html'>Asszonylélek: Fitó Ica, Matos Maja, Radva Juli versei és gyermekversei</a></em> Szerzői kiadás, 2008. ISBN 978-963-87769-7-6 </td>
+    </tr>
+  
+    <tr>
+      <td>Nagy Péter Kristóf: <em><a href='Nagy_Peter_Kristof--A_Study.html'>A Study to Analyze and Interpret the Role and Position of American English in the Hungarian Educational System</a></em> Szerzői kiadás, 2008. ISBN 978-963-87769-2-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Bodó Csiba Gizella: <em><a href='BodoCsibaGizella.html'>’7 77 2007 Hetvenhét vers</a></em> Szerzői kiadás, 2008. ISBN 978-963-87769-3-8 </td>
+    </tr>
+  
+    <tr>
+      <td>Kelényi Angelika: <em><a href='Kelenyi_Angelika--Progenius.html'>Progenius</a></em> Szerzői kiadás, 2008. ISBN 978-963-06-4450-1 </td>
+    </tr>
+  
+    <tr>
+      <td>Bartha Katalin: <em><a href='BarthaKatalin.html'>Vágy-lombok</a></em> Szerzői kiadás, 2008. ISBN 978-963-87769-4-5 </td>
+    </tr>
+  
+    <tr>
+      <td>Jókai Mór: <em><a href='JokaiUtazas.html'>Útleírások</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-87769-0-7 </td>
+    </tr>
+  
+    <tr>
+      <td>Bölöni Farkas Sándor: <em><a href='BoloniFarkas.html'>Utazás Észak-Amerikában</a></em> Ad Librum Kiadó, 2008. ISBN 978-963-87741-0-1 </td>
+    </tr>
+  
+  </table>
+</div>
+
+
+
+</div><!--row-->
+
+<footer class="mt-2 p-1 text-bg-secondary">
+    <div class="container text-center">
+        <p class="">&copy; 2008-2026 Ad Librum Kft.</p>
+        <p class="small text-muted">A sütiket megettük, egyet sem telepítünk a gépedre. És nem is követünk (tőlünk már az is szép, ha megtaláljuk a kocsikulcsot).</p>
+        
+    </div>
+</footer>
+
+
+<script src='../assets/catalogue.js'></script>
+
+<script src="../assets/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

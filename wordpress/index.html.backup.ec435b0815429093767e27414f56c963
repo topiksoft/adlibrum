@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Üdvözöljük a(z) adlibrum.hu weboldalon</title>
+	<style type="text/css">
+	body {
+		margin: 0;
+		padding: 0;
+		background: #fff;
+		text-align: center;
+		font-family: Arial;
+	}
+	a {
+		color: #fd4326;
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+	header {
+		background: #42454a;
+		color: #fff;
+	}
+	.logo {
+		background: #f3f3f3;
+	}
+	small {
+		font-size: 11px;
+	}
+	</style>
+</head>
+
+<body>
+	<div class="logo">
+		<br />
+		<br />
+		<a href="http://propulsion.hu" target="_blank" title="Tárhely, domain regisztráció, VPS"><img src="http://propulsion.hu/images/logo.png" alt="Propulsion" title="Tárhely, domain regisztráció, VPS" /></a><br />
+		<br />
+		<br />
+	</div>
+	<header>
+		<br />
+		<br />
+		<h2>Üdvözöljük a(z) <strong>adlibrum.hu</strong> weboldalon.</h2>
+		<p>Ennek az oldalnak a lecseréléséhez töltse fel weboldalát a <strong>public_html</strong> mappába.</p>
+		<small>Tárhely létrehozva: Fri May  6 20:35:17 2016</small><br />
+		<small>Server FQDN: <strong>iron</strong>.propulsion.hu [87.229.108.196]</small><br />
+		<br />
+		<br />
+		<br />
+	</header>
+	<br />
+	<br />
+	<br />
+	<small>Tárhelyszolgáltató: <a href="http://propulsion.hu" title="Tárhely, domain regisztráció, VPS" target="_blank">Propulsion</a></small>
+</body>
+
+</html>

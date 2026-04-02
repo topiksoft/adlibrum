@@ -1,0 +1,147 @@
+2019-05-03 21:00:24: init
+2019-05-03 21:00:24: table: wp_commentmeta segment: 1/1
+2019-05-03 21:00:24: table: wp_commentmeta segment: 1/1
+2019-05-03 21:00:24: table: wp_comments segment: 1/1
+2019-05-03 21:00:24: table: wp_comments segment: 1/1
+2019-05-03 21:00:24: table: wp_links segment: 1/1
+2019-05-03 21:00:24: table: wp_links segment: 1/1
+2019-05-03 21:00:24: table: wp_options segment: 1/1
+2019-05-03 21:00:24: table: wp_options segment: 1/1
+2019-05-03 21:00:24: table: wp_postmeta segment: 1/10
+2019-05-03 21:00:24: table: wp_postmeta segment: 1/10
+2019-05-03 21:00:24: table: wp_postmeta segment: 2/10
+2019-05-03 21:00:24: table: wp_postmeta segment: 2/10
+2019-05-03 21:00:24: table: wp_postmeta segment: 3/10
+2019-05-03 21:00:24: table: wp_postmeta segment: 3/10
+2019-05-03 21:00:24: table: wp_postmeta segment: 4/10
+2019-05-03 21:00:24: table: wp_postmeta segment: 4/10
+2019-05-03 21:00:24: table: wp_postmeta segment: 5/10
+2019-05-03 21:00:24: table: wp_postmeta segment: 5/10
+2019-05-03 21:00:24: table: wp_postmeta segment: 6/10
+2019-05-03 21:00:24: table: wp_postmeta segment: 6/10
+2019-05-03 21:00:24: table: wp_postmeta segment: 7/10
+2019-05-03 21:00:24: table: wp_postmeta segment: 7/10
+2019-05-03 21:00:24: table: wp_postmeta segment: 8/10
+2019-05-03 21:00:24: table: wp_postmeta segment: 8/10
+2019-05-03 21:00:24: table: wp_postmeta segment: 9/10
+2019-05-03 21:00:24: table: wp_postmeta segment: 9/10
+2019-05-03 21:00:24: table: wp_postmeta segment: 10/10
+2019-05-03 21:00:24: table: wp_postmeta segment: 10/10
+2019-05-03 21:00:24: table: wp_posts segment: 1/3
+2019-05-03 21:00:24: table: wp_posts segment: 1/3
+2019-05-03 21:00:24: table: wp_posts segment: 2/3
+2019-05-03 21:00:24: table: wp_posts segment: 2/3
+2019-05-03 21:00:24: table: wp_posts segment: 3/3
+2019-05-03 21:00:24: table: wp_posts segment: 3/3
+2019-05-03 21:00:25: table: wp_term_relationships segment: 1/6
+2019-05-03 21:00:25: table: wp_term_relationships segment: 1/6
+2019-05-03 21:00:25: table: wp_term_relationships segment: 2/6
+2019-05-03 21:00:25: table: wp_term_relationships segment: 2/6
+2019-05-03 21:00:25: table: wp_term_relationships segment: 3/6
+2019-05-03 21:00:25: table: wp_term_relationships segment: 3/6
+2019-05-03 21:00:25: table: wp_term_relationships segment: 4/6
+2019-05-03 21:00:25: table: wp_term_relationships segment: 4/6
+2019-05-03 21:00:25: table: wp_term_relationships segment: 5/6
+2019-05-03 21:00:25: table: wp_term_relationships segment: 5/6
+2019-05-03 21:00:25: table: wp_term_relationships segment: 6/6
+2019-05-03 21:00:25: table: wp_term_relationships segment: 6/6
+2019-05-03 21:00:25: table: wp_term_taxonomy segment: 1/2
+2019-05-03 21:00:25: table: wp_term_taxonomy segment: 1/2
+2019-05-03 21:00:25: table: wp_term_taxonomy segment: 2/2
+2019-05-03 21:00:25: table: wp_term_taxonomy segment: 2/2
+2019-05-03 21:00:25: table: wp_termmeta segment: 1/1
+2019-05-03 21:00:25: table: wp_termmeta segment: 1/1
+2019-05-03 21:00:25: table: wp_terms segment: 1/2
+2019-05-03 21:00:25: table: wp_terms segment: 1/2
+2019-05-03 21:00:25: table: wp_terms segment: 2/2
+2019-05-03 21:00:25: table: wp_terms segment: 2/2
+2019-05-03 21:00:25: table: wp_usermeta segment: 1/1
+2019-05-03 21:00:25: table: wp_usermeta segment: 1/1
+2019-05-03 21:00:25: table: wp_users segment: 1/1
+2019-05-03 21:00:25: table: wp_users segment: 1/1
+2019-05-03 21:00:25: table: wp_2_commentmeta segment: 1/1
+2019-05-03 21:00:25: table: wp_2_commentmeta segment: 1/1
+2019-05-03 21:00:25: table: wp_2_comments segment: 1/1
+2019-05-03 21:00:25: table: wp_2_comments segment: 1/1
+2019-05-03 21:00:25: table: wp_2_links segment: 1/1
+2019-05-03 21:00:25: table: wp_2_links segment: 1/1
+2019-05-03 21:00:25: table: wp_2_options segment: 1/1
+2019-05-03 21:00:25: table: wp_2_options segment: 1/1
+2019-05-03 21:00:25: table: wp_2_postmeta segment: 1/1
+2019-05-03 21:00:25: table: wp_2_postmeta segment: 1/1
+2019-05-03 21:00:25: table: wp_2_posts segment: 1/1
+2019-05-03 21:00:25: table: wp_2_posts segment: 1/1
+2019-05-03 21:00:25: table: wp_2_term_relationships segment: 1/1
+2019-05-03 21:00:25: table: wp_2_term_relationships segment: 1/1
+2019-05-03 21:00:25: table: wp_2_term_taxonomy segment: 1/1
+2019-05-03 21:00:25: table: wp_2_term_taxonomy segment: 1/1
+2019-05-03 21:00:25: table: wp_2_termmeta segment: 1/1
+2019-05-03 21:00:25: table: wp_2_termmeta segment: 1/1
+2019-05-03 21:00:25: table: wp_2_terms segment: 1/1
+2019-05-03 21:00:25: table: wp_2_terms segment: 1/1
+2019-05-03 21:00:25: table: wp_blog_versions segment: 1/1
+2019-05-03 21:00:25: table: wp_blog_versions segment: 1/1
+2019-05-03 21:00:25: table: wp_blogs segment: 1/1
+2019-05-03 21:00:25: table: wp_blogs segment: 1/1
+2019-05-03 21:00:25: table: wp_mailerlite_forms segment: 1/1
+2019-05-03 21:00:25: table: wp_mailerlite_forms segment: 1/1
+2019-05-03 21:00:25: table: wp_maxbuttons_collections segment: 1/1
+2019-05-03 21:00:25: table: wp_maxbuttons_collections segment: 1/1
+2019-05-03 21:00:25: table: wp_maxbuttons_collections_trans segment: 1/1
+2019-05-03 21:00:25: table: wp_maxbuttons_collections_trans segment: 1/1
+2019-05-03 21:00:25: table: wp_maxbuttonsv3 segment: 1/1
+2019-05-03 21:00:25: table: wp_maxbuttonsv3 segment: 1/1
+2019-05-03 21:00:25: table: wp_metaseo_images segment: 1/1
+2019-05-03 21:00:25: table: wp_metaseo_images segment: 1/1
+2019-05-03 21:00:25: table: wp_pmxe_exports segment: 1/1
+2019-05-03 21:00:25: table: wp_pmxe_exports segment: 1/1
+2019-05-03 21:00:25: table: wp_pmxe_google_cats segment: 1/6
+2019-05-03 21:00:25: table: wp_pmxe_google_cats segment: 1/6
+2019-05-03 21:00:25: table: wp_pmxe_google_cats segment: 2/6
+2019-05-03 21:00:25: table: wp_pmxe_google_cats segment: 2/6
+2019-05-03 21:00:25: table: wp_pmxe_google_cats segment: 3/6
+2019-05-03 21:00:25: table: wp_pmxe_google_cats segment: 3/6
+2019-05-03 21:00:25: table: wp_pmxe_google_cats segment: 4/6
+2019-05-03 21:00:25: table: wp_pmxe_google_cats segment: 4/6
+2019-05-03 21:00:25: table: wp_pmxe_google_cats segment: 5/6
+2019-05-03 21:00:25: table: wp_pmxe_google_cats segment: 5/6
+2019-05-03 21:00:25: table: wp_pmxe_google_cats segment: 6/6
+2019-05-03 21:00:25: table: wp_pmxe_google_cats segment: 6/6
+2019-05-03 21:00:25: table: wp_pmxe_posts segment: 1/2
+2019-05-03 21:00:25: table: wp_pmxe_posts segment: 1/2
+2019-05-03 21:00:25: table: wp_pmxe_posts segment: 2/2
+2019-05-03 21:00:25: table: wp_pmxe_posts segment: 2/2
+2019-05-03 21:00:25: table: wp_pmxe_templates segment: 1/1
+2019-05-03 21:00:25: table: wp_pmxe_templates segment: 1/1
+2019-05-03 21:00:25: table: wp_registration_log segment: 1/1
+2019-05-03 21:00:25: table: wp_registration_log segment: 1/1
+2019-05-03 21:00:25: table: wp_signups segment: 1/1
+2019-05-03 21:00:25: table: wp_signups segment: 1/1
+2019-05-03 21:00:25: table: wp_site segment: 1/1
+2019-05-03 21:00:25: table: wp_site segment: 1/1
+2019-05-03 21:00:25: table: wp_sitemeta segment: 1/1
+2019-05-03 21:00:25: table: wp_sitemeta segment: 1/1
+2019-05-03 21:00:25: table: wp_wpms_links segment: 1/3
+2019-05-03 21:00:25: table: wp_wpms_links segment: 1/3
+2019-05-03 21:00:25: table: wp_wpms_links segment: 2/3
+2019-05-03 21:00:25: table: wp_wpms_links segment: 2/3
+2019-05-03 21:00:25: table: wp_wpms_links segment: 3/3
+2019-05-03 21:00:25: table: wp_wpms_links segment: 3/3
+2019-05-03 21:00:25: file: non selected
+2019-05-03 21:00:25: backupZipFolder[]
+2019-05-03 21:00:25: rename: backupZipFile[/home/gondolat/domains/adlibrum.hu/public_html/wp-content/uploads/snapshots/_backup/1463642790/snapshot-backup.zip] backupZipFileFinal[/home/gondolat/domains/adlibrum.hu/public_html/wp-content/uploads/snapshots/snapshot-1463642790-190503-200024-ec015d6d.zip]
+2019-05-03 21:00:25: memory limit: 512M: memory usage current: 73,00 MB: memory usage peak: 78,00 MB
+2019-05-03 21:00:25: finish: snapshot-1463642790-190503-200024-ec015d6d.zip
+2019-05-03 21:00:25: archive cleanup: max archive:20 number of archives: 21
+2019-05-03 21:00:25: archive cleanup: DEBUG :/home/gondolat/domains/adlibrum.hu/public_html/wp-content/uploads/snapshots
+2019-05-03 21:00:25: DEBUG: backupFile=[/home/gondolat/domains/adlibrum.hu/public_html/wp-content/uploads/snapshots/snapshot-1463642790-190423-200235-f140b788.zip]
+2019-05-03 21:00:25: archive cleanup: filename: wp-content/uploads/snapshots/snapshot-1463642790-190423-200235-f140b788.zip removed
+2019-05-03 21:00:25: Sending Archive: snapshot-1463642790-190503-200024-ec015d6d.zip 2,13 MB
+2019-05-03 21:00:25: Destination: google-drive: Shared Archív/adlibrum.hu backup
+2019-05-03 21:00:25: Connecting to Google Drive
+2019-05-03 21:00:25: Sending file to directory: 0B05oL9lXnnKxUXRVMi1rbWhhRmM
+2019-05-03 21:00:26: progeess: 47.01%
+2019-05-03 21:00:26: progeess: 94.02%
+2019-05-03 21:00:28: progeess: 100.00%
+2019-05-03 21:00:28: Send file success: snapshot-1463642790-190503-200024-ec015d6d.zip
+2019-05-03 21:00:28: Google Drive File ID[1zFHOK_DKB5eOKu2iKoQfswVg9Htopsfd] Link: https://www.googleapis.com/drive/v2/files/1zFHOK_DKB5eOKu2iKoQfswVg9Htopsfd

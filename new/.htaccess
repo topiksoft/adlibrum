@@ -1,0 +1,6 @@
+ErrorDocument 404 https://adlibrum.hu/
+
+Redirect /katalogus/kereso.html /katalogus/index.html
+
+#RedirectMatch 301 ^/ferfimuszak /katalogus/ferfimuszak.html
+

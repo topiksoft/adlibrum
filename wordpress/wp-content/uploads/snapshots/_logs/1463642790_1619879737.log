@@ -1,0 +1,155 @@
+2021-05-01 15:35:37: init
+2021-05-01 15:35:39: table: wp_commentmeta segment: 1/1
+2021-05-01 15:35:39: table: wp_commentmeta segment: 1/1
+2021-05-01 15:35:39: table: wp_comments segment: 1/1
+2021-05-01 15:35:39: table: wp_comments segment: 1/1
+2021-05-01 15:35:39: table: wp_links segment: 1/1
+2021-05-01 15:35:39: table: wp_links segment: 1/1
+2021-05-01 15:35:39: table: wp_options segment: 1/1
+2021-05-01 15:35:39: table: wp_options segment: 1/1
+2021-05-01 15:35:39: table: wp_postmeta segment: 1/11
+2021-05-01 15:35:39: table: wp_postmeta segment: 1/11
+2021-05-01 15:35:40: table: wp_postmeta segment: 2/11
+2021-05-01 15:35:40: table: wp_postmeta segment: 2/11
+2021-05-01 15:35:40: table: wp_postmeta segment: 3/11
+2021-05-01 15:35:40: table: wp_postmeta segment: 3/11
+2021-05-01 15:35:40: table: wp_postmeta segment: 4/11
+2021-05-01 15:35:40: table: wp_postmeta segment: 4/11
+2021-05-01 15:35:41: table: wp_postmeta segment: 5/11
+2021-05-01 15:35:41: table: wp_postmeta segment: 5/11
+2021-05-01 15:35:42: table: wp_postmeta segment: 6/11
+2021-05-01 15:35:42: table: wp_postmeta segment: 6/11
+2021-05-01 15:35:43: table: wp_postmeta segment: 7/11
+2021-05-01 15:35:43: table: wp_postmeta segment: 7/11
+2021-05-01 15:35:44: table: wp_postmeta segment: 8/11
+2021-05-01 15:35:44: table: wp_postmeta segment: 8/11
+2021-05-01 15:35:45: table: wp_postmeta segment: 9/11
+2021-05-01 15:35:45: table: wp_postmeta segment: 9/11
+2021-05-01 15:35:47: table: wp_postmeta segment: 10/11
+2021-05-01 15:35:47: table: wp_postmeta segment: 10/11
+2021-05-01 15:35:50: table: wp_postmeta segment: 11/11
+2021-05-01 15:35:50: table: wp_postmeta segment: 11/11
+2021-05-01 15:35:52: table: wp_posts segment: 1/4
+2021-05-01 15:35:52: table: wp_posts segment: 1/4
+2021-05-01 15:35:53: table: wp_posts segment: 2/4
+2021-05-01 15:35:53: table: wp_posts segment: 2/4
+2021-05-01 15:35:55: table: wp_posts segment: 3/4
+2021-05-01 15:35:55: table: wp_posts segment: 3/4
+2021-05-01 15:36:01: table: wp_posts segment: 4/4
+2021-05-01 15:36:01: table: wp_posts segment: 4/4
+2021-05-01 15:36:06: table: wp_term_relationships segment: 1/6
+2021-05-01 15:36:06: table: wp_term_relationships segment: 1/6
+2021-05-01 15:36:06: table: wp_term_relationships segment: 2/6
+2021-05-01 15:36:06: table: wp_term_relationships segment: 2/6
+2021-05-01 15:36:06: table: wp_term_relationships segment: 3/6
+2021-05-01 15:36:06: table: wp_term_relationships segment: 3/6
+2021-05-01 15:36:06: table: wp_term_relationships segment: 4/6
+2021-05-01 15:36:06: table: wp_term_relationships segment: 4/6
+2021-05-01 15:36:06: table: wp_term_relationships segment: 5/6
+2021-05-01 15:36:06: table: wp_term_relationships segment: 5/6
+2021-05-01 15:36:06: table: wp_term_relationships segment: 6/6
+2021-05-01 15:36:06: table: wp_term_relationships segment: 6/6
+2021-05-01 15:36:06: table: wp_term_taxonomy segment: 1/2
+2021-05-01 15:36:06: table: wp_term_taxonomy segment: 1/2
+2021-05-01 15:36:06: table: wp_term_taxonomy segment: 2/2
+2021-05-01 15:36:06: table: wp_term_taxonomy segment: 2/2
+2021-05-01 15:36:06: table: wp_termmeta segment: 1/1
+2021-05-01 15:36:06: table: wp_termmeta segment: 1/1
+2021-05-01 15:36:07: table: wp_terms segment: 1/2
+2021-05-01 15:36:07: table: wp_terms segment: 1/2
+2021-05-01 15:36:07: table: wp_terms segment: 2/2
+2021-05-01 15:36:07: table: wp_terms segment: 2/2
+2021-05-01 15:36:07: table: wp_usermeta segment: 1/1
+2021-05-01 15:36:07: table: wp_usermeta segment: 1/1
+2021-05-01 15:36:07: table: wp_users segment: 1/1
+2021-05-01 15:36:07: table: wp_users segment: 1/1
+2021-05-01 15:36:07: table: wp_2_commentmeta segment: 1/1
+2021-05-01 15:36:07: table: wp_2_commentmeta segment: 1/1
+2021-05-01 15:36:07: table: wp_2_links segment: 1/1
+2021-05-01 15:36:07: table: wp_2_links segment: 1/1
+2021-05-01 15:36:07: table: wp_2_options segment: 1/1
+2021-05-01 15:36:07: table: wp_2_options segment: 1/1
+2021-05-01 15:36:07: table: wp_2_postmeta segment: 1/1
+2021-05-01 15:36:07: table: wp_2_postmeta segment: 1/1
+2021-05-01 15:36:07: table: wp_2_posts segment: 1/1
+2021-05-01 15:36:07: table: wp_2_posts segment: 1/1
+2021-05-01 15:36:07: table: wp_2_term_relationships segment: 1/1
+2021-05-01 15:36:07: table: wp_2_term_relationships segment: 1/1
+2021-05-01 15:36:07: table: wp_2_term_taxonomy segment: 1/1
+2021-05-01 15:36:07: table: wp_2_term_taxonomy segment: 1/1
+2021-05-01 15:36:07: table: wp_2_termmeta segment: 1/1
+2021-05-01 15:36:07: table: wp_2_termmeta segment: 1/1
+2021-05-01 15:36:07: table: wp_2_terms segment: 1/1
+2021-05-01 15:36:07: table: wp_2_terms segment: 1/1
+2021-05-01 15:36:07: table: wp_blog_versions segment: 1/1
+2021-05-01 15:36:07: table: wp_blog_versions segment: 1/1
+2021-05-01 15:36:07: table: wp_blogs segment: 1/1
+2021-05-01 15:36:07: table: wp_blogs segment: 1/1
+2021-05-01 15:36:07: table: wp_mailerlite_forms segment: 1/1
+2021-05-01 15:36:07: table: wp_mailerlite_forms segment: 1/1
+2021-05-01 15:36:07: table: wp_maxbuttons_collections segment: 1/1
+2021-05-01 15:36:07: table: wp_maxbuttons_collections segment: 1/1
+2021-05-01 15:36:07: table: wp_maxbuttons_collections_trans segment: 1/1
+2021-05-01 15:36:07: table: wp_maxbuttons_collections_trans segment: 1/1
+2021-05-01 15:36:07: table: wp_maxbuttonsv3 segment: 1/1
+2021-05-01 15:36:07: table: wp_maxbuttonsv3 segment: 1/1
+2021-05-01 15:36:07: table: wp_metaseo_images segment: 1/1
+2021-05-01 15:36:07: table: wp_metaseo_images segment: 1/1
+2021-05-01 15:36:08: table: wp_options_old segment: 1/1
+2021-05-01 15:36:08: table: wp_options_old segment: 1/1
+2021-05-01 15:36:08: table: wp_pmxe_exports segment: 1/1
+2021-05-01 15:36:08: table: wp_pmxe_exports segment: 1/1
+2021-05-01 15:36:08: table: wp_pmxe_google_cats segment: 1/6
+2021-05-01 15:36:08: table: wp_pmxe_google_cats segment: 1/6
+2021-05-01 15:36:08: table: wp_pmxe_google_cats segment: 2/6
+2021-05-01 15:36:08: table: wp_pmxe_google_cats segment: 2/6
+2021-05-01 15:36:08: table: wp_pmxe_google_cats segment: 3/6
+2021-05-01 15:36:08: table: wp_pmxe_google_cats segment: 3/6
+2021-05-01 15:36:08: table: wp_pmxe_google_cats segment: 4/6
+2021-05-01 15:36:08: table: wp_pmxe_google_cats segment: 4/6
+2021-05-01 15:36:08: table: wp_pmxe_google_cats segment: 5/6
+2021-05-01 15:36:08: table: wp_pmxe_google_cats segment: 5/6
+2021-05-01 15:36:08: table: wp_pmxe_google_cats segment: 6/6
+2021-05-01 15:36:08: table: wp_pmxe_google_cats segment: 6/6
+2021-05-01 15:36:08: table: wp_pmxe_posts segment: 1/2
+2021-05-01 15:36:08: table: wp_pmxe_posts segment: 1/2
+2021-05-01 15:36:08: table: wp_pmxe_posts segment: 2/2
+2021-05-01 15:36:08: table: wp_pmxe_posts segment: 2/2
+2021-05-01 15:36:08: table: wp_pmxe_templates segment: 1/1
+2021-05-01 15:36:08: table: wp_pmxe_templates segment: 1/1
+2021-05-01 15:36:08: table: wp_registration_log segment: 1/1
+2021-05-01 15:36:08: table: wp_registration_log segment: 1/1
+2021-05-01 15:36:08: table: wp_signups segment: 1/1
+2021-05-01 15:36:08: table: wp_signups segment: 1/1
+2021-05-01 15:36:08: table: wp_site segment: 1/1
+2021-05-01 15:36:08: table: wp_site segment: 1/1
+2021-05-01 15:36:09: table: wp_sitemeta segment: 1/1
+2021-05-01 15:36:09: table: wp_sitemeta segment: 1/1
+2021-05-01 15:36:09: table: wp_smush_dir_images segment: 1/1
+2021-05-01 15:36:09: table: wp_smush_dir_images segment: 1/1
+2021-05-01 15:36:09: table: wp_wpms_links segment: 1/3
+2021-05-01 15:36:09: table: wp_wpms_links segment: 1/3
+2021-05-01 15:36:09: table: wp_wpms_links segment: 2/3
+2021-05-01 15:36:09: table: wp_wpms_links segment: 2/3
+2021-05-01 15:36:09: table: wp_wpms_links segment: 3/3
+2021-05-01 15:36:09: table: wp_wpms_links segment: 3/3
+2021-05-01 15:36:09: file: non selected
+2021-05-01 15:36:09: backupZipFolder[]
+2021-05-01 15:36:09: rename: backupZipFile[/var/www/adlibrum.hu/html/wp-content/uploads/snapshots/_backup/1463642790/snapshot-backup.zip] backupZipFileFinal[/var/www/adlibrum.hu/html/wp-content/uploads/snapshots/snapshot-1463642790-210501-143537-4d1dd524.zip]
+2021-05-01 15:36:09: memory limit: 1024M: memory usage current: 26,00 MB: memory usage peak: 30,00 MB
+2021-05-01 15:36:09: finish: snapshot-1463642790-210501-143537-4d1dd524.zip
+2021-05-01 15:36:09: archive cleanup: max archive:20 number of archives: 21
+2021-05-01 15:36:09: archive cleanup: DEBUG :/var/www/adlibrum.hu/html/wp-content/uploads/snapshots
+2021-05-01 15:36:09: DEBUG: backupFile=[/var/www/adlibrum.hu/html/wp-content/uploads/snapshots/snapshot-1463642790-201212-143809-a0b52a1b.zip]
+2021-05-01 15:36:09: archive cleanup: filename: wp-content/uploads/snapshots/snapshot-1463642790-201212-143809-a0b52a1b.zip not found
+2021-05-01 15:36:09: Sending Archive: snapshot-1463642790-210501-143537-4d1dd524.zip 3,09 MB
+2021-05-01 15:36:09: Destination: google-drive: Shared Archív/adlibrum.hu backup
+2021-05-01 15:36:09: Connecting to Google Drive
+2021-05-01 15:36:09: Sending file to directory: 0B05oL9lXnnKxUXRVMi1rbWhhRmM
+2021-05-01 15:36:10: progeess: 32.36%
+2021-05-01 15:36:10: progeess: 64.73%
+2021-05-01 15:36:11: progeess: 97.09%
+2021-05-01 15:36:12: progeess: 100.00%
+2021-05-01 15:36:12: Send file success: snapshot-1463642790-210501-143537-4d1dd524.zip
+2021-05-01 15:36:12: Google Drive File ID[1SF6CblGv0OkTERPnl8zB0X4-jxM-FlDk] Link: https://www.googleapis.com/drive/v2/files/1SF6CblGv0OkTERPnl8zB0X4-jxM-FlDk
+2021-05-01 15:36:12: Local archive removed: snapshot-1463642790-210501-143537-4d1dd524.zip

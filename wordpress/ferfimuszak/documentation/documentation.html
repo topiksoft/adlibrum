@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Off The Shelf - Documentation v.1.1.2 (2013/04/29)</title>
+    <style>
+
+        body {
+            background: #f8f8f8;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 85%;
+            line-height: 1.6em;
+        }
+
+        #wrapper {
+            background: #fff;
+            width: 940px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #d5d5d5;
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        #thank_you {
+            background: #f8f8f8;
+            padding: 10px;
+        }
+
+        .section {
+            border-bottom: 1px solid #d5d5d5;
+            padding: 0 0 15px 0;
+            margin: 0 0 15px 0;
+        }
+
+        .location {
+            font-weight: bold;
+            font-style: italic;
+            color: #333;
+        }
+
+        pre {
+            color:#000;
+        }
+
+    </style>
+</head>
+
+<body>
+<div id="wrapper">
+    <h1>Off The Shelf - Documentation v.1.1.0</h1>
+
+    <p id="thank_you">
+        Thank you for purchasing this theme. Should you have any questions that are beyond this help file, please feel
+        free to <a href="mailto:support@shapingrain.com">contact us</a>: <a href="mailto:support@shapingrain.com">support@shapingrain.com</a>.<br /><br />
+        <strong>Please be aware the we do not provide customer support through the comments section on themeforest and will redirect all
+        questions to our support team. This is to ensure a consistent customer service experience
+        as only through our helpdesk we can track your request and make sure that it is dealt with in a timely manner.
+        Thank you for your understanding.</strong>
+    </p>
+
+<div class="section" id="index">
+        <h2>Table of Contents</h2>
+        <ol>
+            <li><a href="#colors">Colors &amp; Styling</a></li>
+            <li><a href="#fonts">Fonts and Typography</a></li>
+            <li><a href="#images">Images</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#config">Configuration Interface</a></li>
+            <li><a href="#contact">Contact Form</a></li>
+            <li><a href="#newsletter">Newsletter Sign-up Form</a></li>
+            <li><a href="#support">Support Policy</a></li>
+            <li><a href="#credits">Credits</a></li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2 id="colors">Colors &amp; Styling</h2>
+        <p>The main stylesheet is located in the <span class="location">css/</span> folder, and a copy, that we recommend you edit instead
+        of the original if you use the configuration interface to apply changes, is located in the <span class="location">config/product/css/</span> folder.</p>
+        <p>OffTheShelf ships with a variety of colours, backgrounds and textures as presets. You can use the configuration interface to select a preset (or design your own).
+        <p>Please keep in mind that changes to the original <span class="location">style.css</span> file will be overwritten by the configuration interface
+        whenever you save your settings. To avoid this, make all your changes to <span class="location">config/product/css/style.css.php</span> instead, as those
+        changes will be preserved. You may also choose to create an additional file, like <span class="location">custom.css</span>, and include this
+        file in your template in addition to <span class="location">style.css</span>.</p>
+    </div>
+
+    <div class="section">
+        <h2 id="fonts">Fonts and Typography</h2>
+        OffTheShelf uses <a href="http://www.google.com/webfonts" target="_blank">Google Web Fonts</a>. To change
+        titles, just change the link located within <span class="location">"index.html"</span>
+        marked <span class="location">"'http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600|Bree+Serif"</span> and open <span
+            class="location">"styles.css"</span> to change the headings located under <span
+            class="location">3.1 Fonts</span>.    </div>
+
+    <div class="section">
+        <h2 id="images">Images</h2>
+        <ul>
+          <li>Banner Image - to replace the product image, simply replace the image file named <span class="location">book_dummy.png</span> (size - 331px x 451px)</span>
+              <br /></li>
+          <li>Screenshots - can be changed by replacing the placeholders located under <span class="location">"/images/screenshots/"</span>.
+                <br/>
+                (thumbnail size - 220px x 140px)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2 id="videos">Videos</h2>
+        <ul>
+            <li>Make sure that you remove height and size attributes from your video integration code in order to retain responsiveness for that video clip.</li>
+            <li>Please contact support@shapingrain.com if you require assistance.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2 id="config">Configuration Interface</h2>
+        <p>To make changes easy, OffTheShelf ships with a PHP-based web interface to change styling options and to set up the contact form.</p>
+        <p>To set up the configuration interface, simply up the <span class="location">config/</span> folder to your web server and launch the
+        interface by opening <span class="location">http://yourwebhost.com/config/</span> in your browser.</p>
+        <p>If your files are not writable by the web server, make sure you make <span class="location">/site.settings.php</span>
+        and <span class="location">/css/style.css</span> writable by the web server prior to saving your changes. The interface will
+        alert you if your permissions need to be changed.</p>
+        <p>Please make sure that once your site is set up and no further changes are necessary, to check the <span class="location">"Lock interface to prevent access"</span>
+        option to prevent unauthorized access to the configuration panel, and save your settings.</p>
+        <p>You may decide not to use the configuration interface at all, in that case simply leave out the <span class="location">config/</span> folder
+            when uploading the files to your web server.</p>
+    </div>
+
+
+    <div class="section">
+        <h2 id="contact">Contact Form</h2>
+
+        <h3>Setting the recipient address</h3>
+
+        <p>OffTheShelf includes a simple form mailer script to provide you with an instant contact form. It ships with
+            the theme package as <span class="location">"contact.php"</span> and the only requirement is a
+            PHP5-capable web server. We recommend PHP 5.1.0 or higher.</p>
+
+        <p>You can set up the recipient email address through the configuration interface. Simply enter a valid email
+            address under section <span class="location">"Form Mailer - Set up the contact form"</span>, and save your
+            settings.</p>
+
+        <p>Alternatively, you can edit /site.settings.php and change the recipient address manually. By default, this points to support@shapingrain.com.</p>
+
+        <h3>How to make any link open the contact form</h3>
+
+        <p>By default the contact form is linked to the envelope icon in the floating sidebar. You can, however, turn any link into one
+        that opens the contact form modal window. To do this, please just add class="feedback" to any link, and change the anchor target to "#"
+        or "javascript:void();". Please contact support@shapingrain.com if you require further assistance.</p>
+    </div>
+
+    <div class="section">
+        <h2 id="newsletter">Newsletter Sign-up Form</h2>
+
+        <p>We provide you with an empty form to integrate your mailing list/email marketing provider.</p>
+
+        <p>Unfortunately, since this is a plain HTML template, we cannot automate the process of customization for the sign-up form through
+        our configuration interface. But we are still there to help!</p>
+
+        <p>In order to make the form work, you will have to modify the existing markup, specifically the form fields' names, and the action target.
+        We provide assistance for setting up the sign-up form with Mailchimp and AWeber, the most popular providers. We may be able to assist you
+        in setting up the form with other providers as well. For assistance, please get in touch with support@shapingrain.com.</p>
+    </div>
+
+    <div class="section">
+        <h2 id="support">Support Policy</h2>
+
+        <h3>Contact Support</h3>
+        <p>If there is anything we can help you with, please let us know. Whether you have discovered a
+        problem or need help customizing our product to fit your needs, we are always happy to help out
+        and point you into the right direction. Simply send an email to support@shapingrain.com.</p>
+        <p>In order to be able to provide you with the best possible service, we do not offer customer support
+        through the comments section on themeforest and we will direct you to contact
+        support@shapingrain.com should you seek assistance there. This ensures that no support tickets
+        are forgotten and that all members of the support staff are aware of your issue, resulting in the
+        fastest and best possible service.</p>
+        <p>We may occasionally ask you to provide your license certificate on themeforest to verify your
+        purchase.</p>
+
+        <h3>Account Details</h3>
+        <p>If necessary to help you solve a problem we may request that you email us your login
+        details and/or provide us with your hosting account details as well in order to identify problems
+        that are related to your web server environment. Please accept that without those details, we may
+        not be able to help you in some cases.</p>
+
+        <h3>Extend of our Support</h3>
+        <p>We generally only provide support for our own product. While we will usually make attempts to
+        assist you with other issues as well, we will likely have to decline support if the issue exceeds the
+        scope of our knowledge and experience.</p>
+        <p>Please accept that we generally do not provide support for other third party products except in
+        cases where addressing an issue takes only little time. We recommend that you contact support
+        and ask if you are unsure whether a particular case is covered by our support policy.</p>
+
+        <h3>Customization</h3>
+        <p>Most customization requests we receive do not require much time, and we are happy to assist
+        whenever that is the case. If, however, your request would result in more work, we will have to
+        restrict our support to giving you basic guidance, or offer you our paid customizations services.</p>
+    </div>
+
+
+
+    <div class="section">
+        <h2 id="credits">Credits</h2>
+
+        <p>Our life is made much easier thanks to the following</p>
+        <ul>
+            <li><a href="http://jquery.com/">jQuery</a></li>
+            <li><a href="http://www.google.com/webfonts">Google Web Fonts</a></li>
+            <li><a href="http://iconsweets2.com/">iconSweets by Yummygum</a></li>
+            <li><a href="http://twitter.github.com/bootstrap/">Bootstrap by Twitter</a></li>
+            <li><a href="http://foundation.zurb.com/">Zurb Foundation Framework</a></li>
+            <li><a href="http://www.pixden.com">Pixeden</a></li>
+        </ul>
+  </div>
+
+
+</div>
+
+</body>
+</html>
